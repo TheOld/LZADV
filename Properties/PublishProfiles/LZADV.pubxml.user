@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>F:\Projetos\Freela\LoboVaz\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="artigos/artigos.zip">
+      <publishTime>11/09/2014 08:33:07</publishTime>
+    </File>
+    <File Include="artigos/DIREITO ADUANEIRO/DA ADMISSÃO TEMPORÁRIA.pdf">
+      <publishTime>10/29/2014 15:24:41</publishTime>
+    </File>
+    <File Include="artigos/DIREITO ADUANEIRO/DA INSTRUÇÃO NORMATIVA Nº 1.443 DE 2014.pdf">
+      <publishTime>10/29/2014 15:28:07</publishTime>
+    </File>
+    <File Include="artigos/DIREITO DO TRABALHO E PREVIDENCIÁRIO/A REDUÇÃO SALARIAL PROPORCIONAL À JORNADA DE TRABALHO POR INTERESSE EXCLUSIVO DO EMPREGADO.pdf">
+      <publishTime>10/29/2014 15:18:32</publishTime>
+    </File>
+    <File Include="artigos/DIREITO DO TRABALHO E PREVIDENCIÁRIO/NÃO INCIDÊNCIA DA CONTRIBUIÇÃO SINDICAL PARA EMPRESAS QUE NÃO POSSUEM EMPREGADOS.pdf">
+      <publishTime>10/29/2014 15:22:48</publishTime>
+    </File>
+    <File Include="artigos/DIREITO MARÍTIMO/AS CARACTERÍSTICAS DAS CLÁUSULAS DE FORÇA MAIOR, DA CLÁUSULA HARDSHIP E SUAS DIFERENÇAS.pdf">
+      <publishTime>10/29/2014 16:09:31</publishTime>
+    </File>
+    <File Include="artigos/DIREITO MARÍTIMO/PRAZO PRESCRICIONAL DA SOBRE-ESTADIA %28DEMURRAGE%29.pdf">
+      <publishTime>10/29/2014 15:17:24</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/ESTADUAIS/ICMS/IMPOSTO SOBRE OPERAÇÕES RELATIVAS À CIRCULAÇÃO DE MERCADORIAS %28ICMS%29 - EFEITOS JURÍDICOS SOBRE BONIFICAÇÕES E DESCONTOS.pdf">
+      <publishTime>10/29/2014 14:44:18</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/ESTADUAIS/ICMS/REGIME ESPECIAL DO ICMS.pdf">
+      <publishTime>10/29/2014 15:15:31</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/ESTADUAIS/ICMS/TRIBUTAÇÃO DO ICMS NA TRANSFERÊNCIA DE MERCADORIA ENTRE MATRIZ E FILIAL.pdf">
+      <publishTime>10/29/2014 15:16:27</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Artigos Especiais/A SELETIVIDADE DO IPI FRENTE AOS PRINCÍPIOS CONSTITUCIONAIS DE ORDEM ECONÔMICA EM DEFESA DO MEIO AMBIENTE.pdf">
+      <publishTime>11/04/2014 17:49:27</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Artigos Especiais/ALTERAÇÕES PROVOCADAS PELA LEI 12.973 DE 2014.pdf">
+      <publishTime>10/29/2014 14:37:28</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Artigos Especiais/OPERAÇÃO DE EMPRÉSTIMO EXTERNO EM EMPRESA NACIONAL - REGISTRO DE OPERAÇÕES FINANCEIRAS DE CRÉDITO EXTERNO.pdf">
+      <publishTime>10/29/2014 15:13:09</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuicao Previdenciaria Patronal %28INSS%29/AVISO PRÉVIO INDENIZADO.pdf">
+      <publishTime>10/29/2014 14:48:19</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuicao Previdenciaria Patronal %28INSS%29/DIVISÃO DE LUCROS AOS SÓCIOS.pdf">
+      <publishTime>10/29/2014 14:49:08</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuicao Previdenciaria Patronal %28INSS%29/NOS TERMOS DA LEI 12.546 DE 2012.pdf">
+      <publishTime>10/29/2014 14:55:23</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuicao Previdenciaria Patronal %28INSS%29/RISCO DE VIDA DO FUNCIONÁRIO.pdf">
+      <publishTime>11/04/2014 17:51:59</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuicao Previdenciaria Patronal %28INSS%29/UM TERCO CONSTITUCIONAL DE FÉRIAS.pdf">
+      <publishTime>10/29/2014 14:46:54</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/AVISO PRÉVIO INDENIZADO.pdf">
+      <publishTime>10/29/2014 14:48:19</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/DIVISÃO DE LUCROS AOS SÓCIOS.pdf">
+      <publishTime>10/29/2014 14:49:08</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/NOS TERMOS DA LEI 12.546 DE 2012.pdf">
+      <publishTime>10/29/2014 14:55:23</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/NÃO INCIDÊNCIA DA CONTRIBUIÇÃO PREVIDENCIÁRIA PATRONAL %2820%25%29.txt">
+      <publishTime>11/12/2014 20:23:04</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/NÃO INCIDÊNCIA DA CONTRIBUIÇÃO PREVIDENCIÁRIA PATRONAL SOBRE A DIVISÃO DE LUCROS AOS SÓCIOS.pdf">
+      <publishTime>10/29/2014 14:49:08</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/RISCO DE VIDA DO FUNCIONÁRIO.pdf">
+      <publishTime>11/04/2014 17:51:59</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/SOBRE AUXILIO-DOENÇA, AUXILIO-ACIDENTE E UM TERCO CONSTITUCIONAL DE FÉRIAS.pdf">
+      <publishTime>10/29/2014 14:46:54</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/SOBRE O ADICIONAL RISCO DE VIDA DO FUNCIONÁRIO.pdf">
+      <publishTime>11/04/2014 17:51:59</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/SOBRE VERBAS INDENIZATÓRIAS - AVISO PRÉVIO INDENIZADO.pdf">
+      <publishTime>10/29/2014 14:48:19</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/Contribuição Previdenciária Patronal %28INSS%29/UM TERCO CONSTITUCIONAL DE FÉRIAS.pdf">
+      <publishTime>10/29/2014 14:46:54</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/FAP e RAT/NÃO INCIDÊNCIA DO FATOR ACIDENTÁRIO DE PREVENÇÃO %28FAP%29 SOBRE O RISCO AMBIENTAL DO TRABALHO %28ALÍQUOTA COLETIVA - 1%25 ATÉ 3%25%29.pdf">
+      <publishTime>11/04/2014 17:50:53</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/IPI/NÃO INCIDÊNCIA DO IMPOSTO SOBRE PRODUTO INDUSTRIALIZADO %28IPI%29 NA REVENDA DE MERCADORIA IMPORTADA.pdf">
+      <publishTime>10/29/2014 14:50:07</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/IPI/NÃO INCIDÊNCIA DO IPI-IMPORTAÇÃO PARA PRESTADORES DE SERVIÇOS OU NA IMPORTAÇÃO DE BENS DESTINADOS AO ATIVO IMOBILIZADO.pdf">
+      <publishTime>10/29/2014 14:51:10</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/IRPJ e CSLL/CRÉDITO DE ICMS NÃO RECUPERÁVEL - APROPRIAÇÃO PELA EMPRESA COMO CUSTO.pdf">
+      <publishTime>10/29/2014 14:41:13</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/IRPJ e CSLL/DISTRIBUIÇÃO DE LUCROS PROVENIENTES DO EXTERIOR E SUA TRIBUTAÇÃO - IRPJ E CSLL.pdf">
+      <publishTime>10/29/2014 14:43:28</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/IRPJ e CSLL/EXCLUSÃO DO CRÉDITO DE ICMS NÃO RESTITUÍDO PELAS EMPRESAS EXPORTADORAS DA BASE DE CÁLCULO DO IRPJ E CSLL.pdf">
+      <publishTime>11/04/2014 17:50:08</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/PIS e COFINS/DIREITO AO CRÉDITO DE PIS %281,65%25%29 E COFINS %287,6%25%29  PELA AQUISIÇÃO DE PRODUTOS INSERIDOS NO REGIME MONOFÁSICO DE TRIBUTAÇÃO.pdf">
+      <publishTime>10/29/2014 14:42:21</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/PIS e COFINS/NÃO INCIDÊNCIA DO PIS E DA COFINS SOBRE A TAXA DA ADMINISTRADORA DO CARTÃO DE CRÉDITO %283%25 A 5%25 DO VALOR DA OPERAÇÃO%29.pdf">
+      <publishTime>11/04/2014 17:41:50</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/PIS e COFINS/NÃO INCIDÊNCIA DO PIS E DA COFINS SOBRE OS CRÉDITOS PRESUMIDOS – ICMS E IPI.pdf">
+      <publishTime>11/04/2014 17:46:25</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/PIS e COFINS/O DIREITO DE CRÉDITO DE PIS E COFINS SOBRE TODO CUSTO E DESPESA DA PESSOA JURÍDICA.pdf">
+      <publishTime>10/29/2014 14:56:33</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/FEDERAIS/PIS e COFINS/REDUÇÃO DA BASE DE CALCULO DO PIS-IMPORTAÇÃO E COFINS-IMPORTAÇÃO.pdf">
+      <publishTime>10/29/2014 15:14:09</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/MUNICIPAIS/ISS/NÃO INCIDÊNCIA DO ISS SOBRE CONTRATO DE LICITAÇÃO - TERCEIRIZAÇÃO DA PRESTAÇÃO DE SERVIÇO PELO CONTRATADO.pdf">
+      <publishTime>10/29/2014 14:54:08</publishTime>
+    </File>
+    <File Include="artigos/DIREITO TRIBUTÁRIO/MUNICIPAIS/Taxas/INCONSTITUCIONALIDADE DA TAXA PELO SOLO CRIADO.pdf">
+      <publishTime>10/29/2014 14:45:49</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="bin/LoboVaz.dll">
+      <publishTime>12/11/2014 18:56:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/08/2013 14:15:08</publishTime>
+    </File>
+    <File Include="bin/Mvc.Mailer.dll">
+      <publishTime>09/08/2014 15:24:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 11:10:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2014 14:44:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="boletins/01/.DS_Store">
+      <publishTime>10/31/2014 10:57:48</publishTime>
+    </File>
+    <File Include="boletins/01/blg-01.jpg">
+      <publishTime>03/27/2014 19:43:34</publishTime>
+    </File>
+    <File Include="boletins/01/boletim01.html">
+      <publishTime>11/12/2014 18:39:07</publishTime>
+    </File>
+    <File Include="boletins/01/fb-01.jpg">
+      <publishTime>03/27/2014 19:42:06</publishTime>
+    </File>
+    <File Include="boletins/01/index-01.jpg">
+      <publishTime>10/31/2014 10:53:54</publishTime>
+    </File>
+    <File Include="boletins/01/lnkd-01.jpg">
+      <publishTime>03/27/2014 19:43:02</publishTime>
+    </File>
+    <File Include="boletins/01/rodape-01.jpg">
+      <publishTime>03/27/2014 19:41:08</publishTime>
+    </File>
+    <File Include="boletins/01/tw-01.jpg">
+      <publishTime>03/27/2014 19:42:42</publishTime>
+    </File>
+    <File Include="boletins/02/.DS_Store">
+      <publishTime>10/31/2014 10:52:04</publishTime>
+    </File>
+    <File Include="boletins/02/art1.jpg">
+      <publishTime>05/05/2014 22:26:06</publishTime>
+    </File>
+    <File Include="boletins/02/blg-01.jpg">
+      <publishTime>10/31/2014 10:49:28</publishTime>
+    </File>
+    <File Include="boletins/02/boletim-juridico_02.ai">
+      <publishTime>10/31/2014 10:58:56</publishTime>
+    </File>
+    <File Include="boletins/02/boletim02.html">
+      <publishTime>11/12/2014 18:39:03</publishTime>
+    </File>
+    <File Include="boletins/02/fb-01.jpg">
+      <publishTime>10/31/2014 10:47:46</publishTime>
+    </File>
+    <File Include="boletins/02/index-01.jpg">
+      <publishTime>10/31/2014 10:32:06</publishTime>
+    </File>
+    <File Include="boletins/02/lnkd-01.jpg">
+      <publishTime>10/31/2014 10:49:02</publishTime>
+    </File>
+    <File Include="boletins/02/rodape-01.jpg">
+      <publishTime>10/31/2014 10:47:02</publishTime>
+    </File>
+    <File Include="boletins/02/tw-01.jpg">
+      <publishTime>10/31/2014 10:48:36</publishTime>
+    </File>
+    <File Include="boletins/03/blg-01.jpg">
+      <publishTime>10/31/2014 12:49:26</publishTime>
+    </File>
+    <File Include="boletins/03/boletim-juridico_03.ai">
+      <publishTime>12/09/2014 14:45:36</publishTime>
+    </File>
+    <File Include="boletins/03/boletim03.html">
+      <publishTime>12/09/2014 20:49:35</publishTime>
+    </File>
+    <File Include="boletins/03/fb-01.jpg">
+      <publishTime>10/31/2014 12:47:46</publishTime>
+    </File>
+    <File Include="boletins/03/index-01.jpg">
+      <publishTime>12/09/2014 14:45:52</publishTime>
+    </File>
+    <File Include="boletins/03/lnkd-01.jpg">
+      <publishTime>10/31/2014 12:49:02</publishTime>
+    </File>
+    <File Include="boletins/03/rodape-01.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="boletins/03/tw-01.jpg">
+      <publishTime>10/31/2014 12:48:36</publishTime>
+    </File>
+    <File Include="boletins/thumbs/thumb01.png">
+      <publishTime>11/12/2014 18:30:12</publishTime>
+    </File>
+    <File Include="boletins/thumbs/thumb02.png">
+      <publishTime>11/12/2014 18:32:44</publishTime>
+    </File>
+    <File Include="boletins/thumbs/thumb03.png">
+      <publishTime>12/09/2014 21:54:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/01/2014 23:36:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/10/2014 23:20:44</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles.zip">
+      <publishTime>08/11/2014 21:49:56</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/demo.css">
+      <publishTime>02/06/2014 08:36:20</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/normalize.css">
+      <publishTime>07/08/2013 20:10:00</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style1.css">
+      <publishTime>02/06/2014 09:20:50</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style10.css">
+      <publishTime>02/06/2014 09:22:00</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style11.css">
+      <publishTime>02/06/2014 09:22:04</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style12.css">
+      <publishTime>02/06/2014 09:22:08</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style2.css">
+      <publishTime>02/06/2014 09:22:12</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style3.css">
+      <publishTime>02/06/2014 09:22:16</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style5.css">
+      <publishTime>02/06/2014 09:22:20</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style6.css">
+      <publishTime>02/06/2014 09:22:24</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style7.css">
+      <publishTime>02/06/2014 09:22:40</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style8.css">
+      <publishTime>02/06/2014 09:22:32</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/css/style9.css">
+      <publishTime>02/06/2014 09:22:36</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.eot">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.svg">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.ttf">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.woff">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/fonts/codropsicons/license.txt">
+      <publishTime>05/02/2013 15:43:52</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/img/cross.png">
+      <publishTime>02/06/2014 07:53:50</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index.html">
+      <publishTime>02/06/2014 07:50:48</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index10.html">
+      <publishTime>02/06/2014 07:51:34</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index11.html">
+      <publishTime>02/06/2014 07:51:36</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index12.html">
+      <publishTime>02/06/2014 07:51:38</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index2.html">
+      <publishTime>02/06/2014 07:51:30</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index3.html">
+      <publishTime>02/06/2014 07:51:32</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index5.html">
+      <publishTime>02/06/2014 07:51:32</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index6.html">
+      <publishTime>02/06/2014 07:51:32</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index7.html">
+      <publishTime>02/06/2014 07:51:32</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index8.html">
+      <publishTime>02/06/2014 07:51:34</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/index9.html">
+      <publishTime>02/06/2014 07:51:34</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/classie.js">
+      <publishTime>05/03/2013 04:02:24</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/demo1.js">
+      <publishTime>02/06/2014 07:52:50</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/demo10.js">
+      <publishTime>02/06/2014 03:59:36</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/demo12.js">
+      <publishTime>02/06/2014 06:59:14</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/demo7.js">
+      <publishTime>02/06/2014 03:41:16</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/demo9.js">
+      <publishTime>02/06/2014 05:23:38</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/modernizr.custom.js">
+      <publishTime>02/05/2014 05:18:18</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/js/snap.svg-min.js">
+      <publishTime>12/22/2013 17:27:58</publishTime>
+    </File>
+    <File Include="Content/downloads/FullscreenOverlayStyles/README.md">
+      <publishTime>02/06/2014 08:32:04</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/10/2014 23:20:42</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>05/03/2014 22:54:48</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css.map">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>10/12/2014 16:38:34</publishTime>
+    </File>
+    <File Include="css/bootstrap.css.map">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>10/12/2014 16:38:36</publishTime>
+    </File>
+    <File Include="css/easing.css">
+      <publishTime>05/06/2014 13:01:16</publishTime>
+    </File>
+    <File Include="css/flexslider.css">
+      <publishTime>08/12/2014 01:21:40</publishTime>
+    </File>
+    <File Include="css/grid.css">
+      <publishTime>10/12/2014 14:25:56</publishTime>
+    </File>
+    <File Include="css/onepage-scroll.css">
+      <publishTime>08/26/2014 02:51:24</publishTime>
+    </File>
+    <File Include="css/queries.css">
+      <publishTime>10/07/2014 00:07:06</publishTime>
+    </File>
+    <File Include="css/scrollToTop.css">
+      <publishTime>09/23/2014 19:42:08</publishTime>
+    </File>
+    <File Include="css/styles.css">
+      <publishTime>12/09/2014 21:46:38</publishTime>
+    </File>
+    <File Include="css/submitButton.css">
+      <publishTime>09/10/2014 00:40:04</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/10/2014 23:32:42</publishTime>
+    </File>
+    <File Include="fonts/blokk/BLOKKRegular.eot">
+      <publishTime>02/01/2013 20:10:44</publishTime>
+    </File>
+    <File Include="fonts/blokk/BLOKKRegular.svg">
+      <publishTime>02/01/2013 20:10:44</publishTime>
+    </File>
+    <File Include="fonts/blokk/BLOKKRegular.ttf">
+      <publishTime>02/01/2013 15:48:54</publishTime>
+    </File>
+    <File Include="fonts/blokk/BLOKKRegular.woff">
+      <publishTime>02/01/2013 20:10:44</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.eot">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.svg">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.ttf">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.woff">
+      <publishTime>05/06/2013 08:45:30</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/license.txt">
+      <publishTime>05/02/2013 15:43:52</publishTime>
+    </File>
+    <File Include="fonts/feathericons/feathericons.eot">
+      <publishTime>06/18/2014 10:26:48</publishTime>
+    </File>
+    <File Include="fonts/feathericons/feathericons.svg">
+      <publishTime>06/18/2014 10:26:48</publishTime>
+    </File>
+    <File Include="fonts/feathericons/feathericons.ttf">
+      <publishTime>06/18/2014 10:26:48</publishTime>
+    </File>
+    <File Include="fonts/feathericons/feathericons.woff">
+      <publishTime>06/18/2014 10:26:48</publishTime>
+    </File>
+    <File Include="fonts/flexslider-icon.eot">
+      <publishTime>12/20/2013 11:40:32</publishTime>
+    </File>
+    <File Include="fonts/flexslider-icon.svg">
+      <publishTime>12/20/2013 11:40:32</publishTime>
+    </File>
+    <File Include="fonts/flexslider-icon.ttf">
+      <publishTime>12/20/2013 11:40:32</publishTime>
+    </File>
+    <File Include="fonts/flexslider-icon.woff">
+      <publishTime>12/20/2013 11:40:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.eot">
+      <publishTime>05/11/2014 09:20:08</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.svg">
+      <publishTime>05/11/2014 09:20:08</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.ttf">
+      <publishTime>05/11/2014 09:20:08</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.woff">
+      <publishTime>05/11/2014 09:20:08</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/10/2014 23:20:42</publishTime>
+    </File>
+    <File Include="img/about-bg.png">
+      <publishTime>09/23/2014 19:44:04</publishTime>
+    </File>
+    <File Include="img/about-news-separator.png">
+      <publishTime>11/12/2014 22:18:26</publishTime>
+    </File>
+    <File Include="img/adu.png">
+      <publishTime>11/12/2014 22:19:05</publishTime>
+    </File>
+    <File Include="img/area-bg-pattern.png">
+      <publishTime>11/12/2014 22:18:23</publishTime>
+    </File>
+    <File Include="img/arroba.png">
+      <publishTime>09/23/2014 19:43:54</publishTime>
+    </File>
+    <File Include="img/arrow-left.png">
+      <publishTime>11/12/2014 22:19:02</publishTime>
+    </File>
+    <File Include="img/arrow-right.png">
+      <publishTime>11/12/2014 22:19:06</publishTime>
+    </File>
+    <File Include="img/arrow.png">
+      <publishTime>11/12/2014 22:18:27</publishTime>
+    </File>
+    <File Include="img/att-bg.png">
+      <publishTime>09/23/2014 19:44:26</publishTime>
+    </File>
+    <File Include="img/bicycle-logo.png">
+      <publishTime>09/23/2014 19:44:26</publishTime>
+    </File>
+    <File Include="img/bicycles-sml-logo.png">
+      <publishTime>09/23/2014 19:44:26</publishTime>
+    </File>
+    <File Include="img/blue-logo.png">
+      <publishTime>11/12/2014 22:18:22</publishTime>
+    </File>
+    <File Include="img/brc.png">
+      <publishTime>09/23/2014 19:44:44</publishTime>
+    </File>
+    <File Include="img/brn.png">
+      <publishTime>09/23/2014 19:44:26</publishTime>
+    </File>
+    <File Include="img/btn-home-hover.png">
+      <publishTime>11/12/2014 22:18:38</publishTime>
+    </File>
+    <File Include="img/btn-home.png">
+      <publishTime>11/12/2014 22:18:40</publishTime>
+    </File>
+    <File Include="img/chrome-wheels.jpg">
+      <publishTime>09/23/2014 19:43:36</publishTime>
+    </File>
+    <File Include="img/client.png">
+      <publishTime>11/12/2014 22:18:52</publishTime>
+    </File>
+    <File Include="img/cog-icon.png">
+      <publishTime>09/23/2014 17:44:17</publishTime>
+    </File>
+    <File Include="img/contact-bg.png">
+      <publishTime>09/23/2014 19:45:34</publishTime>
+    </File>
+    <File Include="img/contact-line.png">
+      <publishTime>11/12/2014 22:18:29</publishTime>
+    </File>
+    <File Include="img/cycle-hover.png">
+      <publishTime>09/23/2014 19:44:14</publishTime>
+    </File>
+    <File Include="img/cycle.png">
+      <publishTime>09/23/2014 19:43:34</publishTime>
+    </File>
+    <File Include="img/dir-emp.png">
+      <publishTime>11/12/2014 22:18:44</publishTime>
+    </File>
+    <File Include="img/dir-int.png">
+      <publishTime>11/12/2014 22:19:03</publishTime>
+    </File>
+    <File Include="img/dir-mar.png">
+      <publishTime>11/12/2014 22:19:00</publishTime>
+    </File>
+    <File Include="img/dir-trab.png">
+      <publishTime>11/12/2014 22:18:52</publishTime>
+    </File>
+    <File Include="img/dir-trib.png">
+      <publishTime>11/12/2014 22:18:52</publishTime>
+    </File>
+    <File Include="img/dirtrab.jpg">
+      <publishTime>09/23/2014 19:44:36</publishTime>
+    </File>
+    <File Include="img/dot-grid-overlay.png">
+      <publishTime>11/12/2014 22:18:55</publishTime>
+    </File>
+    <File Include="img/en-GB.png">
+      <publishTime>09/02/2014 00:22:58</publishTime>
+    </File>
+    <File Include="img/end.jpg">
+      <publishTime>12/09/2014 11:02:46</publishTime>
+    </File>
+    <File Include="img/facebook-icon.png">
+      <publishTime>09/23/2014 19:45:24</publishTime>
+    </File>
+    <File Include="img/facebook.png">
+      <publishTime>09/23/2014 19:45:22</publishTime>
+    </File>
+    <File Include="img/file-dl.png">
+      <publishTime>09/23/2014 19:45:28</publishTime>
+    </File>
+    <File Include="img/fr.png">
+      <publishTime>09/02/2014 00:22:40</publishTime>
+    </File>
+    <File Include="img/frame-icon.png">
+      <publishTime>09/23/2014 17:45:49</publishTime>
+    </File>
+    <File Include="img/front-icon.png">
+      <publishTime>09/23/2014 17:45:37</publishTime>
+    </File>
+    <File Include="img/gbrl.png">
+      <publishTime>09/23/2014 19:46:22</publishTime>
+    </File>
+    <File Include="img/header-bg.png">
+      <publishTime>09/23/2014 19:45:36</publishTime>
+    </File>
+    <File Include="img/hero-bg.jpg">
+      <publishTime>09/23/2014 17:44:26</publishTime>
+    </File>
+    <File Include="img/hero-bg.png">
+      <publishTime>09/23/2014 19:46:22</publishTime>
+    </File>
+    <File Include="img/hero.jpg">
+      <publishTime>09/23/2014 17:44:42</publishTime>
+    </File>
+    <File Include="img/l1.jpg">
+      <publishTime>09/23/2014 17:44:26</publishTime>
+    </File>
+    <File Include="img/l2.jpg">
+      <publishTime>09/23/2014 17:44:38</publishTime>
+    </File>
+    <File Include="img/l3.jpg">
+      <publishTime>09/23/2014 17:43:39</publishTime>
+    </File>
+    <File Include="img/l4.jpg">
+      <publishTime>09/23/2014 17:44:31</publishTime>
+    </File>
+    <File Include="img/l5.jpg">
+      <publishTime>09/23/2014 17:44:42</publishTime>
+    </File>
+    <File Include="img/l6.jpg">
+      <publishTime>09/23/2014 17:44:23</publishTime>
+    </File>
+    <File Include="img/l7.jpg">
+      <publishTime>09/23/2014 17:44:50</publishTime>
+    </File>
+    <File Include="img/l8.jpg">
+      <publishTime>09/23/2014 17:44:04</publishTime>
+    </File>
+    <File Include="img/lcs.png">
+      <publishTime>09/23/2014 19:46:14</publishTime>
+    </File>
+    <File Include="img/left-arrow.png">
+      <publishTime>11/12/2014 22:18:12</publishTime>
+    </File>
+    <File Include="img/left-box-1.jpg">
+      <publishTime>09/23/2014 17:44:44</publishTime>
+    </File>
+    <File Include="img/left-box-2.jpg">
+      <publishTime>09/23/2014 17:44:35</publishTime>
+    </File>
+    <File Include="img/linkedin.png">
+      <publishTime>09/23/2014 19:45:10</publishTime>
+    </File>
+    <File Include="img/lobovaz-logo.png">
+      <publishTime>09/23/2014 19:45:52</publishTime>
+    </File>
+    <File Include="img/logo-blue-single.png">
+      <publishTime>11/12/2014 22:18:29</publishTime>
+    </File>
+    <File Include="img/logo-gray-single.png">
+      <publishTime>11/12/2014 22:18:27</publishTime>
+    </File>
+    <File Include="img/logo-lines.png">
+      <publishTime>11/12/2014 22:18:31</publishTime>
+    </File>
+    <File Include="img/logonline.png">
+      <publishTime>11/12/2014 22:18:43</publishTime>
+    </File>
+    <File Include="img/main-logo.png">
+      <publishTime>09/23/2014 17:46:09</publishTime>
+    </File>
+    <File Include="img/mech-icon.png">
+      <publishTime>09/23/2014 17:45:33</publishTime>
+    </File>
+    <File Include="img/navbg.jpg">
+      <publishTime>09/23/2014 19:44:34</publishTime>
+    </File>
+    <File Include="img/news-bg.png">
+      <publishTime>09/23/2014 19:46:20</publishTime>
+    </File>
+    <File Include="img/phone.png">
+      <publishTime>09/23/2014 19:45:36</publishTime>
+    </File>
+    <File Include="img/pin.png">
+      <publishTime>11/12/2014 22:19:09</publishTime>
+    </File>
+    <File Include="img/pintrest-icon.png">
+      <publishTime>09/23/2014 19:45:26</publishTime>
+    </File>
+    <File Include="img/plus-sign.png">
+      <publishTime>09/23/2014 19:45:48</publishTime>
+    </File>
+    <File Include="img/pt-br.png">
+      <publishTime>09/23/2014 19:45:28</publishTime>
+    </File>
+    <File Include="img/red-bike.jpg">
+      <publishTime>09/23/2014 17:44:43</publishTime>
+    </File>
+    <File Include="img/red-frame.jpg">
+      <publishTime>09/23/2014 17:44:06</publishTime>
+    </File>
+    <File Include="img/rfl.png">
+      <publishTime>09/23/2014 19:45:42</publishTime>
+    </File>
+    <File Include="img/right-arrow.png">
+      <publishTime>11/12/2014 22:18:46</publishTime>
+    </File>
+    <File Include="img/seat-black.jpg">
+      <publishTime>09/23/2014 17:44:44</publishTime>
+    </File>
+    <File Include="img/seat-red.jpg">
+      <publishTime>09/23/2014 17:44:43</publishTime>
+    </File>
+    <File Include="img/ship.png">
+      <publishTime>09/23/2014 19:46:24</publishTime>
+    </File>
+    <File Include="img/spritebox-sprite.png">
+      <publishTime>11/12/2014 22:18:14</publishTime>
+    </File>
+    <File Include="img/square-dark.png">
+      <publishTime>09/23/2014 19:45:40</publishTime>
+    </File>
+    <File Include="img/square-hover-dark.png">
+      <publishTime>09/23/2014 19:45:46</publishTime>
+    </File>
+    <File Include="img/square-hover.png">
+      <publishTime>09/23/2014 19:45:46</publishTime>
+    </File>
+    <File Include="img/square.png">
+      <publishTime>09/23/2014 19:45:46</publishTime>
+    </File>
+    <File Include="img/text-hover.png">
+      <publishTime>09/23/2014 17:45:49</publishTime>
+    </File>
+    <File Include="img/text.png">
+      <publishTime>09/23/2014 17:44:29</publishTime>
+    </File>
+    <File Include="img/trans-logo-small.png">
+      <publishTime>11/12/2014 22:18:13</publishTime>
+    </File>
+    <File Include="img/trans-logo.png">
+      <publishTime>11/12/2014 22:18:30</publishTime>
+    </File>
+    <File Include="img/triangle-hover.png">
+      <publishTime>09/23/2014 19:45:24</publishTime>
+    </File>
+    <File Include="img/triangle.png">
+      <publishTime>09/23/2014 19:45:44</publishTime>
+    </File>
+    <File Include="img/twitter-bird.png">
+      <publishTime>09/23/2014 19:45:30</publishTime>
+    </File>
+    <File Include="img/twitter-icon.png">
+      <publishTime>09/23/2014 19:45:38</publishTime>
+    </File>
+    <File Include="img/twitter.png">
+      <publishTime>09/23/2014 19:45:50</publishTime>
+    </File>
+    <File Include="img/vintage-logo.png">
+      <publishTime>09/23/2014 19:46:08</publishTime>
+    </File>
+    <File Include="img/white-bike-icon.png">
+      <publishTime>09/23/2014 17:45:29</publishTime>
+    </File>
+    <File Include="img/wordpress.png">
+      <publishTime>09/23/2014 19:45:24</publishTime>
+    </File>
+    <File Include="img/yebo-icon.png">
+      <publishTime>09/23/2014 17:45:45</publishTime>
+    </File>
+    <File Include="img/youtube.png">
+      <publishTime>09/23/2014 19:44:18</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>02/14/2014 07:24:42</publishTime>
+    </File>
+    <File Include="js/classie.js">
+      <publishTime>05/03/2013 14:02:24</publishTime>
+    </File>
+    <File Include="js/jquery-scrollToTop.js">
+      <publishTime>05/06/2014 13:01:16</publishTime>
+    </File>
+    <File Include="js/jquery.flexslider-min.js">
+      <publishTime>08/05/2013 03:27:08</publishTime>
+    </File>
+    <File Include="js/jquery.flexslider.js">
+      <publishTime>08/05/2013 03:27:08</publishTime>
+    </File>
+    <File Include="js/jquery.onepage-scroll.js">
+      <publishTime>08/26/2014 02:51:24</publishTime>
+    </File>
+    <File Include="js/jquery.validate.min.js">
+      <publishTime>06/22/2014 17:21:22</publishTime>
+    </File>
+    <File Include="js/min/scripts-ck.js">
+      <publishTime>05/04/2014 11:52:22</publishTime>
+    </File>
+    <File Include="js/min/waypoints.min-ck.js">
+      <publishTime>05/03/2014 15:49:06</publishTime>
+    </File>
+    <File Include="js/modernizr-2.6.2.js">
+      <publishTime>06/22/2014 17:21:20</publishTime>
+    </File>
+    <File Include="js/modernizr.js">
+      <publishTime>01/25/2014 07:51:58</publishTime>
+    </File>
+    <File Include="js/progressButton.js">
+      <publishTime>12/12/2013 17:57:16</publishTime>
+    </File>
+    <File Include="js/scripts.js">
+      <publishTime>12/09/2014 20:57:16</publishTime>
+    </File>
+    <File Include="js/waypoints.min.js">
+      <publishTime>08/04/2013 22:12:36</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/08/2014 15:24:16</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/10/2014 23:20:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/10/2014 23:20:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/10/2014 23:20:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/10/2014 23:20:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>07/10/2014 23:20:48</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/12/2014 11:30:49</publishTime>
+    </File>
+    <File Include="Views/Home/IndexEN.cshtml">
+      <publishTime>12/09/2014 20:28:35</publishTime>
+    </File>
+    <File Include="Views/Home/IndexFR.cshtml">
+      <publishTime>12/09/2014 20:28:47</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/08/2014 14:44:30</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/08/2014 14:44:28</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/08/2014 14:44:34</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/10/2014 23:24:06</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/11/2014 18:56:16</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

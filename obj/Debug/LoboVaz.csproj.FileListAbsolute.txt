@@ -1,0 +1,156 @@
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\LoboVaz.dll.config
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\LoboVaz.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\LoboVaz.pdb
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\Antlr3.Runtime.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\Newtonsoft.Json.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Helpers.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Mvc.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Optimization.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Razor.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.WebPages.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\WebGrease.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Helpers.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Mvc.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Optimization.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.Razor.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.WebPages.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\Antlr3.Runtime.pdb
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\bin\Newtonsoft.Json.xml
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\obj\Debug\LoboVaz.dll
+E:\Work\Freela\LZADV (new 2014)\LoboVaz\LoboVaz\obj\Debug\LoboVaz.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\LoboVaz.dll.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\LoboVaz.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\LoboVaz.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\Antlr3.Runtime.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\Newtonsoft.Json.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Helpers.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Mvc.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Optimization.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Razor.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.WebPages.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\WebGrease.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Helpers.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Mvc.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Optimization.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.Razor.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.WebPages.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\Antlr3.Runtime.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\bin\Newtonsoft.Json.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\obj\Debug\LoboVaz.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\LoboVaz\LoboVaz\obj\Debug\LoboVaz.pdb
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\LoboVaz.dll.config
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\LoboVaz.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\LoboVaz.pdb
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\Antlr3.Runtime.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\Mvc.Mailer.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\Newtonsoft.Json.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Helpers.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Mvc.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Optimization.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Razor.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\WebGrease.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Helpers.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Mvc.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Optimization.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Razor.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\Antlr3.Runtime.pdb
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\bin\Newtonsoft.Json.xml
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\obj\Debug\LoboVaz.dll
+C:\Users\Leandro\Dropbox\LoboVaz\LoboVaz\obj\Debug\LoboVaz.pdb
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\LoboVaz.dll.config
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\LoboVaz.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\LoboVaz.pdb
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\Antlr3.Runtime.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\Mvc.Mailer.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\Newtonsoft.Json.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Helpers.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Mvc.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Optimization.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Razor.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\WebGrease.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Helpers.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Mvc.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Optimization.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.Razor.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Deployment.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\System.Web.WebPages.Razor.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\Antlr3.Runtime.pdb
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\bin\Newtonsoft.Json.xml
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\obj\Debug\LoboVaz.dll
+F:\Dropbox\Dropbox\LoboVaz\LoboVaz\obj\Debug\LoboVaz.pdb
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\LoboVaz.dll.config
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\LoboVaz.dll
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\LoboVaz.pdb
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\Newtonsoft.Json.dll
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.Helpers.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.Optimization.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.Razor.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.WebPages.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.WebPages.Razor.xml
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\Antlr3.Runtime.pdb
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\obj\Debug\LoboVaz.dll
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\obj\Debug\LoboVaz.pdb
+C:\Users\Heisenberg\OneDrive\Freela\LoboVaz\bin\System.Web.Mvc.dll
+B:\OneDrive\Freela\LoboVaz\bin\LoboVaz.dll.config
+B:\OneDrive\Freela\LoboVaz\bin\LoboVaz.dll
+B:\OneDrive\Freela\LoboVaz\bin\LoboVaz.pdb
+B:\OneDrive\Freela\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+B:\OneDrive\Freela\LoboVaz\bin\Newtonsoft.Json.dll
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.Mvc.dll
+B:\OneDrive\Freela\LoboVaz\bin\Microsoft.Web.Infrastructure.xml
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.Helpers.xml
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.Optimization.xml
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.Razor.xml
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.WebPages.xml
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.WebPages.Deployment.xml
+B:\OneDrive\Freela\LoboVaz\bin\System.Web.WebPages.Razor.xml
+B:\OneDrive\Freela\LoboVaz\bin\Antlr3.Runtime.pdb
+B:\OneDrive\Freela\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+B:\OneDrive\Freela\LoboVaz\obj\Debug\LoboVaz.dll
+B:\OneDrive\Freela\LoboVaz\obj\Debug\LoboVaz.pdb
+F:\Projetos\Freela\LoboVaz\bin\LoboVaz.dll.config
+F:\Projetos\Freela\LoboVaz\bin\LoboVaz.dll
+F:\Projetos\Freela\LoboVaz\bin\LoboVaz.pdb
+F:\Projetos\Freela\LoboVaz\bin\System.Web.Mvc.dll
+F:\Projetos\Freela\LoboVaz\obj\Debug\LoboVaz.dll
+F:\Projetos\Freela\LoboVaz\obj\Debug\LoboVaz.pdb
+B:\Projetos\Freela\LoboVaz\bin\LoboVaz.dll.config
+B:\Projetos\Freela\LoboVaz\bin\LoboVaz.dll
+B:\Projetos\Freela\LoboVaz\bin\LoboVaz.pdb
+B:\Projetos\Freela\LoboVaz\bin\Microsoft.Web.Infrastructure.dll
+B:\Projetos\Freela\LoboVaz\bin\Newtonsoft.Json.dll
+B:\Projetos\Freela\LoboVaz\bin\System.Web.Mvc.dll
+B:\Projetos\Freela\LoboVaz\bin\Microsoft.Web.Infrastructure.xml
+B:\Projetos\Freela\LoboVaz\obj\Debug\LoboVaz.csprojResolveAssemblyReference.cache
+B:\Projetos\Freela\LoboVaz\obj\Debug\LoboVaz.dll
+B:\Projetos\Freela\LoboVaz\obj\Debug\LoboVaz.pdb

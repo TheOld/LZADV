@@ -1,0 +1,309 @@
+/* ==========================================================================
+CSS Queries
+========================================================================== */
+
+
+
+@media screen and (max-width:800px) {
+    p {
+        font-size: 14px;
+    }
+
+    .thin-sep {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+    
+    header{
+    	background: url(../img/ship.png) no-repeat top center #28374f;
+    	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+    	height: 700px;
+    }
+    
+    .work {
+    	background-color: #2a3a52;
+    	
+    	height: 1700px;
+    }
+
+.adv-img-wrapper {
+    width: 100%;
+    max-width: 314px;
+    margin-left: 0;
+	
+}
+
+
+
+
+    nav {
+        height: auto;
+        width: 100%;
+        background: none;
+        /*margin: 150px 0 0 0;*/
+    }
+
+    .nav-wrapper {
+        background-color: #fff;
+    }
+
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 0;
+    }
+
+    nav li {
+        width: 100%;
+        float: left;
+        position: relative;
+        text-align: center;
+    }
+
+    nav ul li a {
+        width: 100%;
+        float: left;
+        position: relative;
+        padding: 15px 0;
+        text-align: center;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+        margin: 0px;
+    }
+
+        nav ul li a.last {
+            border-bottom: none;
+        }
+
+    nav ul li.dot {
+        display: none;
+    }
+
+    .heighter{
+        margin-top:0;
+        
+    }
+
+    .flags{
+        margin-left:auto;
+        
+        margin-right:35%;
+        width:120px;
+    }
+
+    .flags li{
+        
+        width:28px;
+        
+        height:26px;
+        overflow:hidden;
+
+    }
+
+.r_spacer {
+    margin-left: 0;
+}
+
+    .responsive-logo {
+        background: url(../img/trans-logo-small.png) no-repeat center center;
+        width: 201px;
+        height: 148px;
+        
+        top: 30px;
+        /*left: 20%;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .logo-holder {
+        display: none;
+    }
+
+    .logo-2 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    
+    .about{
+    	
+    	min-height: 1105px;
+    }
+
+.paddingLR60{
+	padding: 0 15px;
+}
+
+    .logo-3 {
+     background: url(../img/logo-blue-single.png) no-repeat center center;
+     position: relative;
+     /*left: 50%;*/
+     top: 25px;
+     width: 135px;
+     height: 136px;
+        /*position: absolute;
+        left: 50%;
+        top: 50%;*/
+    }
+
+    .footer-leftcol p, .footer-rightcol p {
+        text-align: center;
+    }
+
+    .footer-midcol ul {
+        margin-top: 40px;
+    }
+
+    .submit-btn {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    nav {
+        border-bottom: 0;
+    }
+
+        nav ul {
+            display: none;
+            height: auto;
+        }
+
+    .pullcontainer {
+        position:absolute;
+        right:10px;
+        top:10px;
+        width: 32px;
+        text-align: right;
+        padding: 20px 20px 0 0;
+    }
+
+        .pullcontainer a#pull {
+            display: block;
+            width: 100%;
+            color: #242a2c;
+        }
+}
+
+
+ @media screen and (max-width:360px) {
+
+     .menu-button {
+         font-size:1em;
+                    }
+
+    .shop-btn {
+        padding: 15px 25px;
+        font-size: 10px;
+    }
+    
+    .paddingLR60{
+    	padding: 0 10px;
+    }
+    
+        .att-header {
+    /*font-size:30pt;*/
+    font-family: 'Libre Baskerville', serif;
+    color: #586c8a;
+    text-align: left;
+    margin-left: 0;
+}
+
+    .grid figure .fx-icon{
+        margin-top: 40% !important;
+    	/*width: 30px;
+    	height: 30px;
+    	background: url(../img/plus-sign.png) no-repeat;
+    	margin-left: auto;
+    	margin-right: auto;*/
+    }
+    
+    
+    .flex-direction-nav a:before  { 
+    /*font-family: "flexslider-icon"; font-size: 40px; display: inline-block; 
+    content: url(../img/arrow-left.png);*/
+    	
+    visibility: hidden;
+    }
+    .flex-direction-nav a.flex-next:before  {
+    
+    /*content: url(../img/arrow-right.png);*/
+    visibility: hidden;
+    	
+    }
+
+       .contact h2 {
+        text-transform: uppercase;
+        color: #e4e9ee;
+        font-family: 'Libre Baskerville', serif;
+        margin-left:8%;
+    }
+}
+
+/*//iPhone...*/
+@media screen and (max-width:320px) {
+      .menu-button {
+         font-size:1em;
+                    }
+
+    .shop-btn {
+        padding: 15px 25px;
+        font-size: 10px;
+    }
+    
+    .paddingLR60{
+    	padding: 0 10px;
+    }
+    
+    .att-header {
+    /*font-size:30pt;*/
+    font-family: 'Libre Baskerville', serif;
+    color: #586c8a;
+    text-align: left;
+    margin-left: 3%;
+}
+
+     .att-header {
+    /*font-size:30pt;*/
+    font-family: 'Libre Baskerville', serif;
+    color: #586c8a;
+    text-align: left;
+    margin-left: 0;
+}
+
+    .grid figure .fx-icon{
+        margin-top: 50%;
+    	/*width: 30px;
+    	height: 30px;
+    	background: url(../img/plus-sign.png) no-repeat;
+    	margin-left: auto;
+    	margin-right: auto;*/
+    }
+    
+    
+    .flex-direction-nav a:before  { 
+    /*font-family: "flexslider-icon"; font-size: 40px; display: inline-block; 
+    content: url(../img/arrow-left.png);*/
+    	
+    visibility: hidden;
+    }
+    .flex-direction-nav a.flex-next:before  {
+    
+    /*content: url(../img/arrow-right.png);*/
+    visibility: hidden;
+    	
+    }
+}
+
