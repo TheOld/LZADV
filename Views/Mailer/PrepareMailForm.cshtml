@@ -1,0 +1,34 @@
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<style>
+    *{ 
+        font-family: 'Lato', sans-serif;
+    }
+    .center{
+        margin: 0 auto;
+        width: 800px;
+        min-height:600px;
+        background-color: white;
+    }
+    
+    .pull-right
+    {
+        float:right;
+    }
+</style>
+<div class="center" >
+    <p>
+        Mensagem enviada através do contato do website.
+    </p>
+
+    <h2>
+        Nome: @ViewBag.Name
+        <br />
+    </h2>
+    <h3>E-mail: @ViewBag.From</h3>
+    <p>Telefone: @ViewBag.Phone</p>
+    <p>
+        Mensagem: 
+        <br />
+        @ViewBag.Message
+    </p>
+</div>

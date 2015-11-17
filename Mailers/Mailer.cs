@@ -21,18 +21,14 @@ namespace LoboVaz.Mailers
             ViewBag.From = model.FromEmail;
             ViewBag.Phone = model.Phone;
             ViewBag.Message = model.Message;
-            ViewBag.Quantity = model.Quantity;
-            ViewBag.GrassType = model.GrassType;
-            ViewBag.Sale = model.Sale;
 
-            
-                return Populate(x =>
-                {
-                    x.Subject = "Formulário de contato - Lobo & Vaz Advogados";
-                    x.ViewName = "PrepareMailForm";
-                    x.To.Add(model.ToEmail);
-                    x.IsBodyHtml = true;
-                });
+            return Populate(x =>
+            {
+                x.Subject = "Formulário de contato - Lobo & Vaz Advogados";
+                x.ViewName = "PrepareMailForm";
+                x.To.Add(model.ToEmail);
+                x.IsBodyHtml = true;
+            });
         }
     }
 }

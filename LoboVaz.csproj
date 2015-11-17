@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -125,7 +126,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Contribuicao Previdenciaria Patronal %28INSS%29\NOS TERMOS DA LEI 12.546 DE 2012.pdf" />
     <Content Include="boletins\01\blg-01.jpg" />
     <Content Include="boletins\01\boletim01.html" />
     <Content Include="boletins\01\fb-01.jpg" />
@@ -148,9 +148,26 @@
     <Content Include="boletins\03\lnkd-01.jpg" />
     <Content Include="boletins\03\rodape-01.jpg" />
     <Content Include="boletins\03\tw-01.jpg" />
+    <Content Include="boletins\04\blg-01.jpg" />
+    <Content Include="boletins\04\boletim04.html" />
+    <Content Include="boletins\04\fb-01.jpg" />
+    <Content Include="boletins\04\index-01.jpg" />
+    <Content Include="boletins\04\lnkd-01.jpg" />
+    <Content Include="boletins\04\rodape-01.jpg" />
+    <Content Include="boletins\04\tw-01.jpg" />
+    <Content Include="boletins\05\blg-01.jpg" />
+    <Content Include="boletins\05\Boletim 5.jpg" />
+    <Content Include="boletins\05\boletim05.html" />
+    <Content Include="boletins\05\fb-01.jpg" />
+    <Content Include="boletins\05\index-01.jpg" />
+    <Content Include="boletins\05\lnkd-01.jpg" />
+    <Content Include="boletins\05\rodape-01.jpg" />
+    <Content Include="boletins\05\tw-01.jpg" />
     <Content Include="boletins\thumbs\thumb01.png" />
     <Content Include="boletins\thumbs\thumb02.png" />
     <Content Include="boletins\thumbs\thumb03.png" />
+    <Content Include="boletins\thumbs\thumb04.png" />
+    <Content Include="boletins\thumbs\thumb05.png" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap.css" />
@@ -269,38 +286,11 @@
     <Content Include="fonts\icomoon\icomoon.eot" />
     <Content Include="fonts\icomoon\icomoon.ttf" />
     <Content Include="fonts\icomoon\icomoon.woff" />
-    <Content Include="artigos\DIREITO ADUANEIRO\DA ADMISSÃO TEMPORÁRIA.pdf" />
-    <Content Include="artigos\DIREITO ADUANEIRO\DA INSTRUÇÃO NORMATIVA Nº 1.443 DE 2014.pdf" />
-    <Content Include="artigos\DIREITO DO TRABALHO E PREVIDENCIÁRIO\A REDUÇÃO SALARIAL PROPORCIONAL À JORNADA DE TRABALHO POR INTERESSE EXCLUSIVO DO EMPREGADO.pdf" />
-    <Content Include="artigos\DIREITO DO TRABALHO E PREVIDENCIÁRIO\NÃO INCIDÊNCIA DA CONTRIBUIÇÃO SINDICAL PARA EMPRESAS QUE NÃO POSSUEM EMPREGADOS.pdf" />
-    <Content Include="artigos\DIREITO MARÍTIMO\AS CARACTERÍSTICAS DAS CLÁUSULAS DE FORÇA MAIOR, DA CLÁUSULA HARDSHIP E SUAS DIFERENÇAS.pdf" />
-    <Content Include="artigos\DIREITO MARÍTIMO\PRAZO PRESCRICIONAL DA SOBRE-ESTADIA %28DEMURRAGE%29.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\ESTADUAIS\ICMS\IMPOSTO SOBRE OPERAÇÕES RELATIVAS À CIRCULAÇÃO DE MERCADORIAS %28ICMS%29 - EFEITOS JURÍDICOS SOBRE BONIFICAÇÕES E DESCONTOS.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\ESTADUAIS\ICMS\REGIME ESPECIAL DO ICMS.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\ESTADUAIS\ICMS\TRIBUTAÇÃO DO ICMS NA TRANSFERÊNCIA DE MERCADORIA ENTRE MATRIZ E FILIAL.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Artigos Especiais\A SELETIVIDADE DO IPI FRENTE AOS PRINCÍPIOS CONSTITUCIONAIS DE ORDEM ECONÔMICA EM DEFESA DO MEIO AMBIENTE.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Artigos Especiais\ALTERAÇÕES PROVOCADAS PELA LEI 12.973 DE 2014.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Artigos Especiais\OPERAÇÃO DE EMPRÉSTIMO EXTERNO EM EMPRESA NACIONAL - REGISTRO DE OPERAÇÕES FINANCEIRAS DE CRÉDITO EXTERNO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Contribuicao Previdenciaria Patronal %28INSS%29\DIVISÃO DE LUCROS AOS SÓCIOS.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\FAP e RAT\NÃO INCIDÊNCIA DO FATOR ACIDENTÁRIO DE PREVENÇÃO %28FAP%29 SOBRE O RISCO AMBIENTAL DO TRABALHO %28ALÍQUOTA COLETIVA - 1%25 ATÉ 3%25%29.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\IPI\NÃO INCIDÊNCIA DO IMPOSTO SOBRE PRODUTO INDUSTRIALIZADO %28IPI%29 NA REVENDA DE MERCADORIA IMPORTADA.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\IPI\NÃO INCIDÊNCIA DO IPI-IMPORTAÇÃO PARA PRESTADORES DE SERVIÇOS OU NA IMPORTAÇÃO DE BENS DESTINADOS AO ATIVO IMOBILIZADO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\IRPJ e CSLL\CRÉDITO DE ICMS NÃO RECUPERÁVEL - APROPRIAÇÃO PELA EMPRESA COMO CUSTO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\IRPJ e CSLL\DISTRIBUIÇÃO DE LUCROS PROVENIENTES DO EXTERIOR E SUA TRIBUTAÇÃO - IRPJ E CSLL.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\IRPJ e CSLL\EXCLUSÃO DO CRÉDITO DE ICMS NÃO RESTITUÍDO PELAS EMPRESAS EXPORTADORAS DA BASE DE CÁLCULO DO IRPJ E CSLL.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\PIS e COFINS\DIREITO AO CRÉDITO DE PIS %281,65%25%29 E COFINS %287,6%25%29  PELA AQUISIÇÃO DE PRODUTOS INSERIDOS NO REGIME MONOFÁSICO DE TRIBUTAÇÃO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\PIS e COFINS\NÃO INCIDÊNCIA DO PIS E DA COFINS SOBRE A TAXA DA ADMINISTRADORA DO CARTÃO DE CRÉDITO %283%25 A 5%25 DO VALOR DA OPERAÇÃO%29.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\PIS e COFINS\NÃO INCIDÊNCIA DO PIS E DA COFINS SOBRE OS CRÉDITOS PRESUMIDOS – ICMS E IPI.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\PIS e COFINS\O DIREITO DE CRÉDITO DE PIS E COFINS SOBRE TODO CUSTO E DESPESA DA PESSOA JURÍDICA.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\PIS e COFINS\REDUÇÃO DA BASE DE CALCULO DO PIS-IMPORTAÇÃO E COFINS-IMPORTAÇÃO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\MUNICIPAIS\ISS\NÃO INCIDÊNCIA DO ISS SOBRE CONTRATO DE LICITAÇÃO - TERCEIRIZAÇÃO DA PRESTAÇÃO DE SERVIÇO PELO CONTRATADO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\MUNICIPAIS\Taxas\INCONSTITUCIONALIDADE DA TAXA PELO SOLO CRIADO.pdf" />
     <Content Include="boletins\01\.DS_Store" />
     <Content Include="boletins\02\.DS_Store" />
     <Content Include="boletins\02\boletim-juridico_02.ai" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Contribuicao Previdenciaria Patronal %28INSS%29\UM TERCO CONSTITUCIONAL DE FÉRIAS.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Contribuicao Previdenciaria Patronal %28INSS%29\RISCO DE VIDA DO FUNCIONÁRIO.pdf" />
-    <Content Include="artigos\DIREITO TRIBUTÁRIO\FEDERAIS\Contribuicao Previdenciaria Patronal %28INSS%29\AVISO PRÉVIO INDENIZADO.pdf" />
+    <Content Include="Views\Mailer\mailer.css" />
+    <Content Include="Views\Mailer\mailer.min.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -330,6 +320,9 @@
     <Content Include="Views\Home\IndexEN.cshtml" />
     <Content Include="Views\Home\IndexFR.cshtml" />
     <None Include="Properties\PublishProfiles\LZADV.pubxml" />
+    <Content Include="Views\Mailer\CopyToClient.cshtml" />
+    <Content Include="Views\Mailer\PrepareMailForm.cshtml" />
+    <Content Include="Views\Mailer\_Layout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

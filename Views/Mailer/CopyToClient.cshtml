@@ -1,0 +1,35 @@
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<style>
+    * {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .center {
+        margin: 0 auto;
+        width: 800px;
+        min-height: 600px;
+        background-color: white;
+    }
+
+    .pull-right {
+        float: right;
+    }
+</style>
+<div class="center">
+    <p>
+        Solicitação de orçamento.
+    </p>
+
+    <h2>
+        Nome: @ViewBag.Name
+        <br />
+
+    </h2>
+    <p>E-mail: @ViewBag.From</p>
+    <p>Telefone: @ViewBag.Phone</p>
+    <p>
+        Mensagem:
+        <br />
+        @ViewBag.Message
+    </p>
+</div>
