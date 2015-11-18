@@ -169,12 +169,14 @@
     <Content Include="boletins\thumbs\thumb04.png" />
     <Content Include="boletins\thumbs\thumb05.png" />
     <Content Include="css\animate.css" />
+    <Content Include="css\blog.css" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\easing.css" />
     <Content Include="css\flexslider.css" />
     <Content Include="css\grid.css" />
+    <Content Include="css\helpers.css" />
     <Content Include="css\onepage-scroll.css" />
     <Content Include="css\queries.css" />
     <Content Include="css\scrollToTop.css" />
@@ -199,7 +201,9 @@
     <Content Include="img\arrow.png" />
     <Content Include="img\att-bg.png" />
     <Content Include="img\blue-logo.png" />
+    <Content Include="img\brc-circle.png" />
     <Content Include="img\brc.png" />
+    <Content Include="img\brn-circle.png" />
     <Content Include="img\brn.png" />
     <Content Include="img\btn-home-hover.png" />
     <Content Include="img\btn-home.png" />
@@ -221,6 +225,7 @@
     <Content Include="img\facebook.png" />
     <Content Include="img\file-dl.png" />
     <Content Include="img\fr.png" />
+    <Content Include="img\gbrl-circle.png" />
     <Content Include="img\gbrl.png" />
     <Content Include="img\header-bg.png" />
     <Content Include="img\hero-bg.png" />
@@ -239,6 +244,7 @@
     <Content Include="img\pintrest-icon.png" />
     <Content Include="img\plus-sign.png" />
     <Content Include="img\pt-br.png" />
+    <Content Include="img\rfl-circle.png" />
     <Content Include="img\rfl.png" />
     <Content Include="img\right-arrow.png" />
     <Content Include="img\ship.png" />
@@ -256,6 +262,7 @@
     <Content Include="img\twitter.png" />
     <Content Include="img\wordpress.png" />
     <Content Include="img\youtube.png" />
+    <Content Include="js\blog.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\classie.js" />
@@ -267,9 +274,12 @@
     <Content Include="js\min\scripts-ck.js" />
     <Content Include="js\min\waypoints.min-ck.js" />
     <Content Include="js\modernizr-2.6.2.js" />
+    <Content Include="js\modernizr.custom.js" />
     <Content Include="js\modernizr.js" />
     <Content Include="js\progressButton.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="js\velocity.min.js" />
+    <Content Include="js\velocity.ui.js" />
     <Content Include="js\waypoints.min.js" />
     <Content Include="fonts\blokk\BLOKKRegular.eot" />
     <Content Include="fonts\blokk\BLOKKRegular.ttf" />
