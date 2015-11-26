@@ -116,13 +116,29 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
+    <Compile Include="Domain\DAO\GenericDAOImpl.cs" />
+    <Compile Include="Domain\DAO\IGenericDAO.cs" />
+    <Compile Include="Domain\DAO\IPostDAO.cs" />
+    <Compile Include="Domain\DAO\IUserDAO.cs" />
+    <Compile Include="Domain\DAO\PostDAOImpl.cs" />
+    <Compile Include="Domain\DAO\UserDAOImpl.cs" />
+    <Compile Include="Domain\Models\IdentityModels.cs" />
+    <Compile Include="Domain\Models\JsonResponse.cs" />
+    <Compile Include="Domain\Models\MailerModel.cs" />
+    <Compile Include="Domain\Models\Post.cs" />
+    <Compile Include="Domain\Models\User.cs" />
+    <Compile Include="Domain\Services\IPostService.cs" />
+    <Compile Include="Domain\Services\IUserService.cs" />
+    <Compile Include="Domain\Services\PostServiceImpl.cs" />
+    <Compile Include="Domain\Services\UserServiceImpl.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Mailers\Mailer.cs" />
-    <Compile Include="Models\JsonResponse.cs" />
-    <Compile Include="Models\MailerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
