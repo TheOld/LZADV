@@ -326,6 +326,7 @@
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap.css.map" />
     <Content Include="boletins\03\boletim-juridico_03.ai" />
+    <Content Include="package.json" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\IndexEN.cshtml" />
     <Content Include="Views\Home\IndexFR.cshtml" />
@@ -333,6 +334,7 @@
     <Content Include="Views\Mailer\CopyToClient.cshtml" />
     <Content Include="Views\Mailer\PrepareMailForm.cshtml" />
     <Content Include="Views\Mailer\_Layout.cshtml" />
+    <Content Include="Views\Home\WritePost.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

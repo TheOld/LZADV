@@ -72,5 +72,12 @@ namespace LoboVaz.Controllers
 
             return View();
         }
+
+        
+        public ActionResult WritePost()
+        {
+            return View();
+        }
+
     }
 }
