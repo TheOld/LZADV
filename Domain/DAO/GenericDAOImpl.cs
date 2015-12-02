@@ -1,4 +1,5 @@
-﻿using LoboVaz.Models;
+﻿using LoboVaz.Infra.DAO;
+using LoboVaz.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,5 +9,18 @@ namespace LoboVaz.Domain.DAO
 {
     public class GenericDAOImpl : IGenericDAO
     {
+
+
+        public IContext _Context { get; set; }
+
+        public GenericDAOImpl(IContext Context)
+        {
+            this._Context = Context;
+        }
+
+        public IContext Context()
+        {
+            return _Context;
+        }
     }
 }

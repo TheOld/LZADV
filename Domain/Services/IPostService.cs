@@ -9,6 +9,6 @@ namespace LoboVaz.Services
 {
     public interface IPostService
     {
-        List<Post> load(int page, String filter);
+        List<Post> load(int userID,int page, String filter);
     }
 }

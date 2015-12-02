@@ -9,5 +9,6 @@ namespace LoboVaz.Services
 {
     public interface IUserService
     {
+        User findBy(int userID);
     }
 }

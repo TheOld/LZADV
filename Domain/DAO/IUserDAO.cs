@@ -8,6 +8,5 @@ namespace LoboVaz.Domain.DAO
 {
     public interface IUserDAO : IGenericDAO
     {
-         List<Post> load();
     }
 }

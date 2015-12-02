@@ -8,6 +8,7 @@ namespace LoboVaz.Domain.DAO
 {
     public interface IPostDAO : IGenericDAO
     {
-        List<Post> load(int page, string filter);
+        
+        List<Post> load(User user, int page, string filter);
     }
 }
