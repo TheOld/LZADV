@@ -25,8 +25,7 @@ namespace LoboVaz.Domain.DAO
             try
             {
                 return base.Context().GetCollection<User>(User.COLLECTION_NAME).AsQueryable().Where(x => x.Email.Equals(login)).First();
-            }
-            catch (Exception e)
+            }catch(Exception e)
             {
                 return null;
             }
