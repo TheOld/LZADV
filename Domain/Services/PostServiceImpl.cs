@@ -24,8 +24,22 @@ namespace LoboVaz.Services
             return PostDAO.load(user,page,filter);
         }
 
+        public Post FindBy(ObjectId id)
+        {
+            return PostDAO.FindBy(id);
+        }
+
         public void Save(Post post)
         {
+            if(post._ID.Equals("000000000000000000000000"))
+            {
+                PostDAO.Save(post);
+            }
+            else
+            {
+                PostDAO.Update(post);
+            }
+
         }
     }
 }

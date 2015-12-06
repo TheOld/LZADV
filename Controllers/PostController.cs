@@ -25,15 +25,25 @@ namespace LoboVaz.Controllers
 
 
         [HttpGet]
+        public JsonResult get(String id)
+        {
+            return Json(PostService.FindBy(ObjectId.Parse(id)), JsonRequestBehavior.AllowGet);
+        }
+
+
+        [HttpGet]
         public JsonResult list(String filter, int page, String userID)
         {
             return Json(PostService.Load(new ObjectId(userID), page, filter), JsonRequestBehavior.AllowGet);
         }
 
 
+
+
         [HttpPost]
-        public JsonResult save(Post post)
+        public JsonResult save(String _ID, Post post)
         {
+            post.Id = ObjectId.Parse(_ID);
             PostService.Save(post);
             return Json("", JsonRequestBehavior.AllowGet);
         }

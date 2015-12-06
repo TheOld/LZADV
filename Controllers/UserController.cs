@@ -29,7 +29,6 @@ namespace LoboVaz.Controllers
         {
             UserService.Save(user);
 
-
             for (int i = 0; i < Request.Files.Count; i++)
             {
                 HttpPostedFileBase arquivo = Request.Files[i];
@@ -47,11 +46,11 @@ namespace LoboVaz.Controllers
         }
 
         [HttpPost]
-        public JsonResult logOn(String userName, String password)
+        public JsonResult logOn(User user)
         {
-            User user = UserService.Logon(userName, password);
+            User logeduser = UserService.Logon(user.Email, user.Password);
             Session.Add("user", user);
-            return Json(user == null ? "fail" : user.ID.ToString(), JsonRequestBehavior.AllowGet);
+            return Json(logeduser == null ? "fail" : logeduser.Id.ToString(), JsonRequestBehavior.AllowGet);
         }
 
         [HttpGet]

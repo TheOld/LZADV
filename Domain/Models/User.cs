@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,9 @@ namespace LoboVaz.Models
         public static String COLLECTION_NAME = "users";
 
         [BsonId]
-        public ObjectId ID { get; set; }
+        [JsonIgnore]
+        public ObjectId Id { get; set; }
+        public String _ID { get { return Id != null ? Id.ToString() : null; } }
 
         public String Email { get; set; }
 
