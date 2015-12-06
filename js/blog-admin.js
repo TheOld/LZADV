@@ -1,3 +1,20 @@
+$(document).ready(function () {
+
+    getPostList();
+
+    $('#close-post-editor').click(function () {
+        $('#post-editor').velocity('transition.slideDownBigOut', { duration: 200 }, 'easeOutQuint');
+    });
+
+
+    $('#new-post').click(function () {
+        $('#post-editor').velocity('transition.slideUpBigIn', { duration: 250 }, 'easeOutQuint');
+    });
+
+
+
+});
+
 //TODO: get all posts from the logged user and add to the table
 function getPostList() {
     var authorID = $('#id').val();
@@ -42,6 +59,43 @@ function buildTable(post) {
     }
 };
 
+function insertPost() {
+    try {
+
+
+
+
+        var post = {
+            Content: $("#post-body").html(),
+            Category: $("#category").text(),
+            Title: $("#title").val(),
+            Author: 
+        };
+
+        //public String _ID { get { return Id != null ? Id.ToString() : null; } }
+        //public DateTime Date { get; set; }
+        //public String Content { get; set; }
+        //public String Category { get; set; }
+        //public String Title { get; set; }
+        //public User Author { get; set; }
+
+        $.ajax({
+            url: "/Post/save",
+            data:{post: post},
+            type: 'POST',
+            success: function (result) {
+                console.log(result);
+            },
+            error: function (result) {
+                //errorFetchingPosts(result);
+                console.log(result);
+            }
+        });
+    } catch (e) {
+        console.log(e);
+    }
+}
+
 function editPost() {
     try {
         var id = $(this).data('id');
@@ -59,20 +113,23 @@ function deletePost() {
     }
 }
 
+//
+function savePost(id, post) {
+    try {
+        $.ajax({
+            url: "/Post/save",
+            data: { _ID: id, post: post },
+            type: 'POST',
+            success: function (result) {
+                console.log(result);
+            },
+            error: function (result) {
+                //errorFetchingPosts(result);
+                console.log(result);
+            }
+        });
+    } catch (e) {
+        console.log(e);
+    }
 
-$(document).ready(function () {
-
-    getPostList();
-
-    $('#close-post-editor').click(function () {
-        $('#post-editor').velocity('transition.slideDownBigOut', { duration: 200 }, 'easeOutQuint');
-    });
-
-
-    $('#new-post').click(function () {
-        $('#post-editor').velocity('transition.slideUpBigIn', { duration: 250 }, 'easeOutQuint');
-    });
-
-
-
-});
+}

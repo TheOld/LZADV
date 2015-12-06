@@ -331,6 +331,7 @@
     <Content Include="img\twitter.png" />
     <Content Include="img\wordpress.png" />
     <Content Include="img\youtube.png" />
+    <Content Include="js\blog-admin.js" />
     <Content Include="js\blog.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -370,7 +371,9 @@
     <Content Include="boletins\02\boletim-juridico_02.ai" />
     <Content Include="Views\Mailer\mailer.css" />
     <Content Include="Views\Mailer\mailer.min.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -406,7 +409,7 @@
     <Content Include="Views\Mailer\PrepareMailForm.cshtml" />
     <Content Include="Views\Mailer\_Layout.cshtml" />
     <Content Include="Views\Home\WritePost.cshtml" />
-    <Content Include="Views\Home\BlogView.cshtml" />
+    <Content Include="Views\Home\BlogAdmin.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

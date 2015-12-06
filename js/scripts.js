@@ -621,7 +621,7 @@ $(document).ready(function () {
         var authorID = $(this).data('id');
 
         $.ajax({
-            url: "/Post/list?filter=&page=0&userID=" + authorID,
+            url: "/Post/list?filter=a&page=0&userID=" + authorID,
             type: 'GET',
             success: function (result) {
 
