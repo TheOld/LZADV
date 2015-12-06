@@ -25,10 +25,8 @@ namespace LoboVaz.Controllers
 
 
         [HttpPost]
-        public JsonResult create(User user, String key)
+        public JsonResult create(User user)
         {
-            if (!"leandro".Equals(key)) { return null; }
-
             UserService.Save(user);
 
 
