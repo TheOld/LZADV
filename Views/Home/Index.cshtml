@@ -437,45 +437,12 @@
 
                         <!-- Popular essa seção com a lista de posts -->
                         <section class="post-list">
-
-                            <a class="grid__item" href="#">
-                                <h2 class="title title--preview">MDIC simplifica procedimento de exportação</h2>
-                                <div class="loader"></div>
-                                <span class="category">Direito Aduaneiro</span>
-                                <div class="meta meta--preview">
-                                    <!-- Data do post -->
-                                    <span class="meta__date"><i class="fa fa-calendar-o"></i> 17/07/2015</span>
-                                </div>
-                            </a>
-
                         </section>
                         <!-- Popular essa seção com o conteúdo do post selecionado -->
                         <section class="ccontent">
-                            <div class="scroll-wrap">
+                            <div class="scroll-wrap" id="post-wrap">
                                 <article class="content__item">
-                                    <span class="category category--full">Direito Aduaneiro</span>
-                                    <h2 class="title title--full">MDIC simplifica procedimento de exportação</h2>
-                                    <div class="meta meta--full">
-                                        <!-- Avatar do autor - consultar pelo nome -->
-                                        <img class="meta__avatar" src="~/img/brc-circle.png" alt="Bruce Bastos Martins" />
-                                        <span class="meta__author">Matthew Walters</span>
-                                        <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-                                    </div>
-                                    <p>A medida adotada pelo Ministério representa uma evolução nos aspectos regulatórios brasileiros. Isto em razão de que temos a República mais burocrática do Mundo – reconhecido por meio de pesquisa realizada pelo Banco Mundial. Ou seja, foi excluido do controle de anuências do Departamento de Comércio Exterior (Decex) as alterações singelas que não comprometem a integridade do Despacho de Exportação.</p>
-                                    <p>Este desprendimento das normas que ditam o controle sobre os procedimentos de comércio exterior demonstra não só uma evolução na atividade de mediação da balança comercial, mas uma transformação, ao menos inicial, daquilo que o Estado Brasileiro entende por administrar. Estamos vendo em primeira mão o reconhecimento do Poder Executivo que Administrar não significa impor barreiras e controlar pessoalmente cada operação realizada, mas que é possível haver crescimento quando as barreiras são reduzidas.</p>
-                                    <p>Tivemos a oportunidade de presenciar o Diretor do DECEX, no 34° Seminário de Comércio Exterior, afirmar que além da presente medida, será implementada uma simplificação na emissão do certificado de origem nas operações de venda de carne de aves para a União Européia, que consistirá, em eliminar a carta-requerimento.</p>
-                                    <p>
-                                        De toda forma, o momento é propício para as exportações, vez que o câmbio está em alta e o país percebe que pode facilitar aquele que é o seu maior mecanismo de fortalecimento da economia.
-                                        Florianópolis, 15 de julho de 2015.
-                                    </p>
-
-                                    <hr />
-                                    <!-- Facebook comments polugin -->
-                                    <div class="row">
-                                        <div class="col-md-4 col-md-offset-3">
-                                            <div class="fb-comments" data-href="http://www.lzadv.com.br" data-numposts="5"></div>
-                                        </div>
-                                    </div>
+                                    
                                 </article>
                             </div>
                             <button class="close-button"><i class="fa fa-close"></i><span>Fechar</span></button>
@@ -575,7 +542,7 @@
                                         <div id="collapseTrib" class="panel-collapse collapse">
                                             <!-- Federais-->
                                             <div class="panel panel-default panel-padding ">
-                                                <div class=" panel-heading-sm">
+                                                <div class="panel-heading-sm">
                                                     <h4 data-toggle="collapse" data-parent="#collapseTrib" data-target="#collFederal" class="panel-title cursor-hand">
                                                         Federais
                                                     </h4>
@@ -945,7 +912,7 @@
                     <form id="login-form">
                         <input type="text" id="username" name="username" />
                         <input type="password" id="password" name="password" />
-                        <button class="progress-button" data-style="rotate-angle-bottom" data-perspective data-horizontal id="login-submit">Entrar</button>
+                        <button class="login-progress-button" data-style="rotate-angle-bottom" data-perspective data-horizontal id="login-submit">Entrar</button>
                     </form>
                 </div>
                 <div class="modal-footer"></div>
@@ -1237,7 +1204,7 @@
 
     <script src="../../js/progressButton.js"></script>
     <script src="../../js/blog.js"></script>
-
+    <script src="~/node_modules/tinymce/tinymce.min.js"></script>
     <script src="../../js/waypoints.min.js"></script>
     <script src="../../js/scripts.js"></script>
 
