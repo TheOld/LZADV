@@ -9,9 +9,7 @@ namespace LoboVaz.Services
 {
     public class UserServiceImpl : IUserService
     {
-        public User findBy(int userID)
-        {
-            return null;
-        }
+      
+
     }
 }

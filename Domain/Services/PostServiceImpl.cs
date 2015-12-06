@@ -10,17 +10,14 @@ namespace LoboVaz.Services
     public class PostServiceImpl : IPostService
     {
         public IPostDAO PostDAO { get; set; }
-        public IUserService UserService { get; set; }
 
-        public PostServiceImpl(IPostDAO PostDAO, IUserService UserService) {
+        public PostServiceImpl(IPostDAO PostDAO) {
             this.PostDAO = PostDAO;
-            this.UserService = UserService;
         }
 
-        public List<Post> load(int userID,int page,string filter)
+        public List<Post> load(int page,string filter)
         {
-            User user = UserService.findBy(userID);
-            return PostDAO.load(user,page,filter);
+            return PostDAO.load(page,filter);
         }
 
     }

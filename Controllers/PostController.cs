@@ -1,6 +1,5 @@
-﻿using LoboVaz.Infra.DAO;
-using LoboVaz.Models;
-using LoboVaz.Services;
+﻿using LoboVaz.Services;
+using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,20 +23,11 @@ namespace LoboVaz.Controllers
 
 
         [HttpGet]
-        public JsonResult list(String filter, int page, int userID)
-        {
-            return Json(PostService.load(userID, page, filter), JsonRequestBehavior.AllowGet);
-        }
-
-
-        [HttpPost]
-        public JsonResult add(Post post)
+        public JsonResult list(String filter,int page)
         {
 
-
-            return Json("", JsonRequestBehavior.AllowGet);
+            return Json(PostService.load(page,filter), JsonRequestBehavior.AllowGet);
         }
-
 
 
 
