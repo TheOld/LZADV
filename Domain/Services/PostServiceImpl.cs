@@ -1,5 +1,6 @@
 ﻿using LoboVaz.Domain.DAO;
 using LoboVaz.Models;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,11 +18,14 @@ namespace LoboVaz.Services
             this.UserService = UserService;
         }
 
-        public List<Post> load(int userID,int page,string filter)
+        public List<Post> Load(ObjectId userID,int page,string filter)
         {
-            User user = UserService.findBy(userID);
+            User user = UserService.FindBy(userID);
             return PostDAO.load(user,page,filter);
         }
 
+        public void Save(Post post)
+        {
+        }
     }
 }

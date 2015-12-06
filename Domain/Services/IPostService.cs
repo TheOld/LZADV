@@ -1,5 +1,6 @@
 ﻿using LoboVaz.Domain.DAO;
 using LoboVaz.Models;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace LoboVaz.Services
 {
     public interface IPostService
     {
-        List<Post> load(int userID,int page, String filter);
+        List<Post> Load(ObjectId userID,int page, String filter);
+        void Save(Post post);
     }
 }

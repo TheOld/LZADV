@@ -1,6 +1,7 @@
 ﻿using LoboVaz.Infra.DAO;
 using LoboVaz.Models;
 using LoboVaz.Services;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,17 +25,16 @@ namespace LoboVaz.Controllers
 
 
         [HttpGet]
-        public JsonResult list(String filter, int page, int userID)
+        public JsonResult list(String filter, int page, String userID)
         {
-            return Json(PostService.load(userID, page, filter), JsonRequestBehavior.AllowGet);
+            return Json(PostService.Load(new ObjectId(userID), page, filter), JsonRequestBehavior.AllowGet);
         }
 
 
         [HttpPost]
-        public JsonResult add(Post post)
+        public JsonResult save(Post post)
         {
-
-
+            PostService.Save(post);
             return Json("", JsonRequestBehavior.AllowGet);
         }
 
