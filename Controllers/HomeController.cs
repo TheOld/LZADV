@@ -74,7 +74,7 @@ namespace LoboVaz.Controllers
         }
 
         
-        public ActionResult BlogAdmin()
+        public ActionResult WritePost()
         {
             return View();
         }

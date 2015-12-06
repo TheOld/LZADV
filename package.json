@@ -1,12 +1,7 @@
 {
-  "name": "my-project-name",
-  "version": "0.1.0",
+  "name": "myproject",
+  "version": "1.0.0",
   "devDependencies": {
-    "font-awesome": "^4.4.0",
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0",
-    "tinymce": "^4.3.1"
+    "font-awesome": "^4.4.0"
   }
 }
