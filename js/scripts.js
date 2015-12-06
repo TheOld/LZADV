@@ -619,6 +619,7 @@ $(document).ready(function () {
     $('.profile').click(function () {
 
         var authorID = $(this).data('id');
+
         $.ajax({
             url: "/Post/list?filter=&page=0&userID=" + authorID,
             type: 'GET',
@@ -633,7 +634,8 @@ $(document).ready(function () {
 
             },
             error: function (result) {
-                errorFetchingPosts(result);
+                //errorFetchingPosts(result);
+                console.log(result);
             }
         });
 

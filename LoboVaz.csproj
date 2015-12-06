@@ -406,6 +406,7 @@
     <Content Include="Views\Mailer\PrepareMailForm.cshtml" />
     <Content Include="Views\Mailer\_Layout.cshtml" />
     <Content Include="Views\Home\WritePost.cshtml" />
+    <Content Include="Views\Home\BlogView.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
