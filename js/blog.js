@@ -79,7 +79,10 @@
 				}
 				isAnimating = true;
 				// index of current item
-				current = pos;
+			    //current = pos;
+
+				current = 1;
+
 				// simulate loading time..
 				classie.add(item, 'grid__item--loading');
 				setTimeout(function() {

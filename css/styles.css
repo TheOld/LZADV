@@ -80,15 +80,12 @@ textarea {
 body {
     margin: 0;
     font-family: 'PT Sans','Lato', sans-serif;
-    
-    overflow-x:hidden !important;
-    
+    overflow-x: hidden !important;
 }
 
 html,
 body {
     width: auto !important;
-    
 }
 /* ==========================================================================
 Links
@@ -1530,11 +1527,10 @@ address {
 }
 
 .modal-content {
-    
     overflow-y: auto;
 }
 
-.higher-modal{
+.higher-modal {
     height: 90vh !important;
 }
 
@@ -1600,7 +1596,7 @@ body,
 /* Menu Button */
 .menu-button {
     position: fixed;
-    z-index: 500;
+    z-index: 100;
     margin: 5px 1em;
     padding: 0;
     width: 2.5em;
@@ -1913,10 +1909,13 @@ body,
     clip-path: circle(50px at 50% 50%);
 }
 
-.login-modal{
-    width:60% !important;
-    height:350px !important;
+.login-modal {
+    width: 60% !important;
+    height: 350px !important;
 }
+
+
+
 
 #mc_embed_signup {
     /*background: #fff;

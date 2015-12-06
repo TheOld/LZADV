@@ -35,7 +35,7 @@
 
 </head>
 <body>
-    <div id="fb-root"></div>
+    @*<div id="fb-root"></div>
     <script>
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -43,7 +43,26 @@
             js = d.createElement(s); js.id = id;
             js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));
+    </script>*@
+
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '436241219912916',
+                xfbml: true,
+                version: 'v2.5'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <div class="main">
         <div class="menu-wrap">
@@ -407,25 +426,25 @@
                             <h2 class="fg-white">Blogs</h2>
                             <div class="row margin-top-30 profile-container">
                                 <div class="col-md-3">
-                                    <figure class="text-center height-200 padding-10 profile">
+                                    <figure class="text-center height-200 padding-10 profile" data-id="0">
                                         <img alt="Bruce Bastos Martins" src="~/img/brc-circle.png" height="100" width="100" class="profile-pic" />
                                         <figcaption class="profile-caption">Bruce Bastos Martins</figcaption>
                                     </figure>
                                 </div>
                                 <div class="col-md-3">
-                                    <figure class="text-center height-200 padding-10 profile">
+                                    <figure class="text-center height-200 padding-10 profile" data-id="1">
                                         <img alt="Bruno Eduardo Budal Lobo" src="~/img/brn-circle.png" height="100" width="100" class="profile-pic" />
                                         <figcaption class="profile-caption">Bruno Eduardo Budal Lobo</figcaption>
                                     </figure>
                                 </div>
                                 <div class="col-md-3">
-                                    <figure class="text-center height-200 padding-10 profile">
+                                    <figure class="text-center height-200 padding-10 profile" data-id="2">
                                         <img alt="Gabriel Souto Silva" src="~/img/gbrl-circle.png" height="100" width="100" class="profile-pic" />
                                         <figcaption class="profile-caption">Gabriel Souto Silva</figcaption>
                                     </figure>
                                 </div>
                                 <div class="col-md-3">
-                                    <figure class="text-center height-200 padding-10 profile">
+                                    <figure class="text-center height-200 padding-10 profile" data-id="3">
                                         <img alt="Rafael Medeiros Popini Vaz" src="~/img/rfl-circle.png" height="100" width="100" class="profile-pic" />
                                         <figcaption class="profile-caption">Rafael Medeiros Popini Vaz</figcaption>
                                     </figure>
@@ -433,55 +452,42 @@
                             </div>
                         </div>
                     </div>
-                    <section id="theGrid" class="main margin-top--5">
+                    
+                        <section id="theGrid" class="main margin-top--5">
+                            <div class="row">
+                                <!-- Popular essa seção com a lista de posts -->
+                                <section class="post-list">
 
-                        <!-- Popular essa seção com a lista de posts -->
-                        <section class="post-list">
+                                    @*<a class="grid__item" href="#">
+                    <h2 class="title title--preview">MDIC simplifica procedimento de exportação</h2>
+                    <div class="loader"></div>
+                    <span class="category">Direito Aduaneiro</span>
+                    <div class="meta meta--preview">
+                        <span class="meta__date"><i class="fa fa-calendar-o"></i> 17/07/2015</span>
+                    </div>
+                </a>*@
 
-                            <a class="grid__item" href="#">
-                                <h2 class="title title--preview">MDIC simplifica procedimento de exportação</h2>
-                                <div class="loader"></div>
-                                <span class="category">Direito Aduaneiro</span>
-                                <div class="meta meta--preview">
-                                    <!-- Data do post -->
-                                    <span class="meta__date"><i class="fa fa-calendar-o"></i> 17/07/2015</span>
-                                </div>
-                            </a>
-
-                        </section>
-                        <!-- Popular essa seção com o conteúdo do post selecionado -->
-                        <section class="ccontent">
-                            <div class="scroll-wrap">
-                                <article class="content__item">
-                                    <span class="category category--full">Direito Aduaneiro</span>
-                                    <h2 class="title title--full">MDIC simplifica procedimento de exportação</h2>
-                                    <div class="meta meta--full">
-                                        <!-- Avatar do autor - consultar pelo nome -->
-                                        <img class="meta__avatar" src="~/img/brc-circle.png" alt="Bruce Bastos Martins" />
-                                        <span class="meta__author">Matthew Walters</span>
-                                        <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-                                    </div>
-                                    <p>A medida adotada pelo Ministério representa uma evolução nos aspectos regulatórios brasileiros. Isto em razão de que temos a República mais burocrática do Mundo – reconhecido por meio de pesquisa realizada pelo Banco Mundial. Ou seja, foi excluido do controle de anuências do Departamento de Comércio Exterior (Decex) as alterações singelas que não comprometem a integridade do Despacho de Exportação.</p>
-                                    <p>Este desprendimento das normas que ditam o controle sobre os procedimentos de comércio exterior demonstra não só uma evolução na atividade de mediação da balança comercial, mas uma transformação, ao menos inicial, daquilo que o Estado Brasileiro entende por administrar. Estamos vendo em primeira mão o reconhecimento do Poder Executivo que Administrar não significa impor barreiras e controlar pessoalmente cada operação realizada, mas que é possível haver crescimento quando as barreiras são reduzidas.</p>
-                                    <p>Tivemos a oportunidade de presenciar o Diretor do DECEX, no 34° Seminário de Comércio Exterior, afirmar que além da presente medida, será implementada uma simplificação na emissão do certificado de origem nas operações de venda de carne de aves para a União Européia, que consistirá, em eliminar a carta-requerimento.</p>
-                                    <p>
-                                        De toda forma, o momento é propício para as exportações, vez que o câmbio está em alta e o país percebe que pode facilitar aquele que é o seu maior mecanismo de fortalecimento da economia.
-                                        Florianópolis, 15 de julho de 2015.
-                                    </p>
-
-                                    <hr />
-                                    <!-- Facebook comments polugin -->
-                                    <div class="row">
-                                        <div class="col-md-4 col-md-offset-3">
-                                            <div class="fb-comments" data-href="http://www.lzadv.com.br" data-numposts="5"></div>
-                                        </div>
-                                    </div>
-                                </article>
+                                </section>
                             </div>
-                            <button class="close-button"><i class="fa fa-close"></i><span>Fechar</span></button>
-                        </section>
+                    <!-- Popular essa seção com o conteúdo do post selecionado -->
+                    <section class="ccontent">
+                        <div class="scroll-wrap" id="post-wrap">
+                            <article class="content__item">
+                                @*<div id="post-body">
 
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-3">
+                                <div class="fb-comments" data-href="http://www.lzadv.com.br" data-numposts="5"></div>
+                            </div>
+                        </div>*@
+                            </article>
+                        </div>
+                        <button class="close-button"><i class="fa fa-close"></i><span>Fechar</span></button>
                     </section>
+
+                </section>
+                
                 </section>
                 <section class="container-fluid news paddingLR60">
 
@@ -548,19 +554,19 @@
                                                         <a href="~/artigos/DIREITO ADUANEIRO/DA INSTRUÇÃO NORMATIVA Nº 1.443 DE 2014.pdf" target="_blank">DA INSTRUÇÃO NORMATIVA Nº 1.443 DE 2014.pdf</a>
                                                     </li>
                                                     @*
-                                                    <li>
-                                                        <a target="_blank" href="/artigos/aduaneiros/importacao/PIS%20E%20COFINS%20NA%20IMPORTAÇÃO%20PARA%20EMPRESAS%20OPTANTES%20PELO%20LUCRO%20PRESUMIDO.pdf">PIS e COFINS na importação para empresas optantes pelo lucro presumido</a>
-                                                    </li>
-                                                    <li>
-                                                        <a target="_blank" href="/artigos/aduaneiros/importacao/EXCLUSÃO%20DO%20ICMS%20E%20CONTRIBUIÇÕES%20SOCIAIS%20DA%20BASE%20DE%20CÁLCULO%20DO%20PIS%20E%20COFINS%20INCIDENTE%20NA%20IMPORTAÇÃO.pdf">Exlcusão do ICMS e contribuições sociais da base de cálculo do PIS e COFINS incidente na importação</a>
-                                                    </li>
-                                                    <li>
-                                                        <a target="_blank" href="/artigos/aduaneiros/importacao/A%20POSSIBILIDADE%20DA%20CAUÇÃO%20PECUNIÁRIA%20PARA%20A%20LIBERAÇÃO%20DE%20MERCADORIA%20RETIDA%20NO%20PROCEDIMENTO%20ESPECIAL%20DE%20CONTROLE.pdf">
-                                                            A possibilidade da caução pecuniária para a liberação de
-                                                            mercadoria retida no procedimento especial de controle – uma análise da instrução
-                                                            normativa da Receita Federal do Brasil nº 1.169/2011 de 29 de junho de 2011.
-                                                        </a>
-                                                    </li>*@
+                                                        <li>
+                                                            <a target="_blank" href="/artigos/aduaneiros/importacao/PIS%20E%20COFINS%20NA%20IMPORTAÇÃO%20PARA%20EMPRESAS%20OPTANTES%20PELO%20LUCRO%20PRESUMIDO.pdf">PIS e COFINS na importação para empresas optantes pelo lucro presumido</a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="_blank" href="/artigos/aduaneiros/importacao/EXCLUSÃO%20DO%20ICMS%20E%20CONTRIBUIÇÕES%20SOCIAIS%20DA%20BASE%20DE%20CÁLCULO%20DO%20PIS%20E%20COFINS%20INCIDENTE%20NA%20IMPORTAÇÃO.pdf">Exlcusão do ICMS e contribuições sociais da base de cálculo do PIS e COFINS incidente na importação</a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="_blank" href="/artigos/aduaneiros/importacao/A%20POSSIBILIDADE%20DA%20CAUÇÃO%20PECUNIÁRIA%20PARA%20A%20LIBERAÇÃO%20DE%20MERCADORIA%20RETIDA%20NO%20PROCEDIMENTO%20ESPECIAL%20DE%20CONTROLE.pdf">
+                                                                A possibilidade da caução pecuniária para a liberação de
+                                                                mercadoria retida no procedimento especial de controle – uma análise da instrução
+                                                                normativa da Receita Federal do Brasil nº 1.169/2011 de 29 de junho de 2011.
+                                                            </a>
+                                                        </li>*@
                                                 </ul>
                                             </div>
                                         </div>
@@ -929,6 +935,9 @@
 
 
                 </footer>
+
+
+               
             </div>
         </div>
     </div>
@@ -945,7 +954,7 @@
                     <form id="login-form">
                         <input type="text" id="username" name="username" />
                         <input type="password" id="password" name="password" />
-                        <button class="progress-button" data-style="rotate-angle-bottom" data-perspective data-horizontal id="login-submit">Entrar</button>
+                        <button class="login-progress-button" data-style="rotate-angle-bottom" data-perspective data-horizontal id="login-submit">Entrar</button>
                     </form>
                 </div>
                 <div class="modal-footer"></div>
@@ -1203,6 +1212,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1221,7 +1235,9 @@
 
     </script>
 
+    
 
+    <script src="~/node_modules/tinymce/tinymce.min.js"></script>
 
 
     <!--    <script src="../../js/modernizr.js"></script>-->
@@ -1236,12 +1252,13 @@
     <script src="../../js/velocity.ui.js"></script>
 
     <script src="../../js/progressButton.js"></script>
-    <script src="../../js/blog.js"></script>
+    @*<script src="../../js/blog.js"></script>*@
 
     <script src="../../js/waypoints.min.js"></script>
+
     <script src="../../js/scripts.js"></script>
 
-
+    
 
 </body>
 

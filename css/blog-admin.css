@@ -1,0 +1,59 @@
+﻿body {
+    background-color: #E1E6EB;
+}
+
+table{
+    background-color:#ffffff;
+}
+
+table td{
+    text-align:center;
+}
+
+/*#region PostEditor */
+.post-editor-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: none;
+    padding: 10px 15px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 120;
+    display:none;
+}
+
+.post-editor-container {
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background: #ffffff;
+    
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+    -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+    box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+}
+
+    .post-editor-container input[type=text], select {
+        border: 4px solid #ebebeb;
+        border-radius: 3px;
+        width: 100%;
+        font-size: 18px;
+        color: #8a95aa;
+        font-family: 'PT Sans', sans-serif;
+        height: 58px;
+        outline: 0;
+        margin-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+.post-editor {
+    height: 100%;
+}
+
+/*#endregion */

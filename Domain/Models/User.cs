@@ -10,6 +10,7 @@ namespace LoboVaz.Models
         public int ID { get; set; }
 
         public String Email { get; set; }
+        
     }
 
 }
