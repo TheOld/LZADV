@@ -196,42 +196,7 @@ $(document).ready(function () {
     });
 
 
-    //login click function
-    [].slice.call(document.querySelectorAll('button.login-progress-button')).forEach(function (bttn) {
-        new ProgressButton(bttn, {
-            callback: function (instance) {
-
-
-                var progress = 0,
-                    interval = setInterval(function () {
-                        progress = Math.min(progress + Math.random() * 0.1, 1);
-                        if (true) {
-                            instance._setProgress(progress);
-                            setTimeout(function () {
-                                $('#login-modal').modal('hide');
-                                window.location.href = "/home/BlogAdmin";
-
-                            }, 3000);
-
-                            instance._stop(1);
-                            clearInterval(interval);
-
-
-
-                        } else {
-                            instance._stop(-1);
-                            clearInterval(interval);
-                        }
-
-                        //if (progress === 1) {
-                        //    instance._stop(1);
-                        //    clearInterval(interval);
-                        //}
-                    }, 200);
-            }
-        });
-    });
-
+   
 });
 
 
@@ -651,10 +616,45 @@ $(document).ready(function () {
 
     });
 
-    $('.login-submit').click(function () {
+    //login click function
+    [].slice.call(document.querySelectorAll('button.login-progress-button')).forEach(function (bttn) {
+        new ProgressButton(bttn, {
+            callback: function (instance) {
 
+
+                var progress = 0,
+                    interval = setInterval(function () {
+                        progress = Math.min(progress + Math.random() * 0.1, 1);
+                        if (true) {
+                            instance._setProgress(progress);
+                            setTimeout(function () {
+                                $('#login-modal').modal('hide');
+                                //ProcessLogin();
+                                window.location.href = "/home/BlogAdmin";
+
+                            }, 3000);
+
+                            instance._stop(1);
+                            clearInterval(interval);
+
+
+
+                        } else {
+                            instance._stop(-1);
+                            clearInterval(interval);
+                        }
+
+                        //if (progress === 1) {
+                        //    instance._stop(1);
+                        //    clearInterval(interval);
+                        //}
+                    }, 200);
+            }
+        });
     });
 
+
+  
 
 });
 
@@ -721,3 +721,31 @@ function InitFBComments() {
 
 
 }
+
+function ProcessLogin() {
+    try {
+
+        var user = {
+            Name: $('#username').val(),
+            Password: $('#passowrd').val()
+        };
+
+
+        $.ajax({
+            url: "/User/logOn",
+            type: 'POST',
+            data: { user: user },
+            success: function (result) {
+
+                console.log(result);
+
+            },
+            error: function (result) {
+                //errorFetchingPosts(result);
+                console.log(result);
+            }
+        });
+    } catch (e) {
+
+    }
+};

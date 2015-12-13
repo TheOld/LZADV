@@ -17,7 +17,7 @@ namespace LoboVaz.Domain.DAO
 
         public User FindBy(ObjectId userID)
         {
-            return base.Context().GetCollection<User>(User.COLLECTION_NAME).AsQueryable().Where(x => x._ID.Equals(userID)).First();
+            return base.Context().GetCollection<User>(User.COLLECTION_NAME).AsQueryable().Where(x => x.Id.Equals(userID)).First();
         }
 
         public User FindBy(string login)

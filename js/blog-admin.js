@@ -69,7 +69,7 @@ function insertPost() {
             Content: $("#post-body").html(),
             Category: $("#category").text(),
             Title: $("#title").val(),
-            Author: 
+            
         };
 
         //public String _ID { get { return Id != null ? Id.ToString() : null; } }
