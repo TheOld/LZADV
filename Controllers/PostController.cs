@@ -13,12 +13,12 @@ using System.Web.Mvc;
 namespace LoboVaz.Controllers
 {
 
-    public class PostController : Controller
+    public class PostController : BaseController
     {
 
         public IPostService PostService { get; set; }
 
-        public PostController(IPostService PostService)
+        public PostController(IPostService PostService,IUserService UserService) :base(UserService)
         {
             this.PostService = PostService;
         }
@@ -27,14 +27,23 @@ namespace LoboVaz.Controllers
         [HttpGet]
         public JsonResult get(String id)
         {
-            return Json(PostService.FindBy(ObjectId.Parse(id)), JsonRequestBehavior.AllowGet);
+            Object result = null;
+            try
+            {
+                result = PostService.FindBy(ObjectId.Parse(id));
+            }
+            catch (Exception e)
+            {
+                result = new { error = "error", cause = e.Message };
+            }
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
 
 
         [HttpGet]
         public JsonResult list(String filter, int page, String userID)
         {
-            return Json(PostService.Load(new ObjectId(userID), page, filter), JsonRequestBehavior.AllowGet);
+            return Json(PostService.Load(ObjectId.Parse(userID), page, filter), JsonRequestBehavior.AllowGet);
         }
 
 
@@ -43,11 +52,31 @@ namespace LoboVaz.Controllers
         [HttpPost]
         public JsonResult save(String _ID, Post post)
         {
-            post.Id = ObjectId.Parse(_ID);
-            PostService.Save(post);
-            return Json("", JsonRequestBehavior.AllowGet);
+            User user = getUser();
+
+            Object result = null;
+            try
+            {
+                post.Author = user.Id;
+                post.Id = ObjectId.Parse(_ID);
+                PostService.Save(post);
+                result = "OK";
+            }
+            catch(Exception e)
+            {
+                result = new { error = "error", cause = e.Message };
+            }
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
 
+
+
+        [HttpPost]
+        public JsonResult toggle(String _ID)
+        {
+            PostService.Toggle(ObjectId.Parse(_ID));
+            return Json("ok", JsonRequestBehavior.AllowGet);
+        }
 
 
 

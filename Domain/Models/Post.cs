@@ -20,22 +20,21 @@ namespace LoboVaz.Models
         public String Content { get; set; }
         public String Category { get; set; }
         public String Title { get; set; }
-        public User Author { get; set; }
+        public ObjectId Author { get; set; }
+        /// <summary>
+        /// This post is public view
+        /// </summary>
+        public bool IsEnable { get; set; }
+        /// <summary>
+        /// Last update in post
+        /// </summary>
+        public DateTime LastWrite { get; set; }
 
         public Post()
         {
-            this.Date = DateTime.Now;
+            this.LastWrite = this.Date = DateTime.Now;
+            IsEnable = true;
         }
-
-        public Post(String title, String category, String content, User author)
-        {
-            this.Category = category;
-            this.Title = title;
-            this.Content = content;
-            this.Date = DateTime.Now;
-            this.Author = author;
-        }
-
 
     }
 
