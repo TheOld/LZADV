@@ -1,0 +1,143 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" lang="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lobo & Vaz Advogados Associados</title>
+    <meta name="description" content="Fundada em 2010 e inscrita na OAB/SC sob o nº 1.783, a Lobo & Vaz Advogados Associados resultou da união de conhecimentos, experiências e objetivos em comuns de seus integrantes, que primam pela excelência dos serviços jurídicos prestados, especialmente nas áreas de Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional.">
+    <meta name="keywords" content="advogados, florianópolis,  Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional">
+    <meta name="author" content="Leandro Rodrigues do Canto">
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    
+    
+    <link href="../../css/styles.css" rel="stylesheet">
+    <link href="../../css/blog.css" rel="stylesheet" />
+    <link href="../../css/queries.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/grid.css" type="text/css">
+    <link rel="stylesheet" href="../../css/submitButton.css" type="text/css">
+    <link href="~/css/helpers.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <div>
+    </div>
+    <input type="hidden" value="@ViewBag.userID" id="UserID" />
+    <div class="ccontainer">
+        <button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
+        <div id="theSidebar" class="sidebar">
+            <button class="close-button fa fa-fw fa-close"></button>
+            <div class="back-link">
+                <a class="codrops-icon codrops-icon--prev" href="http://www.lzadv.com.br" title="Voltar"><span>Voltar</span></a>
+            </div>
+
+            <ul class="list-unstyled profile-list">
+                <li>
+                    <figure class="text-center height-100 padding-10 profile" data-id="566635e16fa1f17ea65e52b6">
+                        <img alt="Bruce Bastos Martins" src="~/img/brc-circle.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption">Bruce Bastos Martins</figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="text-center height-100 padding-10 profile" data-id="566636256fa1f17ea65e52b7">
+                        <img alt="Bruno Eduardo Budal Lobo" src="~/img/brn-circle.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption">Bruno Eduardo Budal Lobo</figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="text-center height-100 padding-10 profile" data-id="5666364d6fa1f17ea65e52b8">
+                        <img alt="Gabriel Souto Silva" src="~/img/gbrl-circle.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption">Gabriel Souto Silva</figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="text-center height-100 padding-10 profile" data-id="566636726fa1f17ea65e52b9">
+                        <img alt="Rafael Medeiros Popini Vaz" src="~/img/rfl-circle.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption">Rafael Medeiros Popini Vaz</figcaption>
+                    </figure>
+                </li>
+
+            </ul>
+            <div >
+
+                <div class="filter">
+                    <span>Filter by:</span>
+                    <span class="dropdown">Popular</span>
+                </div>
+            </div>
+        </div>
+
+        <section id="theGrid" class="main bg-white">
+
+            <!-- Popular essa seção com a lista de posts -->
+
+           
+
+            <section class="post-list"></section>
+            <!-- Popular essa seção com o conteúdo do post selecionado -->
+            <section class="ccontent">
+                <div class="scroll-wrap" id="post-wrap">
+                    <article class="content__item"></article>
+                </div>
+                <button class="close-button"><i class="fa fa-close"></i><span>Fechar</span></button>
+            </section>
+
+        </section>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-29270391-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+
+
+    <!--    <script src="../../js/modernizr.js"></script>-->
+    <script src="../../js/modernizr-2.6.2.js"></script>
+
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <script src="../../js/jquery-scrollToTop.js"></script>
+    <script src="../../js/classie.js"></script>
+
+    <script src="../../js/velocity.min.js"></script>
+    <script src="../../js/velocity.ui.js"></script>
+    <script src="../../js/blog.js"></script>
+
+    <script src="../../js/PostList.js"></script>
+
+</body>
+</html>

@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.css" rel="stylesheet">
 
-    <link href="~/css/blog.css" rel="stylesheet" />
+    
     <link href="../../css/styles.css?v=1.2" rel="stylesheet">
     <link href="../../css/queries.css?v=1.2" rel="stylesheet">
     <link rel="stylesheet" href="../../css/flexslider.css?v=1.2" type="text/css">
@@ -37,7 +37,7 @@
 </head>
 
 <body>
-    <input type="hidden" id="id" value="0" />
+    <input type="hidden" id="id" value="@ViewBag.UserID" />
     <div class="content-wrap">
         <div class="content">
             <div class="container-fluid">
@@ -82,9 +82,11 @@
                     <form id="post-editor-form" class="margin-top-30">
                         <div class="row">
                             <div class="col-md-5">
-                                <input id="title" name="title" type="text" required placeholder="Título" />
+                                <label for="title">Título</label>
+                                <input id="title" name="title" type="text" required />
                             </div>
                             <div class="col-md-5">
+                                <label for="category">Categoria</label>
                                 <select id="category">
                                     <option selected>- Categoria -</option>
                                     <option>Direito Aduaneiro</option>
@@ -160,7 +162,9 @@
     <script>
         tinymce.init({
             selector: '.post-editor',
-            plugins: 'advlist autolink link image lists charmap print preview'
+            plugins: 'advlist autolink link image lists charmap print preview autoresize',
+            autoresize_bottom_margin: 50,
+            autoresize_max_height: 240
         });
 
     </script>

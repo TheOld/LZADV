@@ -74,9 +74,19 @@ namespace LoboVaz.Controllers
         }
 
         
-        public ActionResult BlogAdmin()
+        public ActionResult BlogAdmin(string userID)
         {
-            return View();
+            try
+            {
+                //ViewBag.UserID = userID;
+                ViewBag.UserID = "5664c8046fa1f17ea65e52b4";
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            
         }
 
     }

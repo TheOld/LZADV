@@ -50,7 +50,22 @@ namespace LoboVaz.Controllers
 
 
 
+        public ActionResult PostList(string userID)
+        {
+            try
+            {
+                ViewBag.UserID = userID;
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
 
+
+
+            
+        }
 
 
 

@@ -346,6 +346,7 @@
     <Content Include="js\modernizr-2.6.2.js" />
     <Content Include="js\modernizr.custom.js" />
     <Content Include="js\modernizr.js" />
+    <Content Include="js\PostList.js" />
     <Content Include="js\progressButton.js" />
     <Content Include="js\scripts.js" />
     <Content Include="js\velocity.min.js" />
@@ -410,6 +411,7 @@
     <Content Include="Views\Mailer\_Layout.cshtml" />
     <Content Include="Views\Home\WritePost.cshtml" />
     <Content Include="Views\Home\BlogAdmin.cshtml" />
+    <Content Include="Views\Post\PostList.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

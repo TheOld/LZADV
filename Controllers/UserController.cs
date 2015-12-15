@@ -37,7 +37,7 @@ namespace LoboVaz.Controllers
                 if (arquivo.ContentLength > 0)
                 {
                     var uploadPath = Server.MapPath("~/Content/Uploads");
-                    string caminhoArquivo = Path.Combine(@uploadPath, Path.GetFileName(user.Name + ".jpg"));
+                    string caminhoArquivo = Path.Combine(@uploadPath, Path.GetFileName(user.Name + ".png"));
                     arquivo.SaveAs(caminhoArquivo);
                 }
             }

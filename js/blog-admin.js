@@ -8,6 +8,9 @@ $(document).ready(function () {
 
 
     $('#new-post').click(function () {
+        $('#title').val('');
+        $('#category').val('- Categoria -');
+        tinyMCE.activeEditor.setContent("");
         $('#post-editor').velocity('transition.slideUpBigIn', { duration: 250 }, 'easeOutQuint');
     });
 
@@ -42,12 +45,12 @@ function buildTable(post) {
 
         var date = new Date(parseInt(post.Date.substr(6), 10));
         var date2 = new Date(date);
-        post.ID = 0;
-        var row = '<tr><th scope="row">' + post.ID + '</th>' +
+        console.log(post);
+        var row = '<tr><th scope="row">' + post._ID + '</th>' +
                         '<td>' + post.Title + '</td>' +
                         '<td>' + date2 + '</td>' +
-                        '<td><a class="text-center edit-post" data-id="' + post.ID + '" href="#">Editar</a></td>' +
-                        '<td><a class="text-center delete-post" data-id="' + post.ID + '" href="#">Excluir</a></td>' +
+                        '<td><a class="text-center edit-post" data-id="' + post._ID + '" href="#">Editar</a></td>' +
+                        '<td><a class="text-center delete-post" data-id="' + post._ID + '" href="#">Excluir</a></td>' +
                     '</tr>';
 
 
@@ -61,15 +64,12 @@ function buildTable(post) {
 
 function insertPost() {
     try {
-
-
-
-
+        
         var post = {
-            Content: $("#post-body").html(),
+            
             Category: $("#category").text(),
             Title: $("#title").val(),
-            
+            Content: $("#post-body").html()
         };
 
         //public String _ID { get { return Id != null ? Id.ToString() : null; } }
@@ -99,7 +99,20 @@ function insertPost() {
 function editPost() {
     try {
         var id = $(this).data('id');
-        console.log(id);
+        
+        $.ajax({
+            type: "GET",
+            url: "/Post/get",
+            data: "id=" + id,
+            dataType: "json",
+            success: function (response) {
+                $('#title').val(response.Title);
+                tinyMCE.activeEditor.setContent(response.Content);
+                $('#category').val(response.Category);
+                $('#post-editor').velocity('transition.slideUpBigIn', { duration: 250 }, 'easeOutQuint');
+            }
+        });
+
     } catch (e) {
 
     }
