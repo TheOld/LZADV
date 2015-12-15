@@ -13,7 +13,7 @@ using System.Web.Mvc;
 namespace LoboVaz.Controllers
 {
 
-    public class UserController : Controller
+    public class UserController : BaseController
     {
 
         public IUserService UserService { get; set; }

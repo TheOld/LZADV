@@ -31,7 +31,8 @@ namespace LoboVaz.Services
 
         public void Save(Post post)
         {
-            if(post._ID.Equals("000000000000000000000000"))
+            post.LastWrite = DateTime.Now;
+            if (post._ID.Equals("000000000000000000000000"))
             {
                 PostDAO.Save(post);
             }
@@ -40,6 +41,13 @@ namespace LoboVaz.Services
                 PostDAO.Update(post);
             }
 
+        }
+
+        public void Toggle(ObjectId objectId)
+        {
+            Post post = FindBy(objectId);
+            post.IsEnable = !post.IsEnable;
+            Save(post);
         }
     }
 }

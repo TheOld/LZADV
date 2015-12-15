@@ -168,6 +168,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\PostController.cs" />
@@ -372,9 +373,7 @@
     <Content Include="boletins\02\boletim-juridico_02.ai" />
     <Content Include="Views\Mailer\mailer.css" />
     <Content Include="Views\Mailer\mailer.min.css" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -390,6 +389,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Mailers\MailerTemplates\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -410,6 +410,7 @@
     <Content Include="Views\Mailer\PrepareMailForm.cshtml" />
     <Content Include="Views\Mailer\_Layout.cshtml" />
     <Content Include="Views\Home\WritePost.cshtml" />
+    <Content Include="Views\Home\BlogView.cshtml" />
     <Content Include="Views\Home\BlogAdmin.cshtml" />
     <Content Include="Views\Post\PostList.cshtml" />
   </ItemGroup>
