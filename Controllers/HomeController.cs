@@ -3,8 +3,11 @@ using LoboVaz.Models;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Configuration;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -73,14 +76,23 @@ namespace LoboVaz.Controllers
             return View();
         }
 
-        
         public ActionResult BlogAdmin(string userID)
         {
             try
             {
+
+                if (Session.Count > 0)
+                {
+                    ViewBag.UserID = userID;
+                    return View();
+                }
+                else
+                {
+                    return View("Index");
+                }
+                
                 //ViewBag.UserID = userID;
-                ViewBag.UserID = "5664c8046fa1f17ea65e52b4";
-                return View();
+                
             }
             catch (Exception ex)
             {
@@ -89,5 +101,60 @@ namespace LoboVaz.Controllers
             
         }
 
+        [HttpPost]
+        public JsonResult UploadProfilePic()
+        {
+            Object result = null;
+            try
+            {
+
+                foreach (string file in Request.Files)
+                {
+                    var arquivo = Request.Files[file];
+
+                    if (arquivo.ContentLength > 0)
+                    {
+                        var uploadPath = Server.MapPath("~/img");
+                        string caminhoArquivo = Path.Combine(@uploadPath, arquivo.FileName);
+                        arquivo.SaveAs(caminhoArquivo);
+                        result = "../img/" + arquivo.FileName;
+                    }
+                }
+                
+            }
+            catch (Exception e)
+            {
+                result = new { error = "error", cause = e.Message };
+            }
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult UploadFile()
+        {
+            Object result = null;
+            try
+            {
+
+                foreach (string file in Request.Files)
+                {
+                    var arquivo = Request.Files[file];
+                    
+                    if (arquivo.ContentLength > 0)
+                    {
+                        var uploadPath = Server.MapPath("~/img");
+                        string caminhoArquivo = Path.Combine(@uploadPath, arquivo.FileName);
+                        arquivo.SaveAs(caminhoArquivo);
+                        result = "../img/" + arquivo.FileName;
+                    }
+                }
+               
+            }
+            catch (Exception e)
+            {
+                result = new { error = "error", cause = e.Message };
+            }
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
     }
 }

@@ -13,5 +13,6 @@ namespace LoboVaz.Domain.DAO
 
         User FindBy(ObjectId userID);
         void Save(User user);
+        void Update(User user);
     }
 }

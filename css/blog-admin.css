@@ -1,5 +1,8 @@
-﻿body {
+﻿
+body {
+    
     background-color: #E1E6EB;
+    
 }
 
 table{
@@ -10,25 +13,48 @@ table td{
     text-align:center;
 }
 
+
+/*#region Notification */
+
+.notification{
+    width:95vw;
+    position:absolute;
+    top:3px;
+    width:100%;
+    display:none;
+    
+    z-index:200;
+     -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 1px 1px 10px rgba(9,9,9,.35);
+    -webkit-box-shadow: 1px 1px 10px rgba(9,9,9,.35);
+    box-shadow: 1px 1px 10px rgba(9,9,9,.35);
+}
+
+/*#endregion */
+
+
 /*#region PostEditor */
-.post-editor-holder {
-    position: fixed;
-    top: 0;
+.post-editor-holder, .profile-editor-holder {
+   position: fixed;
+    bottom: 0;
     left: 0;
     background: none;
-    padding: 10px 15px;
-    width: 100vw;
-    height: 90vh;
-    max-height:90vh;
+    padding: 10px 20px;
+    height: 100vh;
+    width:100vw;
     z-index: 120;
     display:none;
+    overflow-y:auto;
+    
 }
 
 .post-editor-container {
     min-height: 100%;
     position: relative;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 20px 35px;
     background: #ffffff;
     
     -moz-border-radius: 6px;
@@ -37,12 +63,13 @@ table td{
     -moz-box-shadow: 1px 1px 10px rgba(0,0,0,.55);
     -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,.55);
     box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+    overflow-y:auto;
 }
 
-    .post-editor-container input[type=text], select {
+    .post-editor-container input[type=text], .post-editor-container select, .post-editor-container input[type=date] {
         border: 4px solid #ebebeb;
         border-radius: 3px;
-        width: 100%;
+        width:100%;
         font-size: 18px;
         color: #8a95aa;
         font-family: 'PT Sans', sans-serif;
@@ -53,8 +80,120 @@ table td{
         padding-right: 5px;
     }
 
+   
+
 .post-editor {
     height: 100%;
 }
+
+/*.profile-editor-holder{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: none;
+    padding: 10px 20px;
+    height: 100vh;
+    width:100vw;
+    z-index: 120;
+    display:none;
+    
+}*/
+
+.profile-editor-container{
+    height: 100%;
+    width:100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background: #ffffff;
+    overflow-x:hidden;
+    overflow-y:auto;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+    -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+    box-shadow: 1px 1px 10px rgba(0,0,0,.55);
+    
+}
+
+
+.post-cover-preview{
+    
+    display:block;
+    padding:3px;
+    position: relative;
+    margin: -25px 15px 30px 0;
+}
+/*#endregion */
+
+.inactive-post-list{
+    display:none;
+}
+
+/*#region File Upload */
+.custom-file-upload-hidden {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+.custom-file-upload {
+  display: block;
+  width: auto;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.custom-file-upload label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.file-upload-wrapper {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.file-upload-input {
+  width: 300px !important;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 17px;
+  border: none;
+  background-color: #c0392b;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  float: left;
+  /* IE 9 Fix */
+}
+.file-upload-input:hover, .file-upload-input:focus {
+  background-color: #ab3326;
+  outline: none;
+}
+
+.file-upload-button {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border: none;
+  margin-left: -1px;
+  background-color: #962d22;
+  float: left;
+  /* IE 9 Fix */
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.file-upload-button:hover {
+  background-color: #6d2018;
+}
+
 
 /*#endregion */

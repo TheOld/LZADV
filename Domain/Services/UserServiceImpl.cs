@@ -43,5 +43,10 @@ namespace LoboVaz.Services
             UserDAO.Save(user);
 
         }
+        public void Update(User user)
+        {
+            UserDAO.Update(user);
+
+        }
     }
 }

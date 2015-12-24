@@ -21,6 +21,7 @@ namespace LoboVaz.Models
         public String Category { get; set; }
         public String Title { get; set; }
         public ObjectId Author { get; set; }
+        public string PostCover { get; set; }
         /// <summary>
         /// This post is public view
         /// </summary>
@@ -32,7 +33,8 @@ namespace LoboVaz.Models
 
         public Post()
         {
-            this.LastWrite = this.Date = DateTime.Now;
+            //this.LastWrite = this.Date = DateTime.Now;
+            this.LastWrite = DateTime.Now;
             IsEnable = true;
         }
 

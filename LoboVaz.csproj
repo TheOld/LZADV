@@ -240,14 +240,14 @@
     <Content Include="css\animate.css" />
     <Content Include="css\blog-admin.css" />
     <Content Include="css\blog.css" />
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\easing.css" />
     <Content Include="css\flexslider.css" />
     <Content Include="css\grid.css" />
     <Content Include="css\helpers.css" />
     <Content Include="css\onepage-scroll.css" />
+    <Content Include="css\postList.css" />
     <Content Include="css\queries.css" />
     <Content Include="css\scrollToTop.css" />
     <Content Include="css\styles.css" />
@@ -307,6 +307,8 @@
     <Content Include="img\logo-gray-single.png" />
     <Content Include="img\logo-lines.png" />
     <Content Include="img\logonline.png" />
+    <Content Include="img\logo_canal_juridico.png" />
+    <Content Include="img\logo_conexao_juridica.png" />
     <Content Include="img\navbg.jpg" />
     <Content Include="img\news-bg.png" />
     <Content Include="img\phone.png" />
@@ -334,12 +336,16 @@
     <Content Include="img\youtube.png" />
     <Content Include="js\blog-admin.js" />
     <Content Include="js\blog.js" />
+    <Content Include="js\blogManager.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\classie.js" />
+    <Content Include="js\custom-file-upload.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
     <Content Include="js\jquery-scrollToTop.js" />
     <Content Include="js\jquery.flexslider-min.js" />
     <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.mixitup.min.js" />
     <Content Include="js\jquery.onepage-scroll.js" />
     <Content Include="js\jquery.validate.min.js" />
     <Content Include="js\min\scripts-ck.js" />
@@ -348,8 +354,11 @@
     <Content Include="js\modernizr.custom.js" />
     <Content Include="js\modernizr.js" />
     <Content Include="js\PostList.js" />
+    <Content Include="js\PostView.js" />
     <Content Include="js\progressButton.js" />
+    <Content Include="js\responsive-video.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="js\skype-check.js" />
     <Content Include="js\velocity.min.js" />
     <Content Include="js\velocity.ui.js" />
     <Content Include="js\waypoints.min.js" />
@@ -398,10 +407,10 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="css\bootstrap-theme.css.map" />
-    <Content Include="css\bootstrap.css.map" />
     <Content Include="boletins\03\boletim-juridico_03.ai" />
     <Content Include="package.json" />
+    <Content Include="css\bootstrap-theme.min.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\IndexEN.cshtml" />
     <Content Include="Views\Home\IndexFR.cshtml" />
@@ -413,6 +422,7 @@
     <Content Include="Views\Home\BlogView.cshtml" />
     <Content Include="Views\Home\BlogAdmin.cshtml" />
     <Content Include="Views\Post\PostList.cshtml" />
+    <Content Include="Views\Post\PostView.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

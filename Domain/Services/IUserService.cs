@@ -15,5 +15,6 @@ namespace LoboVaz.Services
         User Logon(String login, String password);
 
         void Save(User user);
+        void Update(User user);
     }
 }

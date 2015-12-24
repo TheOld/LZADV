@@ -11,8 +11,10 @@ namespace LoboVaz.Services
     public interface IPostService
     {
         List<Post> Load(ObjectId userID,int page, String filter);
+        List<Post> LoadInactive(ObjectId userID, int page, String filter);
         void Save(Post post);
+        
         Post FindBy(ObjectId objectId);
-        void Toggle(ObjectId objectId);
+        bool Toggle(ObjectId objectId);
     }
 }

@@ -43,22 +43,22 @@ $(window).load(function () {
 
 //OVERLAYS
 $(document).ready(function () {
-    $(".grid__item").hide();
+    //$(".grid__item").hide();
 
-    $('.profile').click(function () {
-        $('.profile-container figure').each(function () {
-            if ($(this).hasClass('profile-active')) {
-                $(this).removeClass('profile-active');
-            }
-        });
+    //$('.profile').click(function () {
+    //    $('.profile-container figure').each(function () {
+    //        if ($(this).hasClass('profile-active')) {
+    //            $(this).removeClass('profile-active');
+    //        }
+    //    });
 
-        $(this).toggleClass('profile-active');
+    //    $(this).toggleClass('profile-active');
 
-        if (!$(".grid__item").is(":visible")) {
-            $(".grid__item").velocity("transition.slideUpIn", { duration: 250, easing: [250, 60], stagger: 100, display: "flex" });
-        }
+    //    if (!$(".grid__item").is(":visible")) {
+    //        $(".grid__item").velocity("transition.slideUpIn", { duration: 250, easing: [250, 60], stagger: 100, display: "flex" });
+    //    }
 
-    });
+    //});
 
 
 
@@ -196,7 +196,7 @@ $(document).ready(function () {
     });
 
 
-   
+
 });
 
 
@@ -350,6 +350,52 @@ $(function () {
 
 //POST
 $(document).ready(function () {
+
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_brucebastos13_1",
+        "participants": ["brucebastos13"],
+        "imageSize": 24
+
+    });
+
+    //Skype Rafael
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_rafaelpopini_1",
+        "participants": ["rafaelpopini"],
+        "imageSize": 24
+    });
+
+    //Skype Bruno
+
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_lobo.brunoo_1",
+        "participants": ["lobo.brunoo"],
+        "imageSize": 24
+    });
+
+    //Skype Gabriel
+
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_facebook:gssouto_1",
+        "participants": ["facebook:gssouto"],
+        "imageSize": 24
+    });
+
+    //rafaelpopini
+
+
+    $('.skype-status div').attr('style', '');
+    $('.skype-status div p').addClass('skype-button');
+    $('.skype-button a').click(function (e) {
+        e.stopPropagation();
+    })
+
+
+
     $('.profile').click(function () {
 
         var authorID = $(this).data('id');
@@ -399,24 +445,21 @@ $(document).ready(function () {
                 var progress = 0,
                     interval = setInterval(function () {
                         progress = Math.min(progress + Math.random() * 0.1, 1);
-                        if (true) {
-                            instance._setProgress(progress);
-                            setTimeout(function () {
-                                $('#login-modal').modal('hide');
-                                //ProcessLogin();
-                                window.location.href = "/home/BlogAdmin";
+                        //if (true) {
+                        instance._setProgress(progress);
 
-                            }, 3000);
+                      
+                        ProcessLogin();
 
-                            instance._stop(1);
-                            clearInterval(interval);
+                        instance._stop(1);
+                        clearInterval(interval);
 
 
 
-                        } else {
-                            instance._stop(-1);
-                            clearInterval(interval);
-                        }
+                        //} else {
+                        //    instance._stop(-1);
+                        //    clearInterval(interval);
+                        //}
 
                         //if (progress === 1) {
                         //    instance._stop(1);
@@ -435,19 +478,28 @@ $(document).ready(function () {
 function ProcessLogin() {
     try {
 
-        var user = {
-            Name: $('#username').val(),
-            Password: $('#passowrd').val()
+        var _user = {
+            Name: '',
+            Email: $('#username').val(),
+            Password: $('#password').val()
         };
 
 
         $.ajax({
             url: "/User/logOn",
             type: 'POST',
-            data: { user: user },
+            data: JSON.stringify({ user: _user }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
             success: function (result) {
 
-                console.log(result);
+                if (result !== "fail") {
+                    window.location.href = "/Home/BlogAdmin?userID=" + result;
+                    $('#login-modal').modal('hide');
+                } else {
+                    $('#login-modal').velocity("callout.shake", { duration: 360 }, 'easeInOutQuint');
+                }
 
             },
             error: function (result) {
@@ -456,6 +508,7 @@ function ProcessLogin() {
             }
         });
     } catch (e) {
-
+        console.log(e);
     }
 };
+

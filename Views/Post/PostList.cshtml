@@ -1,9 +1,4 @@
-﻿
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
@@ -15,16 +10,19 @@
     <meta name="keywords" content="advogados, florianópolis,  Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional">
     <meta name="author" content="Leandro Rodrigues do Canto">
     <!-- Bootstrap -->
-    <link href="../../css/bootstrap.css" rel="stylesheet">
-    
-    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+
     <link href="../../css/styles.css" rel="stylesheet">
     <link href="../../css/blog.css" rel="stylesheet" />
     <link href="../../css/queries.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/grid.css" type="text/css">
     <link rel="stylesheet" href="../../css/submitButton.css" type="text/css">
+    <link href="~/css/postList.css" rel="stylesheet" />
     <link href="~/css/helpers.css" rel="stylesheet" />
-    @Styles.Render("~/Content/css")
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    @*@Styles.Render("~/Content/css")*@
 </head>
 <body>
     <div id="fb-root"></div>
@@ -50,58 +48,89 @@
             <ul class="list-unstyled profile-list">
                 <li>
                     <figure class="text-center height-100 padding-10 profile" data-id="566635e16fa1f17ea65e52b6">
-                        <img alt="Bruce Bastos Martins" src="~/img/brc-circle.png" height="50" width="50" class="profile-pic" />
-                        <figcaption class="profile-caption">Bruce Bastos Martins</figcaption>
+                        <img alt="Bruce Bastos Martins" src="~/img/bruce bastos martins.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption"><h3>Bruce Martins</h3></figcaption>
                     </figure>
                 </li>
 
                 <li>
                     <figure class="text-center height-100 padding-10 profile" data-id="566636256fa1f17ea65e52b7">
-                        <img alt="Bruno Eduardo Budal Lobo" src="~/img/brn-circle.png" height="50" width="50" class="profile-pic" />
-                        <figcaption class="profile-caption">Bruno Eduardo Budal Lobo</figcaption>
+                        <img alt="Bruno Eduardo Budal Lobo" src="~/img/bruno eduardo budal lobo.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption"><h3>Bruno Lobo</h3></figcaption>
                     </figure>
                 </li>
 
                 <li>
                     <figure class="text-center height-100 padding-10 profile" data-id="5666364d6fa1f17ea65e52b8">
-                        <img alt="Gabriel Souto Silva" src="~/img/gbrl-circle.png" height="50" width="50" class="profile-pic" />
-                        <figcaption class="profile-caption">Gabriel Souto Silva</figcaption>
+                        <img alt="Gabriel Souto Silva" src="~/img/gabriel souto silva.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption"><h3>Gabriel Silva</h3></figcaption>
                     </figure>
                 </li>
 
                 <li>
                     <figure class="text-center height-100 padding-10 profile" data-id="566636726fa1f17ea65e52b9">
-                        <img alt="Rafael Medeiros Popini Vaz" src="~/img/rfl-circle.png" height="50" width="50" class="profile-pic" />
-                        <figcaption class="profile-caption">Rafael Medeiros Popini Vaz</figcaption>
+                        <img alt="Rafael Medeiros Popini Vaz" src="~/img/rafael medeiros popini vaz.png" height="50" width="50" class="profile-pic" />
+                        <figcaption class="profile-caption"><h3>Rafael Vaz</h3></figcaption>
                     </figure>
                 </li>
 
             </ul>
-            <div >
 
-                <div class="filter">
-                    <span>Filter by:</span>
-                    <span class="dropdown">Popular</span>
-                </div>
-            </div>
         </div>
 
         <section id="theGrid" class="main bg-white">
+            <div class="options-container">
+                <div class="row">
+                    <div class="col-xs-1 ">
+                        <span class="margin-top-5 pull-left">Filtros: </span>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="dropdown">
+                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Categoria
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#" class="filter" data-filter="all" id="filter-all">Todos</a></li>
+                                <li><a href="#" class="filter" data-filter=".customs-law">Direito aduaneiro</a></li>
+                                <li><a href="#" class="filter" data-filter=".tax-law">Direito tributário</a></li>
+                                <li><a href="#" class="filter" data-filter=".labor-law">Direito do trabalho e previdenciário</a></li>
+                                <li><a href="#" class="filter" data-filter=".maritime-law">Direito marítimo</a></li>
+                                <li><a href="#" class="filter" data-filter=".business-law">Direito empresarial</a></li>
+                                <li><a href="#" class="filter" data-filter=".international-law">Direito internacional</a></li>
 
+                            </ul>
+                        </div>
+                    </div>
+                    <div calss="col-xs-4">
+                        <div class="post-option-search">
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" id="search-post" placeholder="Buscar">
+                                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             <!-- Popular essa seção com a lista de posts -->
-
-           
-
-            <section class="post-list"></section>
+            <section class="post-list" id="post-list"></section>
             <!-- Popular essa seção com o conteúdo do post selecionado -->
             <section class="ccontent">
                 <div class="scroll-wrap" id="post-wrap">
                     <article class="content__item"></article>
                 </div>
-                <button class="close-button"><i class="fa fa-close"></i><span>Fechar</span></button>
+                <button class="close-button">
+                    <i class="fa fa-close"></i>
+                    <span>Fechar</span>
+                </button>
             </section>
 
         </section>
+    </div>
+    <div class="hidden" id="post-content-placeholder">
+
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -135,9 +164,20 @@
 
     <script src="../../js/velocity.min.js"></script>
     <script src="../../js/velocity.ui.js"></script>
-    <script src="../../js/blog.js"></script>
+    @*<script src="../../js/blog.js"></script>
+        <script src="../../js/blogManager.js"></script>*@
+    
+    <script src="~/js/jquery.mixitup.min.js"></script>
 
     <script src="../../js/PostList.js"></script>
 
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=436241219912916";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

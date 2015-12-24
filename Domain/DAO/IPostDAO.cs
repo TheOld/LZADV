@@ -11,6 +11,7 @@ namespace LoboVaz.Domain.DAO
     {
         
         List<Post> load(User user, int page, string filter);
+        List<Post> loadInactive(User user, int page, string filter);
         Post FindBy(ObjectId id);
         void Update(Post post);
         void Save(Post post);

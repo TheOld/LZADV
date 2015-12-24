@@ -41,6 +41,29 @@ namespace LoboVaz.Domain.DAO
             }
         }
 
+
+        public List<Post> loadInactive(User user, int page, String filter)
+        {
+            try
+            {
+                IMongoQueryable<Post> query = base.Context().GetCollection<Post>(Post.COLLECTION_NAME).AsQueryable();
+
+                if (!String.IsNullOrEmpty(filter))
+                {
+                    filter = filter.ToLower();
+                    query = query.Where(x => x.Title.ToLower().Contains(filter) || x.Content.ToLower().Contains(filter));
+
+                }
+
+                return query.Where(x => x.IsEnable == false && user.Id.Equals(x.Author)).Skip(page * 10).Take(10).ToList();
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
+
         public void Save(Post post)
         {
             base.Context().GetCollection<Post>(Post.COLLECTION_NAME).InsertOneAsync(post);
@@ -54,6 +77,7 @@ namespace LoboVaz.Domain.DAO
                 .Set(x => x.IsEnable, post.IsEnable)
                 .Set(x => x.Content, post.Content)
                 .Set(x => x.LastWrite, post.LastWrite)
+                .Set(x => x.PostCover, post.PostCover)
                 .Set(x => x.Author, post.Author);
             base.Context().GetCollection<Post>(Post.COLLECTION_NAME).UpdateOneAsync(filter, update);
         }

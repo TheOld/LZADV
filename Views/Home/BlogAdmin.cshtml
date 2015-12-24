@@ -1,15 +1,15 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR">
- 
+
 <head>
     <meta charset="utf-8" lang="pt-br">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lobo & Vaz Advogados Associados</title>
     <!-- Bootstrap -->
-    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
 
-    
+
     <link href="../../css/styles.css?v=1.2" rel="stylesheet">
     <link href="../../css/queries.css?v=1.2" rel="stylesheet">
     <link rel="stylesheet" href="../../css/flexslider.css?v=1.2" type="text/css">
@@ -37,39 +37,128 @@
 </head>
 
 <body>
+    <div class="alert notification" role="alert" id="notification">
+        
+    </div>
     <input type="hidden" id="id" value="@ViewBag.UserID" />
+    <input type="hidden" id="selected-post-id" value="" />
     <div class="content-wrap">
         <div class="content">
             <div class="container-fluid">
+
+
+
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="text-center">Área administrativa</h2>
-                        <button id="new-post" class="btn btn-success pull-right btn-sm"><i class="fa fa-plus"></i> Novo post</button>
+
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
+                        <div class="dropdown pull-right">
+                            <button class="btn btn-default dropdown-toggle"
+                                    type="button"
+                                    id="dropdownMenu1"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                <span id="username"></span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#" id="show-profile-editor"><i class="fa fa-user"></i> Perfil</a></li>
+                                <li><a href="#" class="toggle-table" ><i class="fa fa-list"></i> Posts inativos</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="/User/logOff"><i class="fa fa-sign-out"></i> Sair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-20" id="active-post-list">
+                    <div class="col-md-12">
                         <div class="table-responsive">
-                            <label>Lista de posts</label>
-                            <table class="table table-bordered table-hover" id="post-table">
+                            <label>Posts ativos</label>
+                            <button id="new-post" class="btn btn-success pull-right btn-sm"><i class="fa fa-plus"></i> Novo post</button>
+                            <table class="table table-bordered table-hover" id="active-post-table">
                                 <thead>
                                     <tr>
-                                        <th>ID</th>
+                                        <th class="hidden">ID</th>
                                         <th>Título</th>
                                         <th>Data</th>
                                         <th></th>
                                         <th></th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-20 inactive-post-list" id="inactive-post-list">
+                    <div class="col-md-12">
+                        <label>Posts inativos</label>
+                        <div class="table-responsive">
 
-                                </tbody>
+                            
+                            <table class="table table-bordered table-hover" id="inactive-post-table">
+                                <thead>
+                                    <tr>
+                                      
+                                        <th>Título</th>
+                                        <th>Data</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
                             </table>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <section id="profile-editor" class="profile-editor-holder container-fluid">
+                <div class="profile-editor-container">
+                    <a href="#" class="pull-right margin-right-15" id="close-profile-editor">Fechar</a>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h2>Perfil</h2>
+                            <form id="profile-editor-form" class="margin-top-30">
+                                <input type="hidden" id="userID"/>
+                                <div class="form-group">
+                                    <div class="text-center">
+                                        <img id="profile-pic" width="100" height="100" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="profile-pic-input">Foto do perfil</label>
+                                    <input type="file" name="profile-pic-input" id="profile-pic-input" accept=".jpg,.png"/>
+                                    <small>A imagem deverá ter as dimensões 100px x 100px com a extensão .png ou .jpg.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-name">Nome</label>
+                                    <input type="text" class="form-control" id="profile-name" placeholder="Nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-email">Email</label>
+                                    <input type="email" class="form-control" id="profile-email" placeholder="Email" required>
+                                </div>
+                               
+                                <div class="form-group">
+                                    <label for="profile-new-pw">Nova senha</label>
+                                    <input type="password" class="form-control" id="profile-pw" name="profile-pw" placeholder="Nova senha">
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-confirm-pw">Confirmação de senha</label>
+                                    <input type="password" class="form-control" id="profile-pw-check" name="profile-pw-check" placeholder="Confirmação de senha">
+                                </div>
+                                <button type="button" id="btnSaveProfile" class="btn btn-default pull-right"><i class="fa fa-save"></i> Salvar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section id="post-editor" class="post-editor-holder container-fluid">
                 <div class="post-editor-container ">
@@ -79,46 +168,53 @@
                             <h2>Editor</h2>
                         </div>
                     </div>
+
                     <form id="post-editor-form" class="margin-top-30">
                         <div class="row">
-                            <div class="col-md-5">
-                                <label for="title">Título</label>
+                            <div class="col-sm-6">
+                                <label for="title" class="control-label">Título</label>
                                 <input id="title" name="title" type="text" required />
                             </div>
-                            <div class="col-md-5">
-                                <label for="category">Categoria</label>
-                                <select id="category">
+                            <div class="col-sm-6">
+                                <label for="category" class="control-label col-sm-2">Categoria</label>
+                                <select id="category" class="col-sm-10">
                                     <option selected>- Categoria -</option>
                                     <option>Direito Aduaneiro</option>
-                                    <option>Direito do Tranbalho e Previdenciário</option>
+                                    <option>Direito do Trabalho e Previdenciário</option>
                                     <option>Direito Marítimo</option>
                                     <option>Direito Tributário</option>
                                     <option>Direito Empresarial</option>
                                     <option>Direito Internacional</option>
                                 </select>
                             </div>
-                            <div class="col-md-2">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" id="isActive"> Post ativo?
-                                    </label>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+
+                                <label class="control-label" for="post-date">Data</label>
+                                <input type="date" id="post-date" />
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="control-label" for="txtUploadFile">Imagem de capa</label>
+                                <input type="file" name="UploadFile" id="txtUploadFile" />
+                                <img id="post-cover-preview" width="100" class="hidden pull-right post-cover-preview"/>
                             </div>
                         </div>
-
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="form-group margin-right-50">
                                 <textarea class="post-editor" id="post-body"></textarea>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="form-group margin-top-10">
 
-                        <div class="row margin-top-10">
-                            <div class="col-sm-12">
-                                <button id="btn-save-post" class="btn btn-default pull-right" type="submit"><i class="fa fa-save"></i>Salvar</button>
+                                <button id="btn-save-post" class="btn btn-default pull-right" type="button"><i class="fa fa-save"></i>Salvar</button>
                                 <button id="cancel-post-edit" class="btn btn-link fg-orange pull-right" type="button">Cancelar</button>
+
                             </div>
                         </div>
                     </form>
+
                 </div>
             </section>
         </div>
@@ -131,9 +227,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 
     <script>
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
@@ -164,10 +260,12 @@
             selector: '.post-editor',
             plugins: 'advlist autolink link image lists charmap print preview autoresize',
             autoresize_bottom_margin: 50,
-            autoresize_max_height: 240
+
         });
 
     </script>
+
+    <script src="../../js/blogManager.js"></script>
     <script src="../../js/blog-admin.js"></script>
 
 

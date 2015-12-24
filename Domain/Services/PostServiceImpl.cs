@@ -24,6 +24,12 @@ namespace LoboVaz.Services
             return PostDAO.load(user,page,filter);
         }
 
+        public List<Post> LoadInactive(ObjectId userID, int page, string filter)
+        {
+            User user = UserService.FindBy(userID);
+            return PostDAO.loadInactive(user, page, filter);
+        }
+
         public Post FindBy(ObjectId id)
         {
             return PostDAO.FindBy(id);
@@ -43,11 +49,13 @@ namespace LoboVaz.Services
 
         }
 
-        public void Toggle(ObjectId objectId)
+        public bool Toggle(ObjectId objectId)
         {
             Post post = FindBy(objectId);
             post.IsEnable = !post.IsEnable;
             Save(post);
+
+            return post.IsEnable;
         }
     }
 }

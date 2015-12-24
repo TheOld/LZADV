@@ -25,6 +25,7 @@ namespace LoboVaz.Domain.DAO
             try
             {
                 return base.Context().GetCollection<User>(User.COLLECTION_NAME).AsQueryable().Where(x => x.Email.Equals(login)).First();
+
             }catch(Exception e)
             {
                 return null;
@@ -34,6 +35,18 @@ namespace LoboVaz.Domain.DAO
         public void Save(User user)
         {
             base.Context().GetCollection<User>(User.COLLECTION_NAME).InsertOneAsync(user);
+        }
+
+        public void Update(User user)
+        {
+            var filter = Builders<User>.Filter.Eq("_id", user.Id);
+            var update = Builders<User>.Update
+                .Set(s => s.Name, user.Name)
+                .Set(x => x.Password, user.Password)
+                .Set(x => x.Email, user.Email);
+                //.Set(x => x.LastWrite, post.LastWrite)
+                //.Set(x => x.Author, post.Author);
+            base.Context().GetCollection<User>(User.COLLECTION_NAME).UpdateOneAsync(filter, update);
         }
     }
 }
