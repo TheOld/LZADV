@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lobo & Vaz Advogados Associados</title>
     <!-- Bootstrap -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-
-
+    @*<link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../css/styles.css?v=1.2" rel="stylesheet">
     <link href="../../css/queries.css?v=1.2" rel="stylesheet">
     <link rel="stylesheet" href="../../css/flexslider.css?v=1.2" type="text/css">
@@ -18,8 +16,11 @@
     <link href="~/css/scrollToTop.css" rel="stylesheet" />
     <link href="~/css/easing.css" rel="stylesheet" />
     <link href="~/css/helpers.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/animate.css" type="text/css">*@
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Lato:400,300,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    @Styles.Render("~/css/Home")
     <link href="~/css/blog-admin.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../../css/animate.css" type="text/css">
+
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -245,16 +246,28 @@
     </script>
 
     <!--    <script src="../../js/modernizr.js"></script>-->
-    <script src="../../js/modernizr-2.6.2.js"></script>
+    @*<script src="../../js/modernizr-2.6.2.js"></script>
     <script src="../../js/jquery.validate.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/classie.js"></script>
 
     <script src="../../js/velocity.min.js"></script>
-    <script src="../../js/velocity.ui.js"></script>
+    <script src="../../js/velocity.ui.js"></script>*@
 
 
-    <script src="~/node_modules/tinymce/tinymce.min.js"></script>
+    
+
+    @Scripts.Render("~/js/jq")
+    @Scripts.Render("~/js/mdrnzr")
+    @Scripts.Render("~/js/jqval")
+
+    @Scripts.Render("~/js/btstrp")
+        @Scripts.Render("~/js/home")
+        <script src="~/js/tinymce.min.js"></script>
+    
+    <script src="../../js/blog-admin.js"></script>
+
+    
     <script>
         tinymce.init({
             selector: '.post-editor',
@@ -264,11 +277,6 @@
         });
 
     </script>
-
-    <script src="../../js/blogManager.js"></script>
-    <script src="../../js/blog-admin.js"></script>
-
-
 
 
 </body>

@@ -5,18 +5,13 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Lobo & Vaz Advogados Associados - @ViewBag.Post.Title</title>
-    <!-- Bootstrap -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link href="../../css/styles.css" rel="stylesheet">
-    <link href="../../css/blog.css" rel="stylesheet" />
-    <link href="../../css/queries.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/grid.css" type="text/css">
-    <link rel="stylesheet" href="../../css/submitButton.css" type="text/css">
+    <title>Lobo & Vaz Advogados Associados</title>
+    <meta name="description" content="Fundada em 2010 e inscrita na OAB/SC sob o nº 1.783, a Lobo & Vaz Advogados Associados resultou da união de conhecimentos, experiências e objetivos em comuns de seus integrantes, que primam pela excelência dos serviços jurídicos prestados, especialmente nas áreas de Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional.">
+    <meta name="keywords" content="advogados, florianópolis,  Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional">
+    <meta name="author" content="Leandro Rodrigues do Canto">
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Lato:400,300,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    @Styles.Render("~/css/Home")
     <link href="~/css/postList.css" rel="stylesheet" />
-    <link href="~/css/helpers.css" rel="stylesheet" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     @*@Styles.Render("~/Content/css")*@
 </head>
@@ -85,18 +80,12 @@
 
 
 
+    @Scripts.Render("~/js/jq")
+    @Scripts.Render("~/js/mdrnzr")
+    @Scripts.Render("~/js/jqval")
 
-
-    <!--    <script src="../../js/modernizr.js"></script>-->
-    <script src="../../js/modernizr-2.6.2.js"></script>
-
-    <script src="../../js/bootstrap.min.js"></script>
-
-    <script src="../../js/jquery-scrollToTop.js"></script>
-    <script src="../../js/classie.js"></script>
-
-    <script src="../../js/velocity.min.js"></script>
-    <script src="../../js/velocity.ui.js"></script>
+    @Scripts.Render("~/js/btstrp")
+    @Scripts.Render("~/js/home")
     <script src="~/js/PostView.js"></script>
 
     <script>

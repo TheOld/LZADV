@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbhfYemiGl0O0rZ55qFS1IAAAAAACAAAAAAAQZgAAAAEAACAAAACb3o7hFajB0q10Jfglk6cIOoWe4/CdD1nTiNq/FESXkQAAAAAOgAAAAAIAACAAAACoO89Xa5kC4HYbcyhBY6ElTqGoic+iVcv0zAQ6+QxWmiAAAACvW4PsQf1jbpRX26nMKgboKJvz9VcCIH21w4VYZHcVH0AAAAD/e82HtWa7zL/Qy9rmHmfqsFwtUHpXWk6UQayVMa0miDSjep0x67SoSVOHFxAGmBZiPgU0zZzxf6eB2oV9Q32R</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.lzadv.com.br/lzadv.com.br/wwwroot</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\leand\Documents\GitHub\LZADV\publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="artigos/artigos.zip">
@@ -134,181 +134,220 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>07/10/2014 23:20:48</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/LoboVaz.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/25/2015 10:35:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>12/03/2015 21:29:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>12/03/2015 21:29:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>12/03/2015 21:29:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Mvc.dll">
+      <publishTime>12/03/2015 21:29:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>12/03/2015 21:29:51</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>07/08/2013 14:15:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>12/03/2015 21:29:50</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.Core.dll">
+      <publishTime>12/03/2015 21:29:50</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>12/03/2015 21:29:50</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.Legacy.dll">
+      <publishTime>12/03/2015 21:29:50</publishTime>
     </File>
     <File Include="bin/Mvc.Mailer.dll">
-      <publishTime>09/08/2014 15:24:12</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>10/02/2013 11:10:10</publishTime>
+      <publishTime>12/05/2015 13:38:29</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>12/05/2015 13:38:33</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>07/10/2014 23:20:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>12/05/2015 13:38:35</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/21/2015 20:51:04</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>07/10/2014 23:20:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>07/10/2014 23:20:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>07/10/2014 23:20:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>07/10/2014 23:20:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>07/10/2014 23:20:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="bin/Unity.WebApi.dll">
+      <publishTime>12/05/2015 13:38:37</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>12/03/2015 21:29:49</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>07/10/2014 23:20:48</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/.DS_Store">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/blg-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/boletim01.html">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/fb-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/index-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/lnkd-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/rodape-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/01/tw-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/.DS_Store">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/art1.jpg">
-      <publishTime>05/05/2014 22:26:06</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/blg-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/boletim-juridico_02.ai">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/boletim02.html">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/fb-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/index-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/lnkd-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/rodape-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/02/tw-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/blg-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/boletim-juridico_03.ai">
-      <publishTime>12/09/2014 14:45:36</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/boletim03.html">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/fb-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/index-01.jpg">
-      <publishTime>12/09/2014 14:45:52</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/lnkd-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/rodape-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/03/tw-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/blg-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/boletim04.html">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/fb-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/index-01.jpg">
-      <publishTime>06/12/2015 01:01:16</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/lnkd-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/rodape-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/04/tw-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/blg-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/Boletim 5.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/boletim05.html">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/fb-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/index-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/lnkd-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/rodape-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/05/tw-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/thumbs/thumb01.png">
-      <publishTime>12/11/2014 18:30:12</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/thumbs/thumb02.png">
-      <publishTime>12/11/2014 18:32:44</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/thumbs/thumb03.png">
-      <publishTime>12/09/2014 21:54:50</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/thumbs/thumb04.png">
-      <publishTime>12/06/2015 20:11:06</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="boletins/thumbs/thumb05.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>01/09/2014 23:36:04</publishTime>
@@ -440,7 +479,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2014 23:20:42</publishTime>
     </File>
     <File Include="css/animate.css">
-      <publishTime>05/03/2014 22:54:48</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="css/blog-admin.css">
+      <publishTime>12/23/2015 15:52:19</publishTime>
+    </File>
+    <File Include="css/blog.css">
+      <publishTime>12/23/2015 22:26:25</publishTime>
     </File>
     <File Include="css/bootstrap-theme.css">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -449,7 +494,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="css/bootstrap-theme.min.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/22/2015 20:34:16</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css.map">
+      <publishTime>12/22/2015 20:34:16</publishTime>
     </File>
     <File Include="css/bootstrap.css">
       <publishTime>10/12/2014 16:38:34</publishTime>
@@ -458,139 +506,148 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>10/12/2014 16:38:36</publishTime>
+      <publishTime>12/22/2015 20:34:16</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css.map">
+      <publishTime>12/22/2015 20:34:16</publishTime>
     </File>
     <File Include="css/easing.css">
-      <publishTime>05/06/2014 13:01:16</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="css/flexslider.css">
-      <publishTime>08/12/2014 01:21:40</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="css/grid.css">
       <publishTime>10/12/2014 14:25:56</publishTime>
     </File>
+    <File Include="css/helpers.css">
+      <publishTime>12/23/2015 19:25:02</publishTime>
+    </File>
     <File Include="css/onepage-scroll.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="css/postList.css">
+      <publishTime>12/23/2015 22:34:04</publishTime>
     </File>
     <File Include="css/queries.css">
-      <publishTime>10/07/2014 00:07:06</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="css/scrollToTop.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="css/styles.css">
-      <publishTime>07/21/2015 20:20:50</publishTime>
+      <publishTime>12/23/2015 22:47:08</publishTime>
     </File>
     <File Include="css/submitButton.css">
-      <publishTime>09/10/2014 00:40:04</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>07/10/2014 23:32:42</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/blokk/BLOKKRegular.eot">
-      <publishTime>02/01/2013 20:10:44</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/blokk/BLOKKRegular.svg">
-      <publishTime>02/01/2013 20:10:44</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/blokk/BLOKKRegular.ttf">
-      <publishTime>02/01/2013 15:48:54</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/blokk/BLOKKRegular.woff">
-      <publishTime>02/01/2013 20:10:44</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.eot">
-      <publishTime>05/06/2013 08:45:30</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.svg">
-      <publishTime>05/06/2013 08:45:30</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.ttf">
-      <publishTime>05/06/2013 08:45:30</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.woff">
-      <publishTime>05/06/2013 08:45:30</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/codropsicons/license.txt">
-      <publishTime>05/02/2013 15:43:52</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/feathericons/feathericons.eot">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/feathericons/feathericons.svg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/feathericons/feathericons.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/feathericons/feathericons.woff">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/flexslider-icon.eot">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/flexslider-icon.svg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/flexslider-icon.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/flexslider-icon.woff">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.eot">
-      <publishTime>05/11/2014 09:20:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.svg">
-      <publishTime>05/11/2014 09:20:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.ttf">
-      <publishTime>05/11/2014 09:20:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.woff">
-      <publishTime>05/11/2014 09:20:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>07/10/2014 23:20:42</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/about-bg.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/about-news-separator.png">
-      <publishTime>12/11/2014 22:18:26</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/adu.png">
-      <publishTime>12/11/2014 22:19:05</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/area-bg-pattern.png">
-      <publishTime>12/11/2014 22:18:23</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/arroba.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/arrow-left.png">
-      <publishTime>12/11/2014 22:19:02</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/arrow-right.png">
-      <publishTime>12/11/2014 22:19:06</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/arrow.png">
-      <publishTime>12/11/2014 22:18:27</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/att-bg.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/bicycle-logo.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -599,79 +656,88 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/blue-logo.png">
-      <publishTime>12/11/2014 22:18:22</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="img/brc-circle.png">
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/brc.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/brn.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="img/Bruce Bastos Martins.png">
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="img/Bruno Eduardo Budal Lobo.png">
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/btn-home-hover.png">
-      <publishTime>12/11/2014 22:18:38</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/btn-home.png">
-      <publishTime>12/11/2014 22:18:40</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/chrome-wheels.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/client.png">
-      <publishTime>12/11/2014 22:18:52</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/cog-icon.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/contact-bg.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/contact-line.png">
-      <publishTime>12/11/2014 22:18:29</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/cycle-hover.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/cycle.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dir-emp.png">
-      <publishTime>12/11/2014 22:18:44</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dir-int.png">
-      <publishTime>12/11/2014 22:19:03</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dir-mar.png">
-      <publishTime>12/11/2014 22:19:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dir-trab.png">
-      <publishTime>12/11/2014 22:18:52</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dir-trib.png">
-      <publishTime>12/11/2014 22:18:52</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dirtrab.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/dot-grid-overlay.png">
-      <publishTime>12/11/2014 22:18:55</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/en-GB.png">
-      <publishTime>09/02/2014 00:22:58</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/end.jpg">
-      <publishTime>12/09/2014 11:02:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/facebook-icon.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/facebook.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/file-dl.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/fr.png">
-      <publishTime>09/02/2014 00:22:40</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/frame-icon.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -679,17 +745,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="img/front-icon.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
+    <File Include="img/Gabriel Souto Silva.png">
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
     <File Include="img/gbrl.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/header-bg.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/hero-bg.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/hero-bg.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/hero.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -719,10 +788,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/lcs.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/left-arrow.png">
-      <publishTime>12/11/2014 22:18:12</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/left-box-1.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -731,22 +800,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/linkedin.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/lobovaz-logo.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/logo-blue-single.png">
-      <publishTime>12/11/2014 22:18:29</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/logo-gray-single.png">
-      <publishTime>12/11/2014 22:18:27</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/logo-lines.png">
-      <publishTime>12/11/2014 22:18:31</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/logonline.png">
-      <publishTime>12/11/2014 22:18:43</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="img/logo_canal_juridico.png">
+      <publishTime>12/23/2015 12:31:35</publishTime>
+    </File>
+    <File Include="img/logo_conexao_juridica.png">
+      <publishTime>12/23/2015 12:25:13</publishTime>
     </File>
     <File Include="img/main-logo.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -755,25 +830,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/navbg.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/news-bg.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/phone.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/pin.png">
-      <publishTime>12/11/2014 22:19:09</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/pintrest-icon.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/plus-sign.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/pt-br.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="img/Rafael Medeiros Popini Vaz.png">
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/red-bike.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -782,10 +860,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/rfl.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/right-arrow.png">
-      <publishTime>12/11/2014 22:18:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/seat-black.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -794,22 +872,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/ship.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/spritebox-sprite.png">
-      <publishTime>12/11/2014 22:18:14</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/square-dark.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/square-hover-dark.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/square-hover.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/square.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/text-hover.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -818,25 +896,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/trans-logo-small.png">
-      <publishTime>12/11/2014 22:18:13</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/trans-logo.png">
-      <publishTime>12/11/2014 22:18:30</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/triangle-hover.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/triangle.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/twitter-bird.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/twitter-icon.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/twitter.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/vintage-logo.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -845,61 +923,103 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/wordpress.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="img/yebo-icon.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="img/youtube.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/blog-admin.js">
+      <publishTime>12/23/2015 15:48:27</publishTime>
+    </File>
+    <File Include="js/blog.js">
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/bootstrap.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/bootstrap.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/classie.js">
-      <publishTime>05/03/2013 14:02:24</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/custom-file-upload.js">
+      <publishTime>12/20/2015 21:31:26</publishTime>
+    </File>
+    <File Include="js/jquery-2.1.4.min.js">
+      <publishTime>12/20/2015 22:31:35</publishTime>
     </File>
     <File Include="js/jquery-scrollToTop.js">
-      <publishTime>06/05/2014 13:01:16</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/jquery.flexslider-min.js">
-      <publishTime>05/08/2013 03:27:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/jquery.flexslider.js">
-      <publishTime>05/08/2013 03:27:08</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/jquery.mixitup.min.js">
+      <publishTime>12/23/2015 20:50:37</publishTime>
     </File>
     <File Include="js/jquery.onepage-scroll.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/jquery.validate.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/min/scripts-ck.js">
-      <publishTime>04/05/2014 11:52:22</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/min/waypoints.min-ck.js">
-      <publishTime>03/05/2014 15:49:06</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/modernizr-2.6.2.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.js">
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/modernizr.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/PostList.js">
+      <publishTime>12/23/2015 22:43:16</publishTime>
+    </File>
+    <File Include="js/PostView.js">
+      <publishTime>12/23/2015 14:38:31</publishTime>
     </File>
     <File Include="js/progressButton.js">
-      <publishTime>12/12/2013 17:57:16</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/responsive-video.js">
+      <publishTime>12/21/2015 01:44:17</publishTime>
     </File>
     <File Include="js/scripts.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/23/2015 15:42:20</publishTime>
+    </File>
+    <File Include="js/skype-check.js">
+      <publishTime>12/23/2015 11:45:32</publishTime>
+    </File>
+    <File Include="js/tinymce.min.js">
+      <publishTime>12/25/2015 10:35:12</publishTime>
+    </File>
+    <File Include="js/velocity.min.js">
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="js/velocity.ui.js">
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/waypoints.min.js">
-      <publishTime>04/08/2013 22:12:36</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>12/06/2015 17:45:00</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>09/08/2014 15:24:16</publishTime>
+      <publishTime>12/06/2015 18:15:01</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>10/07/2014 23:20:44</publishTime>
@@ -937,44 +1057,56 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/respond.min.js">
       <publishTime>10/07/2014 23:20:48</publishTime>
     </File>
+    <File Include="Views/Home/BlogAdmin.cshtml">
+      <publishTime>12/25/2015 10:35:02</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/24/2015 17:39:59</publishTime>
     </File>
     <File Include="Views/Home/IndexEN.cshtml">
-      <publishTime>12/09/2014 20:28:35</publishTime>
+      <publishTime>12/24/2015 17:52:09</publishTime>
     </File>
     <File Include="Views/Home/IndexFR.cshtml">
-      <publishTime>12/09/2014 20:28:47</publishTime>
+      <publishTime>12/24/2015 17:53:18</publishTime>
+    </File>
+    <File Include="Views/Home/WritePost.cshtml">
+      <publishTime>12/06/2015 17:45:00</publishTime>
     </File>
     <File Include="Views/Mailer/CopyToClient.cshtml">
-      <publishTime>11/03/2015 20:16:00</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Mailer/mailer.css">
-      <publishTime>11/03/2015 20:12:46</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Mailer/mailer.min.css">
-      <publishTime>11/03/2015 20:12:47</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Mailer/PrepareMailForm.cshtml">
-      <publishTime>11/03/2015 20:19:49</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Mailer/_Layout.cshtml">
-      <publishTime>11/03/2015 20:12:47</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
+    </File>
+    <File Include="Views/Post/PostList.cshtml">
+      <publishTime>12/24/2015 17:35:43</publishTime>
+    </File>
+    <File Include="Views/Post/PostView.cshtml">
+      <publishTime>12/24/2015 17:30:18</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>09/08/2014 14:44:30</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/08/2014 14:44:28</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>09/08/2014 14:44:34</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>07/10/2014 23:24:06</publishTime>
+      <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/06/2015 20:55:04</publishTime>
+      <publishTime>12/25/2015 10:35:55</publishTime>
     </File>
   </ItemGroup>
 </Project>

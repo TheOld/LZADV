@@ -50,19 +50,6 @@ namespace LoboVaz
                      ));
 
             bundles.Add(new StyleBundle("~/css/Home").Include(
-
-                      //< link href = "../../css/bootstrap.css" rel = "stylesheet" >
-                      //< link href = "../../css/styles.css" rel = "stylesheet" >
-                      //< link href = "../../css/queries.css" rel = "stylesheet" >
-                      //< link rel = "stylesheet" href = "../../css/flexslider.css?v=1.2" type = "text/css" >
-                      //< link rel = "stylesheet" href = "../../css/grid.css" type = "text/css" >
-                      //< link rel = "stylesheet" href = "../../css/submitButton.css" type = "text/css" >
-                      //< link href = "~/css/scrollToTop.css" rel = "stylesheet" />
-                      //< link href = "~/css/easing.css" rel = "stylesheet" />
-                      //< link href = "~/css/helpers.css" rel = "stylesheet" />
-
-                      //< link rel = "stylesheet" href = "../../css/animate.css" type = "text/css" >
-
                       "~/css/bootstrap.min.css",
                       "~/css/bootstrap-theme.min.css",
                      "~/css/styles.css",
@@ -79,7 +66,7 @@ namespace LoboVaz
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
-            //BundleTable.EnableOptimizations = true;
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
