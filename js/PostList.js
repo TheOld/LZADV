@@ -1,8 +1,11 @@
-﻿/// <reference path="blogManager.js" />
+﻿
+/// <reference path="blogManager.js" />
 var authorID = "";
 
 
 $(document).ready(function () {
+
+    
 
     var inputText;
     var $matching = $();
@@ -61,9 +64,9 @@ $(document).ready(function () {
 
         $(this).addClass('profile-active');
         authorID = $(this).data('id');
-       
+
         getPostList();
-        
+
     });
 
 });
@@ -238,6 +241,59 @@ function buildPostData(post, user) {
     //	<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
     //</nav>
 
+    //<div class="skype-status" data-id="brc">
+
+    //                            <div id="SkypeButton_Call_brucebastos13_1" class="post-view-skype">
+    //                                <span class="pull-right">Ler artigos</span>
+    //                            </div>
+    //                            <div class="skype-status hidden" data-id="brn">
+
+    //                                <div id="SkypeButton_Call_lobo.brunoo_1" class="post-view-skype">
+    //                                    <span class="pull-right">Ler artigos</span>
+    //                                </div>
+    //                            </div>
+    //                            <div class="skype-status hidden" data-id="gbr">
+
+    //                                <div id="SkypeButton_Call_facebook:gssouto_1" class="post-view-skype">
+    //                                    <span class="pull-right">Ler artigos</span>
+    //                                </div>
+    //                            </div>
+    //                            <div class="skype-status hidden" data-id="rfl">
+
+    //                                <div id="SkypeButton_Call_rafaelpopini_1" class="post-view-skype">
+    //                                    <span class="pull-right">Ler artigos</span>
+    //                                </div>
+    //                            </div>
+
+    //                        </div>
+
+    var skypeBruce   = 'SkypeButton_Call_brucebastos13_1';
+    var skypeBruno   = 'SkypeButton_Call_lobo.brunoo_1';
+    var skypeGabriel = 'SkypeButton_Call_facebook:gssouto_1';
+    var skypeRafael  = 'SkypeButton_Call_rafaelpopini_1';
+
+    var mailBruce   = 'bruce@lzadv.com.br';
+    var mailBruno   = 'bruno@lzadv.com.br';
+    var mailGabriel = 'gabriel@lzadv.com.br';
+    var mailRafael  = 'rafael@lzadv.com.br';
+
+    var skypeContact = '';
+    var mail         = '';
+
+    if (user.Name === "Bruce Bastos Martins") {
+        skypeContact = skypeBruce;
+        mail         = mailBruce;
+    } else if (user.Name === "Bruno Eduardo Budal Lobo") {
+        skypeContact = skypeBruno;
+        mail         = mailBruno;
+    } else if (user.Name === "Gabriel Souto da Silva") {
+        skypeContact = skypeGabriel;
+        mail         = mailGabriel;
+    } else {
+        skypeContact = skypeRafael;
+        mail         = mailRafael;
+    }
+
     var fullPost =
         '<span class="category category--full">' + post.Category + '</span>' +
         '<h2 class="title title--full">' + post.Title + '</h2>' +
@@ -248,27 +304,26 @@ function buildPostData(post, user) {
             '<span class="meta__author">' + user.Name + '</span>' +
             '<span class="meta__date"><i class="fa fa-calendar-o"></i>' + date + '</span>' +
             '<span class="meta__misc meta__misc--seperator">' +
-                '<div class="fb-share-button" data-href="http://www.lzadv.com.br/post/postview?id=' + post._ID + '" data-layout="button"></div>' +
+                '<a href="mailto:"' + mail + '">' + mail + '</a>' +
+
+                '<div class="fb-share-button margin-top-10" data-href="http://www.lzadv.com.br/post/postview?id=' + post._ID + '" data-layout="button"></div>' +
             '</span>' +
 
-        '</div>' +
+         '</div>' +
 
         '<hr />' +
         '<div><p>' + post.Content + '</p></div>' +
-        //<!-- Facebook comments plugin -->
-        '<div class="container">' +
-        '<div class="row">' +
-            '<div class="col-md-6">' +
-                '<div id="fb-root"></div>' +
-                '<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>' +
-                //TODO: substituir post.Title por post.ID
-                '<div class="fb-comments" data-href="http://www.lzadv.com.br/post/' + post.Title + '" data-numposts="5"></div>' +
-                '<script>FB.XFBML.parse();</script>' +
-            '</div>' +
-            //'<div class="col-md-2">'+
-            //    '<a class="btn btn-default fb-share" href="javascript:fbshareCurrentPage()" target="_blank" alt="Share on Facebook">Compartilhar</a>' +
-            //'</div>' +
-            '</div>' +
+            //<!-- Facebook comments plugin -->
+                '<div class="container">' +
+                    '<div class="row">' +
+                    '<div class="col-md-6">' +
+                        '<div id="fb-root"></div>' +
+                        '<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>' +
+            //TODO: substituir post.Title por post.ID
+                        '<div class="fb-comments" data-href="http://www.lzadv.com.br/post/' + post.Title + '" data-numposts="5"></div>' +
+                        '<script>FB.XFBML.parse();</script>' +
+                    '</div>' +
+                '</div>' +
         '</div>';
     document.title = post.Title;
 
@@ -276,7 +331,7 @@ function buildPostData(post, user) {
 
     //InitFBComments();
 
-    
+
 };
 
 function showOptionsMenu() {
@@ -302,7 +357,7 @@ function initMixItUp() {
     $('#post-list').mixItUp({
         animation: {
             duration: 260,
-            effects: 'fade translateZ(-520px) stagger(144ms)',
+            effects: 'fade translateY(520px) stagger(80ms)',
             easing: 'cubic-bezier(0.455, 0.03, 0.515, 0.955)'
         },
         layout: {
@@ -312,6 +367,9 @@ function initMixItUp() {
     $('#post-list').mixItUp('filter', 'all');
 }
 
+function goBack() {
+    window.history.back();
+}
 
 // #region Post List Init
 
@@ -338,22 +396,25 @@ function InitPostManager() {
 		        onEndCallbackFn();
 		    }
 		},
-		gridEl = document.getElementById('theGrid'),
-		sidebarEl = document.getElementById('theSidebar'),
-		//gridItemsContainer = gridEl.querySelector('section.grid'),
-        gridItemsContainer = gridEl.querySelector('section.post-list'),
+		gridEl                = document.getElementById('theGrid'),
+		sidebarEl             = document.getElementById('theSidebar'),
+		//gridItemsContainer  = gridEl.querySelector('section.grid'),
+        gridItemsContainer    = gridEl.querySelector('section.post-list'),
 		contentItemsContainer = gridEl.querySelector('section.ccontent'),
-		gridItems = gridItemsContainer.querySelectorAll('.grid__item'),
+		gridItems             = gridItemsContainer.querySelectorAll('.grid__item'),
+        
 		//contentItems = '',
-        gridItem = '',
+        gridItem    = '',
         contentItem = contentItemsContainer.querySelector('.content__item'),
-        closeCtrl = contentItemsContainer.querySelector('.close-button'),
-		current = -1,
-		lockScroll = false, xscroll, yscroll,
+        closeCtrl   = contentItemsContainer.querySelector('.close-button'),
+        backCtrl    = contentItemsContainer.querySelector('.back-button'),
+		current     = -1,
+		lockScroll  = false, xscroll, yscroll,
 		isAnimating = false,
 
-		menuCtrl = document.getElementById('menu-toggle'),
-    menuCloseCtrl = sidebarEl.querySelector('.close-button');
+		menuCtrl      = document.getElementById('menu-toggle'),
+        menuCloseCtrl = sidebarEl.querySelector('.close-button');
+        profile       = sidebarEl.querySelector('.profile');
 
     /**
 	 * gets the viewport width and height
@@ -437,11 +498,22 @@ function InitPostManager() {
             }
         });
 
+        backCtrl.addEventListener('click', function () {
+            // hide content
+            hideContent();
+        });
+
         menuCloseCtrl.addEventListener('click', function () {
 
-            if (classie.has(sidebarEl, 'sidebar--open')) {
-                classie.remove(sidebarEl, 'sidebar--open');
-            }
+            //if (classie.has(sidebarEl, 'sidebar--open')) {
+            //    classie.remove(sidebarEl, 'sidebar--open');
+            //}
+
+            hideSidebar();
+        });
+
+        profile.addEventListener('click', function () {
+            hideSidebar();
         });
 
         isInitiated = true;
@@ -514,6 +586,12 @@ function InitPostManager() {
 
             isAnimating = false;
         });
+    }
+
+    function hideSidebar() {
+        if (classie.has(sidebarEl, 'sidebar--open')) {
+            classie.remove(sidebarEl, 'sidebar--open');
+        }
     }
 
     function hideContent() {

@@ -29,38 +29,13 @@ $(window).load(function () {
         var w = $(window).width();
         if (w > 320 && menu.is(':hidden')) {
             menu.removeAttr('style');
-
-
-
         }
     });
-
-
-
-
 });
 
 
 //OVERLAYS
 $(document).ready(function () {
-    //$(".grid__item").hide();
-
-    //$('.profile').click(function () {
-    //    $('.profile-container figure').each(function () {
-    //        if ($(this).hasClass('profile-active')) {
-    //            $(this).removeClass('profile-active');
-    //        }
-    //    });
-
-    //    $(this).toggleClass('profile-active');
-
-    //    if (!$(".grid__item").is(":visible")) {
-    //        $(".grid__item").velocity("transition.slideUpIn", { duration: 250, easing: [250, 60], stagger: 100, display: "flex" });
-    //    }
-
-    //});
-
-
 
     $('.news-menu, .att-menu, .about-menu').click(function () {
         if ($('#open-button').hasClass('menu-buttonLight'))
@@ -104,11 +79,11 @@ $(document).ready(function () {
         });
     }
 
-    $('body').scrollToTop({
-        animation: 'fade',
-        text: 'Voltar ao topo',
-        skin: 'square'
-    });
+    //$('body').scrollToTop({
+    //    animation: 'fade',
+    //    text: 'Voltar ao topo',
+    //    skin: 'square'
+    //});
 
     //$(".main").onepage_scroll();
     [].slice.call(document.querySelectorAll('button.progress-button')).forEach(function (bttn) {
@@ -210,12 +185,47 @@ $(function () {
             if (target.length) {
                 $('html,body').animate({
                     scrollTop: target.offset().top
-                }, 500);
+                }, 360);
                 return false;
             }
         }
     });
 });
+
+$(window).scroll(function () {
+    //console.log($(this).scrollTop());
+
+    //Attorney section
+    //if ($(this).scrollTop() >= 700 && $(this).scrollTop() < 2110) {
+    //    $('#open-button').removeClass('menu-buttonLight');
+    //    $('.sticky-menu li a').addClass('dark-menu');
+    //}
+
+    //what we do section
+    //if ($(this).scrollTop() >= 2115 && $(this).scrollTop() < 3819) {
+    //    $('#open-button').addClass('menu-buttonLight');
+    //    $('.sticky-menu li a').removeClass('dark-menu');
+    //}
+
+
+    //if ($(this).scrollTop() >= 3820) {
+    //    $('#open-button').removeClass('menu-buttonLight');
+    //    $('.sticky-menu li a').addClass('dark-menu');
+    //}
+
+    //if ($(this).scrollTop() >= 9885) {
+    //    $('#open-button').addClass('menu-buttonLight');
+    //    $('.sticky-menu li a').removeClass('dark-menu');
+    //}
+
+    if ($(this).scrollTop() > 550) {
+        $('.sticky-menu').addClass('sticky-menu--active');
+    }
+    else {
+        $('.sticky-menu').removeClass('sticky-menu--active');
+    }
+});
+
 
 //FLOATING MENU
 (function () {
@@ -266,36 +276,35 @@ $(function () {
 // WAYPOINTS
 $(function () {
 
+    $('.att-container, .flexslider, .media, .news, .fake-chimp, .about').waypoint(function () {
+        $('#open-button').removeClass('menu-buttonLight');
+        
+            //$('.sticky-menu li a').addClass('dark-menu');
+    }, {offset:'5%'});
+
+    //Advogados
+    $('.work, .grid, .contact').waypoint(function () {
+        if (!$('#open-button').hasClass('menu-buttonLight')) {
+            $('#open-button').addClass('menu-buttonLight');
+        }
+        //$('.sticky-menu li a').removeClass('dark-menu');
+    }, {offset:'5%'});
+
     $('.wp1').waypoint(function () {
-        if (!$('#open-button').hasClass('hidden'))
-            $('#open-button').addClass('hidden');
-
-
-
         $('.wp1').addClass('animated bounceInLeft');
     }, {
         offset: '85%'
     });
 
     $('.wp2').waypoint(function () {
-        if ($('#open-button').hasClass('hidden'))
-            $('#open-button').removeClass('hidden');
-
-
-
-
         $('.wp2').addClass('animated bounceInRight');
     }, {
         offset: '85%'
     });
 
+
+    
     $('.wp3').waypoint(function () {
-
-        if ($('#open-button').hasClass('hidden'))
-            $('#open-button').removeClass('hidden');
-
-
-
         $('.wp3').addClass('animated fadeInUp');
     }, {
         offset: '85%'
@@ -304,21 +313,16 @@ $(function () {
     $('.wpLogo').waypoint(function () { $('.wpLogo').addClass('animated bounceInLeft'); },
         { offset: '85%' });
 
+    //about us
     $('.wp4').waypoint(function () {
-
-        if ($('#open-button').hasClass('hidden'))
-            $('#open-button').removeClass('hidden');
-
-
-
         $('.wp4').addClass('animated fadeInUp');
     }, {
         offset: '85%'
     });
 
+    //media
+
     $('.wp5').waypoint(function () {
-
-
         $('.wp5').addClass('animated fadeInUp');
     }, {
         offset: '85%'
@@ -328,15 +332,28 @@ $(function () {
 
     $('#collapseEmp').waypoint(function () {
 
-        if (!$('#open-button').hasClass('menu-buttonLight'))
-            $('#open-button').removeClass('menu-buttonLight');
+        //if (!$('#open-button').hasClass('menu-buttonLight'))
+        //    $('#open-button').removeClass('menu-buttonLight');
 
 
     }, {
         offset: '85%'
     });
 
+
+    //publications
     $('.wp6').waypoint(function () {
+
+        $('#open-button').removeClass('menu-buttonLight');
+
+        $('.sticky-menu li a').addClass('dark-menu');
+
+        $('.wp6').addClass('animated fadeInUp');
+    }, {
+        offset: '85%'
+    });
+    //publications
+    $('.wp7').waypoint(function () {
 
 
         $('.wp6').addClass('animated fadeInUp');
@@ -405,34 +422,7 @@ $(document).ready(function () {
         window.location.href = "/Post/PostList?userID=" + authorID;
 
 
-        //$.ajax({
-        //    url: "/Post/list?filter=a&page=0&userID=" + authorID,
-        //    type: 'GET',
-        //    success: function (result) {
-
-        //        $('.post-list').empty();
-        //        $(result).each(function () {
-        //            populatePostList(this);
-        //        });
-
-        //        InitPostManager();
-
-        //    },
-        //    error: function (result) {
-        //        //errorFetchingPosts(result);
-        //        console.log(result);
-        //    }
-        //});
-
-        //$('.profile-container figure').each(function () {
-        //    if ($(this).hasClass('profile-active')) {
-        //        $(this).removeClass('profile-active');
-        //    }
-        //});
-        //$(this).toggleClass('profile-active');
-        //if (!$(".grid__item").is(":visible")) {
-        //    $(".grid__item").velocity("transition.slideUpIn", { duration: 250, easing: [250, 60], stagger: 100, display: "flex" });
-        //}
+        
 
     });
 
@@ -448,7 +438,7 @@ $(document).ready(function () {
                         //if (true) {
                         instance._setProgress(progress);
 
-                      
+
                         ProcessLogin();
 
                         instance._stop(1);

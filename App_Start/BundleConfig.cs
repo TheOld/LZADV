@@ -38,7 +38,7 @@ namespace LoboVaz
 
             bundles.Add(new ScriptBundle("~/js/Home").Include(
                      "~/js/jquery.flexslider.js",
-                     "~/js/jquery-scrollToTop.js",
+                     //"~/js/jquery-scrollToTop.js",
                      "~/js/classie.js",
                      "~/js/velocity.min.js",
                      "~/js/velocity.ui.js",
@@ -57,7 +57,7 @@ namespace LoboVaz
                       "~/css/flexslider.css",
                         "~/css/grid.css",
                         "~/css/submitButton.css",
-                        "~/css/scrollToTop.css",
+                        //"~/css/scrollToTop.css",
                         "~/css/easing.css",
                         "~/css/helpers.css",
                         "~/css/animate.css"

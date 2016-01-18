@@ -4,7 +4,7 @@ html {
 /* core */
 .scrollToTop {
 	position: fixed;
-	right: 20px;
+	right: 10px;
 	bottom: -100px;
 	opacity: 1;
 	
@@ -43,8 +43,8 @@ html {
 
 /* skin(default) */
 .scrollToTop {
-	width: 50px;
-	height: 50px;
+	width: 42px;
+	height: 42px;
 	color: #000;
 	font-family: sans-serif;
 	font-size: 12px;

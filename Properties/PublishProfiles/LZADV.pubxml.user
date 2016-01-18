@@ -137,7 +137,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="bin/LoboVaz.dll">
-      <publishTime>12/25/2015 10:35:44</publishTime>
+      <publishTime>01/18/2016 14:08:40</publishTime>
     </File>
     <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
       <publishTime>12/03/2015 21:29:49</publishTime>
@@ -485,7 +485,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/23/2015 15:52:19</publishTime>
     </File>
     <File Include="css/blog.css">
-      <publishTime>12/23/2015 22:26:25</publishTime>
+      <publishTime>01/15/2016 16:06:39</publishTime>
     </File>
     <File Include="css/bootstrap-theme.css">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -518,25 +518,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="css/grid.css">
-      <publishTime>10/12/2014 14:25:56</publishTime>
+      <publishTime>01/14/2016 18:18:34</publishTime>
     </File>
     <File Include="css/helpers.css">
-      <publishTime>12/23/2015 19:25:02</publishTime>
+      <publishTime>01/15/2016 15:52:06</publishTime>
     </File>
     <File Include="css/onepage-scroll.css">
       <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="css/postList.css">
-      <publishTime>12/23/2015 22:34:04</publishTime>
+      <publishTime>01/14/2016 20:28:05</publishTime>
     </File>
     <File Include="css/queries.css">
-      <publishTime>12/06/2015 15:45:56</publishTime>
+      <publishTime>01/14/2016 17:15:15</publishTime>
     </File>
     <File Include="css/scrollToTop.css">
-      <publishTime>12/06/2015 15:45:56</publishTime>
+      <publishTime>01/14/2016 14:27:23</publishTime>
     </File>
     <File Include="css/styles.css">
-      <publishTime>12/23/2015 22:47:08</publishTime>
+      <publishTime>01/15/2016 16:11:50</publishTime>
     </File>
     <File Include="css/submitButton.css">
       <publishTime>12/06/2015 15:45:56</publishTime>
@@ -935,7 +935,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/23/2015 15:48:27</publishTime>
     </File>
     <File Include="js/blog.js">
-      <publishTime>12/06/2015 15:45:56</publishTime>
+      <publishTime>01/15/2016 13:52:15</publishTime>
     </File>
     <File Include="js/bootstrap.js">
       <publishTime>12/06/2015 15:45:56</publishTime>
@@ -986,10 +986,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="js/PostList.js">
-      <publishTime>12/23/2015 22:43:16</publishTime>
+      <publishTime>01/15/2016 16:18:26</publishTime>
     </File>
     <File Include="js/PostView.js">
-      <publishTime>12/23/2015 14:38:31</publishTime>
+      <publishTime>01/14/2016 17:52:30</publishTime>
     </File>
     <File Include="js/progressButton.js">
       <publishTime>12/06/2015 15:45:56</publishTime>
@@ -998,7 +998,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/21/2015 01:44:17</publishTime>
     </File>
     <File Include="js/scripts.js">
-      <publishTime>12/23/2015 15:42:20</publishTime>
+      <publishTime>01/18/2016 13:45:59</publishTime>
     </File>
     <File Include="js/skype-check.js">
       <publishTime>12/23/2015 11:45:32</publishTime>
@@ -1061,13 +1061,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/25/2015 10:35:02</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/24/2015 17:39:59</publishTime>
+      <publishTime>01/18/2016 13:54:28</publishTime>
     </File>
     <File Include="Views/Home/IndexEN.cshtml">
-      <publishTime>12/24/2015 17:52:09</publishTime>
+      <publishTime>01/14/2016 18:12:51</publishTime>
     </File>
     <File Include="Views/Home/IndexFR.cshtml">
-      <publishTime>12/24/2015 17:53:18</publishTime>
+      <publishTime>01/14/2016 18:12:51</publishTime>
     </File>
     <File Include="Views/Home/WritePost.cshtml">
       <publishTime>12/06/2015 17:45:00</publishTime>
@@ -1088,10 +1088,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/06/2015 15:45:56</publishTime>
     </File>
     <File Include="Views/Post/PostList.cshtml">
-      <publishTime>12/24/2015 17:35:43</publishTime>
+      <publishTime>01/15/2016 15:56:32</publishTime>
     </File>
     <File Include="Views/Post/PostView.cshtml">
-      <publishTime>12/24/2015 17:30:18</publishTime>
+      <publishTime>01/14/2016 19:57:20</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>12/06/2015 15:45:56</publishTime>

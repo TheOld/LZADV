@@ -45,13 +45,51 @@
                     <a href="#us" class="about-menu"><span>Sobre Nós</span></a>
                     <a href="#media" class="media-menu"><span>Mídia</span></a>
                     <a href="#news" class="news-menu"><span>Publicações</span></a>
-                    
+
                     <a href="#contact" class="contact-menu"><span>Contato</span></a>
                 </div>
             </nav>
         </div>
 
-        <button class="menu-button hidden" id="open-button"></button>
+        <nav class="sticky-menu">
+            <ul class="clearfix">
+                <li>
+                    <a href="#att" class="att-menu">Advogados</a>
+                </li>
+                <li>
+                    <a href="#work" class="work-menu">Áreas de Atuação</a>
+                </li>
+                <li>
+                    <a href="#us" class="about-menu">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="#media" class="media-menu">Mídia</a>
+                </li>
+                <li>
+                    <a href="#news" class="news-menu">Publicações</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="contact-menu">Contato</a>
+                </li>
+                <li>
+                    <div class="sticky-flags">
+                        <div>
+                            <a href="/Home/IndexEN" class="sticky-en" title="English">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/Home/IndexFR" class="sticky-fr" title="Français">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="menu-button menu-buttonLight" id="open-button"></button>
 
         <div class="content-wrap ">
             <div class="content">
@@ -66,7 +104,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="logo-holder"></div>
-                                <nav>
+                                <nav class="main-nav">
                                     <ul class="clearfix">
                                         <li>
                                             <a href="#att" class="att-menu">Advogados</a>
@@ -83,7 +121,7 @@
                                         <li>
                                             <a href="#news" class="news-menu">Publicações</a>
                                         </li>
-                                       
+
                                         <li>
                                             <a href="#contact" class="contact-menu">Contato</a>
                                         </li>
@@ -108,7 +146,7 @@
                         </div>
 
                         <div class="row"><div class="col-md-12 heighter">&nbsp;</div></div>
-                        <div class="row">
+                        <div class="row hidden">
                             <div class="col-md-10 col-md-offset-1 text-center">
                                 <div class="quote">
                                     <q>"A justiça é a primeira virtude das instituições sociais, como a verdade o é dos sistemas de pensamento"</q>
@@ -123,9 +161,10 @@
                 <div class="wp1 ">
 
                 </div>
-                <section class="att-container" id="att">
+                <!--ATOORNEY SECTION-->
+                <section class="att-container wp2" id="att">
                     <div class="container-fluid">
-                        <div class="row wp2">
+                        <div class="row">
                             <h1 class="att-header">ADVOGADOS</h1>
                             <hr class="line" />
                             <div class="flexslider">
@@ -249,11 +288,12 @@
                         </div>
                     </div>
                 </section>
-                <section class="container-fluid work">
+                <!--AREAS SECTION-->
+                <section class="container-fluid work wp3" id="work">
                     <div class="row">
-                        <div class="col-md-12 section-1" id="work">
-                            <div class="wp3 section-text">
-                                <h2>Áreas de Atuação</h2>
+                        <div class="col-md-12 section-1">
+                            <div class="section-text">
+                                <h1 class="att-header fg-blueish-white uppercase margin-left-10p">Áreas de Atuação</h1>
                                 <div class="grid">
                                     <figure class="effect-sadie">
                                         <img src="../../img/adu.png" alt="[Foto] Direito Aduaneiro" />
@@ -324,6 +364,7 @@
                         </div>
                     </div>
                 </section>
+
                 <section class="container-fluid about wp4 padding-bottom-50" id="us">
                     <div class="row">
                         <div class="col-md-12 section-3">
@@ -331,12 +372,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 section-text">
+                        <div class="col-md-12 ">
                             <div class="wp4">
-                                <p class="paddingLR60">
+                                <p class="paddingLR60 section-large-text">
                                     Fundada em 2010 e devidamente inscrita na OAB/SC sob o nº 1.783, a Lobo & Vaz Advogados Associados resultou da união de conhecimentos, experiências e objetivos em comuns de seus integrantes, que primam pela excelência dos serviços jurídicos prestados, especialmente nas áreas de Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional.
                                 </p>
-                                <p class="paddingLR60">Nosso corpo jurídico é formado por profissionais especializados, voltados ao apoio de nossos clientes na área jurídica, com atuação direta no desenvolvimento e acompanhamento de trabalhos voltados à advocacia preventiva e contenciosa.</p>
+                                <p class="paddingLR60 section-large-text">Nosso corpo jurídico é formado por profissionais especializados, voltados ao apoio de nossos clientes na área jurídica, com atuação direta no desenvolvimento e acompanhamento de trabalhos voltados à advocacia preventiva e contenciosa.</p>
 
                                 <!--        <div class="thin-sep"></div>-->
                             </div>
@@ -347,11 +388,11 @@
                             <div class="wp4">
                                 <h3 class="text-center">Do fenômeno ético-jurídico</h3>
                                 <h4 class="text-center">Introdução lógico-semântica</h4>
-                                <p class="paddingLR60">
+                                <p class="paddingLR60 section-large-text">
                                     Valores: valores são nossas significações, produtos de nossos afetos como corporação, meios de valorar a vida advocatícia.
                                 </p>
-                                <p class="paddingLR60">Visão: tal complexa combinação valorativa, em grande medida produz a energia de nossa potência, potência para existir e agir, permitindo termos uma visão dos fenômenos e, com isso, construir a nossa realidade. </p>
-                                <p class="paddingLR60">Missão: a partir de nossa visão, feixe de nossos valores, lançamo-nos para fora de nosso corpo jurídico através de um processo noético-noemático, forjando nossas missões a favor de nossos clientes, revelando o fenômeno ético-jurídico de nosso escritório.</p>
+                                <p class="paddingLR60 section-large-text">Visão: tal complexa combinação valorativa, em grande medida produz a energia de nossa potência, potência para existir e agir, permitindo termos uma visão dos fenômenos e, com isso, construir a nossa realidade. </p>
+                                <p class="paddingLR60 section-large-text">Missão: a partir de nossa visão, feixe de nossos valores, lançamo-nos para fora de nosso corpo jurídico através de um processo noético-noemático, forjando nossas missões a favor de nossos clientes, revelando o fenômeno ético-jurídico de nosso escritório.</p>
                                 <!--        <div class="thin-sep"></div>-->
                             </div>
                         </div>
@@ -391,14 +432,19 @@
                         </div>
                     </div>
                 </section>
-                <div class="about-news-split wp5">
-                </div>
+                @*<div class="about-news-split wp5">
+                </div>*@
 
-                <span id="media"></span>
+                <span id="media" class="wp5 media"></span>
                 <section class="container-fluid paddingLR60 padding-bottom-20 media-section">
                     <div class="row">
                         <div class="law-connection margin-top-10">
                             <div class="row">
+                                <div class="col-sm-12">
+                                    <h1 class="att-header uppercase margin-left-5">Mídia</h1>
+                                </div>
+                            </div>
+                            <div class="row margin-top-20">
                                 <div class="col-sm-12">
                                     <img class="logo-law-connection text-center" src="~/img/logo_conexao_juridica.png" width="200" height="80" />
                                 </div>
@@ -406,7 +452,7 @@
                             <div class="row margin-top-50 profile-container">
                                 <div class="col-md-3">
                                     <figure class="height-200 profile" data-id="566635e16fa1f17ea65e52b6">
-                                        <img alt="Bruce Bastos Martins" src="~/img/Bruce Bastos Martins.png" height="100" width="100" class="profile-pic" />
+                                        <img alt="Bruce Bastos Martins" src="~/img/Bruce Bastos Martins.png" height="80" width="80" class="profile-pic" />
                                         <figcaption class="profile-caption">
                                             <h3>Bruce<br /> Martins</h3>
 
@@ -415,18 +461,18 @@
                                             Conexão Tributária
                                         </div>
                                         <div class="skype-status">
-                                            
+
                                             <div id="SkypeButton_Call_brucebastos13_1">
                                                 <span class="pull-right">Ler artigos</span>
                                             </div>
-                                            
+
                                         </div>
                                     </figure>
 
                                 </div>
                                 <div class="col-md-3">
                                     <figure class="height-200 profile" data-id="566636256fa1f17ea65e52b7">
-                                        <img alt="Bruno Eduardo Budal Lobo" src="~/img/Bruno Eduardo Budal Lobo.png" height="100" width="100" class="profile-pic" />
+                                        <img alt="Bruno Eduardo Budal Lobo" src="~/img/Bruno Eduardo Budal Lobo.png" height="80" width="80" class="profile-pic" />
                                         <figcaption class="profile-caption">
                                             <h3>Bruno<br /> Lobo</h3>
                                         </figcaption>
@@ -445,13 +491,13 @@
 
                                 <div class="col-md-3">
                                     <figure class="height-200 profile" data-id="5666364d6fa1f17ea65e52b8">
-                                        <img alt="Gabriel Souto Silva" src="~/img/Gabriel Souto Silva.png" height="100" width="100" class="profile-pic" />
+                                        <img alt="Gabriel Souto Silva" src="~/img/Gabriel Souto Silva.png" height="80" width="80" class="profile-pic" />
                                         <figcaption class="profile-caption">
-                                            <h3>Gabriel<br /> Silva</h3>
+                                            <h3>Gabriel<br /> Souto</h3>
                                         </figcaption>
                                         <div class="profile-job-description">
                                             Conexão Empresarial
-                                            
+
                                         </div>
                                         <div class="skype-status">
 
@@ -463,7 +509,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <figure class="height-200 profile" data-id="566636726fa1f17ea65e52b9">
-                                        <img alt="Rafael Medeiros Popini Vaz" src="~/img/Rafael Medeiros Popini Vaz.png" height="100" width="100" class="profile-pic" />
+                                        <img alt="Rafael Medeiros Popini Vaz" src="~/img/Rafael Medeiros Popini Vaz.png" height="80" width="80" class="profile-pic" />
                                         <figcaption class="profile-caption">
                                             <h3>Rafael<br /> Vaz</h3>
                                         </figcaption>
@@ -528,14 +574,14 @@
                         </div>
                     </div>
                 </section>
-               
-                <section class="container-fluid news paddingLR60" id="news">
+
+                <section class="container-fluid news paddingLR60 wp6" id="news">
 
                     <hr />
 
                     <div class="row">
                         <div class="col-md-6" id="news-column">
-                            <h2>Boletins</h2>
+                            <h2 class="att-header uppercase margin-left-0">Boletins</h2>
                             <div>
                                 <ul class="list-unstyled ">
                                     <li class="inline">
@@ -572,7 +618,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h2>@*<img src="../../img/file-dl.png" height="46" />*@ Artigos</h2>
+                            <h2 class="att-header uppercase margin-left-0">@*<img src="../../img/file-dl.png" height="46" />*@ Artigos</h2>
                             <div class="article-list">
                                 <div class="panel-group" id="accordion">
                                     <!--ADUANEIRO-->
@@ -594,19 +640,19 @@
                                                         <a href="~/artigos/DIREITO ADUANEIRO/DA INSTRUÇÃO NORMATIVA Nº 1.443 DE 2014.pdf" target="_blank">DA INSTRUÇÃO NORMATIVA Nº 1.443 DE 2014.pdf</a>
                                                     </li>
                                                     @*
-                                                        <li>
-                                                            <a target="_blank" href="/artigos/aduaneiros/importacao/PIS%20E%20COFINS%20NA%20IMPORTAÇÃO%20PARA%20EMPRESAS%20OPTANTES%20PELO%20LUCRO%20PRESUMIDO.pdf">PIS e COFINS na importação para empresas optantes pelo lucro presumido</a>
-                                                        </li>
-                                                        <li>
-                                                            <a target="_blank" href="/artigos/aduaneiros/importacao/EXCLUSÃO%20DO%20ICMS%20E%20CONTRIBUIÇÕES%20SOCIAIS%20DA%20BASE%20DE%20CÁLCULO%20DO%20PIS%20E%20COFINS%20INCIDENTE%20NA%20IMPORTAÇÃO.pdf">Exlcusão do ICMS e contribuições sociais da base de cálculo do PIS e COFINS incidente na importação</a>
-                                                        </li>
-                                                        <li>
-                                                            <a target="_blank" href="/artigos/aduaneiros/importacao/A%20POSSIBILIDADE%20DA%20CAUÇÃO%20PECUNIÁRIA%20PARA%20A%20LIBERAÇÃO%20DE%20MERCADORIA%20RETIDA%20NO%20PROCEDIMENTO%20ESPECIAL%20DE%20CONTROLE.pdf">
-                                                                A possibilidade da caução pecuniária para a liberação de
-                                                                mercadoria retida no procedimento especial de controle – uma análise da instrução
-                                                                normativa da Receita Federal do Brasil nº 1.169/2011 de 29 de junho de 2011.
-                                                            </a>
-                                                        </li>*@
+                                                    <li>
+                                                        <a target="_blank" href="/artigos/aduaneiros/importacao/PIS%20E%20COFINS%20NA%20IMPORTAÇÃO%20PARA%20EMPRESAS%20OPTANTES%20PELO%20LUCRO%20PRESUMIDO.pdf">PIS e COFINS na importação para empresas optantes pelo lucro presumido</a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="/artigos/aduaneiros/importacao/EXCLUSÃO%20DO%20ICMS%20E%20CONTRIBUIÇÕES%20SOCIAIS%20DA%20BASE%20DE%20CÁLCULO%20DO%20PIS%20E%20COFINS%20INCIDENTE%20NA%20IMPORTAÇÃO.pdf">Exlcusão do ICMS e contribuições sociais da base de cálculo do PIS e COFINS incidente na importação</a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="/artigos/aduaneiros/importacao/A%20POSSIBILIDADE%20DA%20CAUÇÃO%20PECUNIÁRIA%20PARA%20A%20LIBERAÇÃO%20DE%20MERCADORIA%20RETIDA%20NO%20PROCEDIMENTO%20ESPECIAL%20DE%20CONTROLE.pdf">
+                                                            A possibilidade da caução pecuniária para a liberação de
+                                                            mercadoria retida no procedimento especial de controle – uma análise da instrução
+                                                            normativa da Receita Federal do Brasil nº 1.169/2011 de 29 de junho de 2011.
+                                                        </a>
+                                                    </li>*@
                                                 </ul>
                                             </div>
                                         </div>
@@ -868,7 +914,7 @@
                     <div class="row margin-top-15">
                         <div class="col-md-3"></div>
                         <!-- Begin MailChimp Signup Form -->
-                        <div id="mc_embed_signup" class="col-md-6">
+                        <div id="mc_embed_signup" class="col-md-6 fake-chimp">
                             <form action="//lzadv.us10.list-manage.com/subscribe/post?u=f3289bfdc6dffd925a26796f0&amp;id=dc7cd4ba1e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <label for="mce-EMAIL">Cadastre-se em nossa lista de e-mail</label>
@@ -890,12 +936,9 @@
 
                 </section>
 
-                <section></section>
-
-                <footer id="contact" class="contact container-fluid paddingLR60 wp6">
-
+                <footer id="contact" class="contact container-fluid paddingLR60 wp7">
                     <div class="row">
-                        <h2>Contato</h2>
+                        <h1 class="att-header uppercase fg-blueish-white margin-left-10">Contato</h1>
                         <div class="col-md-6">
                             <form id="contact-form" class="contact-form">
                                 <label for="name" class="clabel">Nome</label>
@@ -951,7 +994,7 @@
                                     </li>
                                     <li><a href="http://www.youtube.com/channel/UCp5nUbCGI-s5U0SumBtqQvw?feature=mhee" target="_blank"><img src="../../img/youtube.png" alt="" /></a></li>
                                     <li class="hidden"><a href="http://lzadv.wordpress.com/" target="_blank"><img src="../../img/wordpress.png" alt="" /></a></li>
-                                    
+
                                 </ul>
 
                             </div>
@@ -972,8 +1015,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </footer>
             </div>
         </div>
@@ -991,11 +1032,11 @@
                     <form id="login-form" class="form-inline text-center">
                         <div class="form-group">
                             <label for="username">E-mail</label>
-                            <input type="email" id="username" name="username" required/>
+                            <input type="email" id="username" name="username" required />
                         </div>
                         <div class="form-group">
                             <label for="password">Senha</label>
-                            <input type="password" id="password" name="password" required/>
+                            <input type="password" id="password" name="password" required />
                         </div>
                         <button class="login-progress-button btn btn-default btn-sm" type="submit" data-style="rotate-angle-bottom" data-perspective data-horizontal id="login-submit">Entrar</button>
                     </form>
@@ -1273,11 +1314,18 @@
 
     </script>
 
-
-
-
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?3cuabLA2uJmtYsrlU2OShERkMC262nrv";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    </script>
+    <!--End of Zopim Live Chat Script-->
     <!-- <script src="../../js/modernizr.js"></script>-->
-    @*<script src="../../js/modernizr-2.6.2.js"></script>
+    @*
+    <script src="../../js/modernizr-2.6.2.js"></script>
     <script src="../../js/jquery.validate.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/jquery.flexslider.js"></script>
@@ -1293,7 +1341,7 @@
     <script src="../../js/waypoints.min.js"></script>*@
 
     <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-    
+
 
     @*<script src="../../js/scripts.js"></script>*@
 

@@ -10,6 +10,49 @@ $(document).ready(function () {
         window.location.href = "/Post/PostList?userID=" + authorID;
     });
     
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_brucebastos13_1",
+        "participants": ["brucebastos13"],
+        "imageSize": 24
+
+    });
+
+    //Skype Rafael
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_rafaelpopini_1",
+        "participants": ["rafaelpopini"],
+        "imageSize": 24
+    });
+
+    //Skype Bruno
+
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_lobo.brunoo_1",
+        "participants": ["lobo.brunoo"],
+        "imageSize": 24
+    });
+
+    //Skype Gabriel
+
+    Skype.ui({
+        "name": "chat",
+        "element": "SkypeButton_Call_facebook:gssouto_1",
+        "participants": ["facebook:gssouto"],
+        "imageSize": 24
+    });
+
+    //rafaelpopini
+
+
+    $('.skype-status div').attr('style', '');
+    $('.skype-status div p').addClass('skype-button');
+    $('.skype-button a').click(function (e) {
+        e.stopPropagation();
+    })
+
 });
 
 function getPostById(ID) {

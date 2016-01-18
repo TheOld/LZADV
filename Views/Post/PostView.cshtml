@@ -26,11 +26,16 @@
                     <div class="meta meta--full">
                         <img class="meta__avatar" src="@ViewBag.Avatar" alt="@ViewBag.User.Name" />
                         <span class="meta__author">@ViewBag.User.Name</span>
-                        <span class="meta__date"><i class="fa fa-calendar-o"></i>@ViewBag.Post.Date</span>
-                        <span class="meta__misc meta__misc--seperator">
-                            <div class="fb-share-button" data-href="http://www.lzadv.com.br/post/postview?id=' + post._ID + '" data-layout="button"></div>
-                            
+                        <span class="meta__date">
+                            <i class="fa fa-calendar-o"></i>@ViewBag.Post.Date
                         </span>
+                        <div class="meta__misc meta__misc--seperator">
+
+                            
+
+                            <div class="fb-share-button" data-href="http://www.lzadv.com.br/post/postview?id=' + post._ID + '" data-layout="button"></div>
+
+                        </div>
                     </div>
                     <hr />
                     <div>
@@ -86,6 +91,9 @@
 
     @Scripts.Render("~/js/btstrp")
     @Scripts.Render("~/js/home")
+
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+
     <script src="~/js/PostView.js"></script>
 
     <script>

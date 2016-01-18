@@ -16,6 +16,10 @@
     
 
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+
     @*@Styles.Render("~/Content/css")*@
 </head>
 <body>
@@ -28,15 +32,14 @@
             js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <div>
-    </div>
+    
     <input type="hidden" value="@ViewBag.userID" id="UserID" />
     <div class="ccontainer">
         <button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
         <div id="theSidebar" class="sidebar">
-            <button class="close-button fa fa-fw fa-close"></button>
+            <button class="close-button fa fa-fw fa-times"></button>
             <div class="back-link">
-                <a class="codrops-icon codrops-icon--prev" href="http://www.lzadv.com.br" title="Voltar"><span>Voltar</span></a>
+                <a class="codrops-icon codrops-icon--prev" href="" onclick="goBack()" title="Voltar"><span>Voltar</span></a>
             </div>
 
             <ul class="list-unstyled profile-list">
@@ -57,12 +60,12 @@
                 <li>
                     <figure class="text-center height-100 padding-10 profile" data-id="5666364d6fa1f17ea65e52b8">
                         <img alt="Gabriel Souto Silva" src="~/img/gabriel souto silva.png" height="50" width="50" class="profile-pic" />
-                        <figcaption class="profile-caption"><h3>Gabriel Silva</h3></figcaption>
+                        <figcaption class="profile-caption"><h3>Gabriel Souto</h3></figcaption>
                     </figure>
                 </li>
 
                 <li>
-                    <figure class="text-center height-100 padding-10 profile" data-id="566636726fa1f17ea65e52b9">
+                    <figure class="text-center height-100 padding-10 profile" data-id="566636726fa1f17ea65e52b9" >
                         <img alt="Rafael Medeiros Popini Vaz" src="~/img/rafael medeiros popini vaz.png" height="50" width="50" class="profile-pic" />
                         <figcaption class="profile-caption"><h3>Rafael Vaz</h3></figcaption>
                     </figure>
@@ -75,10 +78,10 @@
         <section id="theGrid" class="main bg-white">
             <div class="options-container">
                 <div class="row">
-                    <div class="col-xs-1 ">
+                    <div class="col-xs-1 hidden-xs sm-hidden">
                         <span class="margin-top-5 pull-left">Filtros: </span>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-5 col-sm-4">
                         <div class="dropdown">
                             <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                 Categoria
@@ -96,7 +99,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div calss="col-xs-4">
+                    <div calss="col-xs-5 col-sm-4">
                         <div class="post-option-search">
                             <div class="input-group">
 
@@ -115,8 +118,11 @@
                 <div class="scroll-wrap" id="post-wrap">
                     <article class="content__item"></article>
                 </div>
+                <button class="back-button">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
                 <button class="close-button">
-                    <i class="fa fa-close"></i>
+                    <i class="fa fa-times"></i>
                     <span>Fechar</span>
                 </button>
             </section>
@@ -168,7 +174,10 @@
 
     @Scripts.Render("~/js/btstrp")
     @Scripts.Render("~/js/home")
-    <script src="../../js/blog.js"></script>
+
+    
+
+    <!--<script src="../../js/blog.js"></script>-->
     <script src="~/js/jquery.mixitup.min.js"></script>
     <script src="~/js/PostList.js"></script>
 

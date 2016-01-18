@@ -39,11 +39,12 @@
 		gridItems = gridItemsContainer.querySelectorAll('.grid__item'),
 		contentItems = contentItemsContainer.querySelectorAll('.content__item'),
 		closeCtrl = contentItemsContainer.querySelector('.close-button'),
+        
 		current = -1,
 		lockScroll = false, xscroll, yscroll,
 		isAnimating = false,
 		menuCtrl = document.getElementById('menu-toggle');
-		//menuCloseCtrl = sidebarEl.querySelector('.close-button');
+		menuCloseCtrl = sidebarEl.querySelector('.close-button');
 
 	/**
 	 * gets the viewport width and height
@@ -94,6 +95,7 @@
 			// hide content
 			hideContent();
 		});
+		
 
 		// keyboard esc - hide content
 		document.addEventListener('keydown', function(ev) {
@@ -109,17 +111,17 @@
 		} );
 
 		// hamburger menu button (mobile) and close cross
-		//menuCtrl.addEventListener('click', function() {
-		//	if( !classie.has(sidebarEl, 'sidebar--open') ) {
-		//		classie.add(sidebarEl, 'sidebar--open');	
-		//	}
-		//});
+		menuCtrl.addEventListener('click', function() {
+			if( !classie.has(sidebarEl, 'sidebar--open') ) {
+				classie.add(sidebarEl, 'sidebar--open');	
+			}
+		});
 
-		//menuCloseCtrl.addEventListener('click', function() {
-		//	if( classie.has(sidebarEl, 'sidebar--open') ) {
-		//		classie.remove(sidebarEl, 'sidebar--open');
-		//	}
-		//});
+		menuCloseCtrl.addEventListener('click', function() {
+			if( classie.has(sidebarEl, 'sidebar--open') ) {
+				classie.remove(sidebarEl, 'sidebar--open');
+			}
+		});
 	}
 
 	function loadContent(item) {
