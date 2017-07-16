@@ -1,42 +1,46 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+		<meta charset="utf-8" lang="pt-br">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Lobo & Vaz Advogados Associados</title>
+		<meta name="description" content="Fundada em 2010 e inscrita na OAB/SC sob o nº 1.783, a Lobo & Vaz Advogados Associados resultou da união de conhecimentos, experiências e objetivos em comuns de seus integrantes, que primam pela excelência dos serviços jurídicos prestados, especialmente nas áreas de Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional.">
+		<meta name="keywords" content="advogados, florianópolis,  Direito Empresarial, Direito Tributário, Direito Aduaneiro, Direito do Trabalho e Previdenciário, Direito Marítimo e Direito Internacional">
+		<meta name="author" content="Leandro Rodrigues do Canto">
+		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Lato:400,300,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		@Styles.Render("~/css/Home")
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+		<script src="../../js/modernizr.custom.js"></script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+		<div class="main">
+				@{ Html.RenderPartial("_MainMenu"); }
+				@{ Html.RenderPartial("_StickyNav"); }
+				<button class="menu-button menu-buttonLight" id="open-button"></button>
+				<div class="content-wrap">
+						<div class="content">
+								@{ Html.RenderPartial("_Header"); }
+								@RenderBody()
+								@{ Html.RenderPartial("_Footer"); }
+						</div>
+				</div>
+				@{ Html.RenderPartial("_Modals"); }
+				<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+				@{ Html.RenderPartial("_Analytics"); }
+				@{ Html.RenderPartial("_Chat"); }
+				<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+				@Scripts.Render("~/js/jq")
+				@Scripts.Render("~/js/mdrnzr")
+				@Scripts.Render("~/js/jqval")
+				@Scripts.Render("~/js/btstrp")
+				@Scripts.Render("~/js/home")
+		</div>
 </body>
 </html>
