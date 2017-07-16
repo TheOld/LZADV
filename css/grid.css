@@ -53,7 +53,7 @@ margin-top: 20%;
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
-	
+
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -69,10 +69,10 @@ margin-top: 20%;
 .grid figure a {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 2px;
 	width: 100%;
 	height: 100%;
-	
+
 }
 
 /* Anchor will cover the whole item by default */
@@ -185,7 +185,7 @@ figure.effect-sadie figcaption::before {
 	-webkit-transform: translate3d(0,50%,0);
 	transform: translate3d(0,50%,0);
 	background-color: rgba(94, 105, 125, 0.75);
-	
+
 }
 
 figure.effect-sadie h3 {
@@ -198,8 +198,8 @@ figure.effect-sadie h3 {
 	transition: transform 0.35s, color 0.35s;
 	-webkit-transform: translate3d(0,-30%,0);
 	transform: translate3d(0,-30%,0);
-    font-family: 'PT Sans';
-    font-size: 26px;
+		font-family: 'PT Sans';
+		font-size: 26px;
 }
 
 figure.effect-sadie figcaption::before,
@@ -232,7 +232,7 @@ figure.effect-sadie:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-		
+
 }
 
 figure.effect-sadie:hover .fx-icon{
@@ -803,7 +803,7 @@ figure.effect-ruby p {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0) scale(1.1);
 	transform: translate3d(0,20px,0) scale(1.1);
-} 
+}
 
 figure.effect-ruby:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
@@ -873,7 +873,7 @@ figure.effect-milo:hover p {
 
 figure.effect-dexter {
 	background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
-	background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
+	background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%);
 }
 
 figure.effect-dexter img {
@@ -1159,7 +1159,7 @@ figure.effect-chico:hover p {
 @media screen and (max-width: 69.5em) {
 	.grid figure {
 		width: 50%;
-	}	
+	}
 
 	.grid figure figcaption {
 		font-size: 90%;
